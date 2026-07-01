@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Credentials and config
+.env
+
+# Local recordings and screenshots
+recordings/
+screenshots/
+*.mp4
+*.wav
+*.mkv
+*.png
+*.jpg
+
+# Logs and debug output
+*.log
+deep_shadow_dump.txt
+entire_page_dump.html
+shadow_dom_dump.txt
+shadow_dom_dump.json
+
+# IDE settings
+.vscode/
+.idea/

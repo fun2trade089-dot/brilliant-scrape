@@ -1,0 +1,83 @@
+--- PAGES WITH KOJI (27 found) ---
+
+Course: Visual Algebra
+Preview URL: https://brilliant.org/courses/systems-of-equations/patterns/patterns-intro/?from=icp_node&from_llp=foundational-math
+----------------------------------------
+Course: Linear Systems
+Preview URL: https://brilliant.org/courses/linear-systems/systems-of-equations/intro-systems/?from=icp_node&from_llp=intermediate-algebra
+----------------------------------------
+Course: Thinking in Code
+Preview URL: https://brilliant.org/courses/thinking-in-code/first-steps-cs/tappy-onboarding-tic/?from=icp_node&from_llp=computer-science
+----------------------------------------
+Course: Polar Coordinate Plane
+Preview URL: https://brilliant.org/courses/polar-coordinate-plane/polar-coordinates/angle-and-radius/?from=icp_node&from_llp=advanced-algebra
+----------------------------------------
+Course: Arithmetic Thinking
+Preview URL: https://brilliant.org/courses/math-fundamentals/mt-fractions-intro/find-half/?from=icp_node&from_llp=foundational-math
+----------------------------------------
+Course: Quadratics
+Preview URL: https://brilliant.org/courses/quadratics/multiplying-variable-expressions/representing-products/?from=icp_node&from_llp=intermediate-algebra
+----------------------------------------
+Course: Algorithmic Thinking
+Preview URL: https://brilliant.org/courses/algorithms-greedy-dp/scheduling-problem/scheduling-meetings/?from=icp_node&from_llp=computer-science
+----------------------------------------
+Course: Vectors
+Preview URL: https://brilliant.org/courses/vectors/vectors/vector-shifts/?from=icp_node&from_llp=advanced-math
+----------------------------------------
+Course: Programming with Functions
+Preview URL: https://brilliant.org/courses/pixel-pusher/intro-to-functions/pp-returning-values/?from=icp_node&from_llp=computer-science
+----------------------------------------
+Course: Coordinate Geometry
+Preview URL: https://brilliant.org/courses/coordinate-geometry/separating-points/placing-points/?from=icp_node&from_llp=algebra
+----------------------------------------
+Course: Coordinate Transformations
+Preview URL: https://brilliant.org/courses/transformations/translations/translating-points-2/?from=icp_node&from_llp=intermediate-algebra
+----------------------------------------
+Course: Algorithms in Python
+Preview URL: https://brilliant.org/courses/algorithms-in-python/level-python-nlp/python-tokenization/?from=icp_node&from_llp=python
+----------------------------------------
+Course: Thinking in Python
+Preview URL: https://brilliant.org/courses/thinking-in-python/variables/python-intro/?from=icp_node&from_llp=python
+----------------------------------------
+Course: Exponentials and Logarithms
+Preview URL: https://brilliant.org/courses/exponential-functions/exponential-growth/growing/?from=icp_node&from_llp=intermediate-algebra
+----------------------------------------
+Course: Complex Numbers
+Preview URL: https://brilliant.org/courses/complex-plane/complex-multiplication/multiple-rotations/?from=icp_node&from_llp=advanced-algebra
+----------------------------------------
+Course: Polynomials
+Preview URL: https://brilliant.org/courses/polynomials/intro-polynomials/polynomials-1/?from=icp_node&from_llp=advanced-algebra
+----------------------------------------
+Course: Introduction to Functions
+Preview URL: https://brilliant.org/courses/introduction-to-functions/introducing-functions/finding-the-rule/?from=icp_node&from_llp=intermediate-algebra
+----------------------------------------
+Course: Proportional Reasoning
+Preview URL: https://brilliant.org/courses/proportional-relationships/setting-up-ratios/new-color-1/?from=icp_node&from_llp=foundational-math
+----------------------------------------
+Course: Exponents and Radicals
+Preview URL: https://brilliant.org/courses/exponents-and-radicals/exponent-basics/exponent-basics-1/?from=icp_node&from_llp=algebra
+----------------------------------------
+Course: Equations and Curves
+Preview URL: https://brilliant.org/courses/equations-and-curves/curves-in-the-plane/points-on-a-curve/?from=icp_node&from_llp=advanced-algebra
+----------------------------------------
+Course: Linear Relationships
+Preview URL: https://brilliant.org/courses/linear-functions/constant-change/points-on-a-line/?from=icp_node&from_llp=algebra
+----------------------------------------
+Course: Recursion in Python
+Preview URL: https://brilliant.org/courses/recursion-in-python/intro-recursion/induction/?from=icp_node&from_llp=python
+----------------------------------------
+Course: Functions in Python
+Preview URL: https://brilliant.org/courses/functions-in-python/fip-level-intro-functions/python-for-string-cc/?from=icp_node&from_llp=python
+----------------------------------------
+Course: Solving Equations
+Preview URL: https://brilliant.org/courses/pre-algebra/variables/understanding-variables-2/?from=icp_node&from_llp=algebra
+----------------------------------------
+Course: Linear Equations
+Preview URL: https://brilliant.org/courses/linear-expressions-and-equations/intro-expressions/linear-equations-1/?from=icp_node&from_llp=algebra
+----------------------------------------
+Course: Coordinate Plane
+Preview URL: https://brilliant.org/courses/coordinate-plane/points/coordinates-2/?from=icp_node&from_llp=foundational-math
+----------------------------------------
+Course: Trigonometric Functions
+Preview URL: https://brilliant.org/courses/trigonometric-functions/periodic-functions/periodic-phenomena/?from=icp_node&from_llp=advanced-algebra
+----------------------------------------

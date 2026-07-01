@@ -1,0 +1,3002 @@
+--- BRILLIANT ACTIVITY & PRACTICE LINKS ---
+
+1. Practice: Complement
+   LINK: https://brilliant.org/practice/venn-2-practice/
+------------------------------
+2. Practice: Intersection
+   LINK: https://brilliant.org/practice/venn-4-practice/
+------------------------------
+3. Practice: Union
+   LINK: https://brilliant.org/practice/venn-4a-practice/
+------------------------------
+4. Practice: Set Operations and Counting
+   LINK: https://brilliant.org/practice/venn-4d-practice/
+------------------------------
+5. Practice: Empty Sets
+   LINK: https://brilliant.org/practice/venn-3-practice/
+------------------------------
+6. Practice: Nonempty Sets
+   LINK: https://brilliant.org/practice/venn-1b-practice/
+------------------------------
+7. Practice: Counting with Unknowns
+   LINK: https://brilliant.org/practice/venn-1e2-practice/
+------------------------------
+8. Practice: Limited Knowledge
+   LINK: https://brilliant.org/practice/venn-1c-practice/
+------------------------------
+9. Practice: Subsets
+   LINK: https://brilliant.org/practice/venn-3b-practice/
+------------------------------
+10. Practice: Determining Existence
+   LINK: https://brilliant.org/practice/venn-3f-practice/
+------------------------------
+11. Practice: Nested Subsets
+   LINK: https://brilliant.org/practice/venn-3e-2-practice/
+------------------------------
+12. Practice: Subsets and Venn Diagrams
+   LINK: https://brilliant.org/practice/venn-3g-practice/
+------------------------------
+13. Practice: Disjoint
+   LINK: https://brilliant.org/practice/venn-3c-practice/
+------------------------------
+14. Practice: Arguments
+   LINK: https://brilliant.org/practice/venn-5-practice/
+------------------------------
+15. Practice: Validity
+   LINK: https://brilliant.org/practice/venn-5a-practice/
+------------------------------
+16. Practice: False Premises
+   LINK: https://brilliant.org/practice/false-premises-set1/
+------------------------------
+17. Practice: Soundness
+   LINK: https://brilliant.org/practice/soundness-set1/
+------------------------------
+18. Practice: AND Gates
+   LINK: https://brilliant.org/practice/and-gates-1/
+------------------------------
+19. Practice: Managing Duplicates
+   LINK: https://brilliant.org/practice/managing-duplicates-set1/
+------------------------------
+20. Practice: Configuring Grids
+   LINK: https://brilliant.org/practice/configuring-grids-set1/
+------------------------------
+21. Practice: Sharing Information
+   LINK: https://brilliant.org/practice/sharing-information-set1/
+------------------------------
+22. Practice: Cascading Lights
+   LINK: https://brilliant.org/practice/cascading-lights-set1/
+------------------------------
+23. Practice: Using Parity
+   LINK: https://brilliant.org/practice/using-parity-set1/
+------------------------------
+24. Practice: Rows and Columns
+   LINK: https://brilliant.org/practice/rows-and-columns-set1/
+------------------------------
+25. Practice: Robots Ordering Dessert
+   LINK: https://brilliant.org/practice/dessert-set1/
+------------------------------
+26. Practice: Dice Rolls
+   LINK: https://brilliant.org/practice/logic-dice-set1/
+------------------------------
+27. Practice: Opening Safes
+   LINK: https://brilliant.org/practice/safes1-set1/
+------------------------------
+28. Practice: Opening Complex Safes
+   LINK: https://brilliant.org/practice/safe2-set1/
+------------------------------
+29. Practice: Androids
+   LINK: https://brilliant.org/practice/logic-standalone-141/
+------------------------------
+30. Practice: Extrapolate
+   LINK: https://brilliant.org/practice/logic-standalone-151/
+------------------------------
+31. Practice: Unknown Answers
+   LINK: https://brilliant.org/practice/logic-standalone-161/
+------------------------------
+32. Practice: Jokers
+   LINK: https://brilliant.org/practice/logic-standalone-171/
+------------------------------
+33. Practice: Rebels
+   LINK: https://brilliant.org/practice/logic-standalone-181/
+------------------------------
+34. Practice: Guessing Cards
+   LINK: https://brilliant.org/practice/logic-standalone-121/
+------------------------------
+35. Practice: Hat Puzzles
+   LINK: https://brilliant.org/practice/logic-standalone-131/
+------------------------------
+36. Practice: Counting in Sets
+   LINK: https://brilliant.org/practice/venn-1e-practice/
+------------------------------
+37. Practice: OR Gates
+   LINK: https://brilliant.org/practice/or-gates-1/
+------------------------------
+38. Practice: Combining Gates
+   LINK: https://brilliant.org/practice/combining-gates-1/
+------------------------------
+39. Practice: NOT Gates
+   LINK: https://brilliant.org/practice/not-gates-1/
+------------------------------
+40. Practice: Choosing Components
+   LINK: https://brilliant.org/practice/choosing-components-1/
+------------------------------
+41. Practice: Reversing Outputs
+   LINK: https://brilliant.org/practice/reversing-outputs-1/
+------------------------------
+42. Practice: Building Circuits
+   LINK: https://brilliant.org/practice/building-circuits-1/
+------------------------------
+43. Practice: Crossing and Connecting
+   LINK: https://brilliant.org/practice/crossing-and-connecting-1/
+------------------------------
+44. Practice: Truth Tables
+   LINK: https://brilliant.org/practice/truth-tables-1/
+------------------------------
+45. Practice: Building the Truth
+   LINK: https://brilliant.org/practice/building-the-truth-1/
+------------------------------
+46. Practice: Multiple Outputs
+   LINK: https://brilliant.org/practice/multiple-outputs-practice-1/
+------------------------------
+47. Practice: The Missing Circuits
+   LINK: https://brilliant.org/practice/missing-circuits-practice-1/
+------------------------------
+48. Practice: Exclusive OR
+   LINK: https://brilliant.org/practice/exclusive-or-1/
+------------------------------
+49. Practice: Equivalent Circuits
+   LINK: https://brilliant.org/practice/equivalent-circuits-0/
+------------------------------
+50. Practice: Bits and Digits
+   LINK: https://brilliant.org/practice/bits-and-digits-1/
+------------------------------
+51. Practice: Adding Binary
+   LINK: https://brilliant.org/practice/adding-binary-1/
+------------------------------
+52. Practice: Sets
+   LINK: https://brilliant.org/practice/venn-1a-practice/
+------------------------------
+53. Practice: Driving to Conclusions
+   LINK: https://brilliant.org/practice/driving-to-conclusions-set1/
+------------------------------
+54. Practice: Identifying Extremes
+   LINK: https://brilliant.org/practice/practice-ident-extremes-set1/
+------------------------------
+55. Practice: Test Limitations
+   LINK: https://brilliant.org/practice/lesson_2_2_test_limitations_set1/
+------------------------------
+56. Practice: Higher-Order Derivatives
+   LINK: https://brilliant.org/practice/lesson_2_3_higher_derivs_practice_set1/
+------------------------------
+57. Practice: Constant Multiples
+   LINK: https://brilliant.org/practice/constant-rule-practice-set-1/
+------------------------------
+58. Practice: Sums
+   LINK: https://brilliant.org/practice/sum-rule-practice-set-1/
+------------------------------
+59. Practice: Products and Powers
+   LINK: https://brilliant.org/practice/products-and-powers-practice-set-1/
+------------------------------
+60. Practice: Chain Rule
+   LINK: https://brilliant.org/practice/chain-rule-practice-set-1/
+------------------------------
+61. Practice: Quotients
+   LINK: https://brilliant.org/practice/quotient-rule-practice-set-1/
+------------------------------
+62. Practice: The Area Problem
+   LINK: https://brilliant.org/practice/lesson_4_1_area_problem_practice_set_1/
+------------------------------
+63. Practice: The Integral
+   LINK: https://brilliant.org/practice/lesson_4_2_integral_practice_set_1/
+------------------------------
+64. Practice: The Fundamental Theorem
+   LINK: https://brilliant.org/practice/lesson_4_3_ftc_practice_set_1/
+------------------------------
+65. Practice: Antiderivatives
+   LINK: https://brilliant.org/practice/section_4_4_antideriv_practice_set_1/
+------------------------------
+66. Practice: Sequences and Limits
+   LINK: https://brilliant.org/practice/section_6_1_sequences_practice_set_1/
+------------------------------
+67. Practice: Apply: Carbon Dating
+   LINK: https://brilliant.org/practice/section_6_2_carbon_practice_set_1/
+------------------------------
+68. Practice: What is an Infinite Sum?
+   LINK: https://brilliant.org/practice/lesson_6_3_inf_sum_practice_set_1/
+------------------------------
+69. Practice: Geometric Sums
+   LINK: https://brilliant.org/practice/lesson_6_4_geometric_practice_set_1/
+------------------------------
+70. Practice: Harmonic Sum
+   LINK: https://brilliant.org/practice/section_6_5_harmonic_practice_set_1/
+------------------------------
+71. Practice: Quadratic Approximations
+   LINK: https://brilliant.org/practice/lesson_6_6_quad_approx_set1/
+------------------------------
+72. Practice: Function Limits
+   LINK: https://brilliant.org/practice/function-limits-practice-set-1/
+------------------------------
+73. Practice: Limit Theorems
+   LINK: https://brilliant.org/practice/limit-theorems-practice-set-1/
+------------------------------
+74. Practice: Continuity
+   LINK: https://brilliant.org/practice/continuity-practice-set-1/
+------------------------------
+75. Practice: Smooth Functions
+   LINK: https://brilliant.org/practice/smooth-functions-practice-set-1/
+------------------------------
+76. Practice: Intermediate Value Theorem
+   LINK: https://brilliant.org/practice/ivt-set-1/
+------------------------------
+77. Practice: Extreme Value Theorem
+   LINK: https://brilliant.org/practice/section_7_6_evt_practice_set_1/
+------------------------------
+78. Practice: Sine and Cosine
+   LINK: https://brilliant.org/practice/sine-and-cosine-practice-set-2/
+------------------------------
+79. Practice: Taylor Series
+   LINK: https://brilliant.org/practice/taylor-series-practice/
+------------------------------
+80. Practice: Geometric Series Revisited
+   LINK: https://brilliant.org/practice/geom-series-set-1-revised/
+------------------------------
+81. Practice: Carrying Over
+   LINK: https://brilliant.org/practice/carrying-over-1/
+------------------------------
+82. Practice: Using Variables
+   LINK: https://brilliant.org/practice/cc_using_variables_1/
+------------------------------
+83. Practice: Multiple Variables
+   LINK: https://brilliant.org/practice/cc_multiple_variables_1/
+------------------------------
+84. Practice: Setting Variables
+   LINK: https://brilliant.org/practice/cc_debugging_variables_1/
+------------------------------
+85. Practice: Critical Points
+   LINK: https://brilliant.org/practice/calc_criticalpoints_set1/
+------------------------------
+86. Practice: A Half Adder
+   LINK: https://brilliant.org/practice/truthful-adding-1/
+------------------------------
+87. Practice: Adding Larger Numbers
+   LINK: https://brilliant.org/practice/adding-larger-numbers-1/
+------------------------------
+88. Practice: Adding 1s
+   LINK: https://brilliant.org/practice/adding-1s-1/
+------------------------------
+89. Practice: Carrying The Two
+   LINK: https://brilliant.org/practice/carrying-the-two-1/
+------------------------------
+90. Practice: A Full Adder
+   LINK: https://brilliant.org/practice/a-full-adder-1/
+------------------------------
+91. Practice: Combining Adders
+   LINK: https://brilliant.org/practice/combining-adders-1/
+------------------------------
+92. Practice: Expressing Logic
+   LINK: https://brilliant.org/practice/expressing-logic-practice-1/
+------------------------------
+93. Practice: Logical Statements
+   LINK: https://brilliant.org/practice/logical-statements-1/
+------------------------------
+94. Practice: Combining Statements
+   LINK: https://brilliant.org/practice/combining-statements-1/
+------------------------------
+95. Practice: Building Statements
+   LINK: https://brilliant.org/practice/building-statements-1/
+------------------------------
+96. Practice: Statements of Truth
+   LINK: https://brilliant.org/practice/statements-of-truth-1/
+------------------------------
+97. Practice: NAND Gates
+   LINK: https://brilliant.org/practice/nand-gates-1/
+------------------------------
+98. Practice: Using Only NAND
+   LINK: https://brilliant.org/practice/using-only-nand-1/
+------------------------------
+99. Practice: NOR Gates
+   LINK: https://brilliant.org/practice/nor-gates-1/
+------------------------------
+100. Practice: Using NAND and NOR
+   LINK: https://brilliant.org/practice/nand-and-nor-1/
+------------------------------
+101. Practice: Tangents
+   LINK: https://brilliant.org/practice/calc_tangents_set-1/
+------------------------------
+102. Practice: Writing Programs
+   LINK: https://brilliant.org/practice/cc_writing_programs_1/
+------------------------------
+103. Practice: Variables and Loops
+   LINK: https://brilliant.org/practice/cc_variables_loops_1/
+------------------------------
+104. Practice: Geometric Expressions
+   LINK: https://brilliant.org/practice/cc_geometric_1/
+------------------------------
+105. Practice: Using Logic
+   LINK: https://brilliant.org/practice/cc_color_logic_1/
+------------------------------
+106. Practice: Variable Logic
+   LINK: https://brilliant.org/practice/cc_logic_1/
+------------------------------
+107. Practice: Ordering Logic
+   LINK: https://brilliant.org/practice/cc_logic_placement_1/
+------------------------------
+108. Practice: The For Loop
+   LINK: https://brilliant.org/practice/cc-for-loop-1/
+------------------------------
+109. Practice: The Loop Variable
+   LINK: https://brilliant.org/practice/cc_loop_variable_1-3/
+------------------------------
+110. Practice: Expressions in For Loops
+   LINK: https://brilliant.org/practice/cc_for_loop_expr_1/
+------------------------------
+111. Practice: Coloring with Numbers
+   LINK: https://brilliant.org/practice/coloring_with_numbers_1/
+------------------------------
+112. Practice: Connecting Gears
+   LINK: https://brilliant.org/practice/gears-1a/
+------------------------------
+113. Practice: Heights
+   LINK: https://brilliant.org/practice/yaml-order-ch3-1-RbV0wMOe/
+------------------------------
+114. Practice: Comparisons
+   LINK: https://brilliant.org/practice/yaml-order-ch4-1-un__AMcZ/
+------------------------------
+115. Practice: Relative Comparisons
+   LINK: https://brilliant.org/practice/yaml-new-order-6-1-mkJpIOm-/
+------------------------------
+116. Practice: Value Logic
+   LINK: https://brilliant.org/practice/yaml-new-order-5-1-GBZv3BlX/
+------------------------------
+117. Practice: Negation
+   LINK: https://brilliant.org/practice/yaml-negation-4-1-RWgRbxq9/
+------------------------------
+118. Practice: Between
+   LINK: https://brilliant.org/practice/yaml-between-1-1-LR_8CnTR/
+------------------------------
+119. Practice: Shuffling
+   LINK: https://brilliant.org/practice/yaml-rearrangements3-1-CUQD0M5x/
+------------------------------
+120. Practice: Swapping
+   LINK: https://brilliant.org/practice/yaml-rearrangements-4-1-Ek0I6mer/
+------------------------------
+121. Practice: Rearrangements
+   LINK: https://brilliant.org/practice/yaml-rearrangements-2-1-jWLhr_g1/
+------------------------------
+122. Practice: Either/Or
+   LINK: https://brilliant.org/practice/generated-size-1-1-T32rVJ0b/
+------------------------------
+123. Practice: At Least
+   LINK: https://brilliant.org/practice/yaml-size-4-1-x0huPmdI/
+------------------------------
+124. Practice: At Most
+   LINK: https://brilliant.org/practice/yaml-size-3-1-bSrabn34/
+------------------------------
+125. Practice: Sums
+   LINK: https://brilliant.org/practice/yaml-size-5-1-PnVcE7wb/
+------------------------------
+126. Practice: Differences
+   LINK: https://brilliant.org/practice/yaml-size-6-1-hFiDztSH/
+------------------------------
+127. Practice: Assigning Sizes
+   LINK: https://brilliant.org/practice/yaml-infinite-banks-1-1-G8W_RPIg/
+------------------------------
+128. Practice: Even and Odd
+   LINK: https://brilliant.org/practice/yaml-infinite-banks-2-1-nPPJjwq7/
+------------------------------
+129. Practice: Bigger and Smaller
+   LINK: https://brilliant.org/practice/yaml-infinitebanks3-1-KVstVc_6/
+------------------------------
+130. Practice: Multiple Properties
+   LINK: https://brilliant.org/practice/yaml-infinitebanks4-1-t2gLMqsi/
+------------------------------
+131. Practice: More
+   LINK: https://brilliant.org/practice/yaml-infinitebanks5-1-bCMcC6qk/
+------------------------------
+132. Practice: Fewer
+   LINK: https://brilliant.org/practice/yaml-infinitebanks6-1-INuCZpaG/
+------------------------------
+133. Practice: Mixing Quantifiers
+   LINK: https://brilliant.org/practice/yaml-infinitebanks8-1-XzBYLcTu/
+------------------------------
+134. Practice: Not and No
+   LINK: https://brilliant.org/practice/yaml-infinitebanks7-1-37TpQ3ps/
+------------------------------
+135. Practice: Minimizing
+   LINK: https://brilliant.org/practice/infinite-banks-9-1-OdwOFWzL/
+------------------------------
+136. Practice: Maximizing
+   LINK: https://brilliant.org/practice/infinite-banks-10-1-dJ0z7D64/
+------------------------------
+137. Practice: Updating with Expressions
+   LINK: https://brilliant.org/practice/cc_variable_expressions_1/
+------------------------------
+138. Practice: Compound Gears
+   LINK: https://brilliant.org/practice/compound-speeds-ss-exp-practice-1/
+------------------------------
+139. Practice: Compound Gear Chains
+   LINK: https://brilliant.org/practice/compound-speeds-ss-exp-2-practice-1/
+------------------------------
+140. Practice: Balancing Weights
+   LINK: https://brilliant.org/practice/balancing-weights-1/
+------------------------------
+141. Practice: Moments
+   LINK: https://brilliant.org/practice/moments-ss-exp-practice-1/
+------------------------------
+142. Practice: Adding Moments
+   LINK: https://brilliant.org/practice/adding-moments-ss-exp-practice-1/
+------------------------------
+143. Practice: Adding a Level
+   LINK: https://brilliant.org/practice/adding-a-level-practice-1/
+------------------------------
+144. Practice: Multiple Levels
+   LINK: https://brilliant.org/practice/multiple-levels-practice-1/
+------------------------------
+145. Practice: A Mystery Weight
+   LINK: https://brilliant.org/practice/a-mystery-weight-ss-exp-practice-1/
+------------------------------
+146. Practice: Multiple Unknowns
+   LINK: https://brilliant.org/practice/multiple-unknowns-ss-exp-practice-1/
+------------------------------
+147. Practice: Simultaneous Solving
+   LINK: https://brilliant.org/practice/simultaneous-solving-ss-exp-practice-1/
+------------------------------
+148. Practice: Playing Pool
+   LINK: https://brilliant.org/practice/potting-balls-1/
+------------------------------
+149. Practice: Combination Shots
+   LINK: https://brilliant.org/practice/hidden-targets-ss-exp-practice-1/
+------------------------------
+150. Practice: Predetermined Collisions
+   LINK: https://brilliant.org/practice/spheres-in-contact-ss-exp-practice-1/
+------------------------------
+151. Practice: Order Logic
+   LINK: https://brilliant.org/practice/yaml-order-ch-1-1-vXRGOhsX/
+------------------------------
+152. Practice: Neighbors
+   LINK: https://brilliant.org/practice/yaml-order-ch-2-1-uToFM5NK/
+------------------------------
+153. Practice: Momentum Components
+   LINK: https://brilliant.org/practice/momentum-components-deflection-ss-exp-practice-1/
+------------------------------
+154. Practice: Chains of Prediction
+   LINK: https://brilliant.org/practice/prediction-chains-ss-exp-practice-1/
+------------------------------
+155. Practice: Structure Components
+   LINK: https://brilliant.org/practice/structures-0a/
+------------------------------
+156. Practice: Rigid Shapes
+   LINK: https://brilliant.org/practice/structures-2a/
+------------------------------
+157. Practice: Extending Structures
+   LINK: https://brilliant.org/practice/structures-31a/
+------------------------------
+158. Practice: Building Structures
+   LINK: https://brilliant.org/practice/structures-32a/
+------------------------------
+159. Practice: Degrees of Freedom
+   LINK: https://brilliant.org/practice/structures-5a/
+------------------------------
+160. Practice: Equivalent Structures
+   LINK: https://brilliant.org/practice/structures-6a/
+------------------------------
+161. Practice: Analyzing Beams
+   LINK: https://brilliant.org/practice/structures-7a/
+------------------------------
+162. Practice: Analyzing Joints
+   LINK: https://brilliant.org/practice/structures-8a/
+------------------------------
+163. Practice: Analyzing Screws
+   LINK: https://brilliant.org/practice/structures-9a/
+------------------------------
+164. Practice: Reflecting Light
+   LINK: https://brilliant.org/practice/reflecting-light-1/
+------------------------------
+165. Practice: Adjusting Mirrors
+   LINK: https://brilliant.org/practice/adjusting-mirrors-1/
+------------------------------
+166. Practice: Light Bulbs
+   LINK: https://brilliant.org/practice/light-bulbs-1/
+------------------------------
+167. Practice: Images
+   LINK: https://brilliant.org/practice/images-1/
+------------------------------
+168. Practice: Apparent Distance
+   LINK: https://brilliant.org/practice/ray-distances-1/
+------------------------------
+169. Practice: Refraction
+   LINK: https://brilliant.org/practice/refraction-1/
+------------------------------
+170. Practice: Triangular Prisms
+   LINK: https://brilliant.org/practice/triangular-prisms-1/
+------------------------------
+171. Practice: Jammed Gears
+   LINK: https://brilliant.org/practice/jammed-gears-3/
+------------------------------
+172. Practice: Counting Rotations
+   LINK: https://brilliant.org/practice/counting-rotations-practice-1/
+------------------------------
+173. Practice: Rates of Rotation
+   LINK: https://brilliant.org/practice/rates-of-rotation-1/
+------------------------------
+174. Practice: The Fastest Gear
+   LINK: https://brilliant.org/practice/fastest-gear-1/
+------------------------------
+175. Practice: Shifting Gears
+   LINK: https://brilliant.org/practice/shifting-gears-1/
+------------------------------
+176. Practice: Current Loops
+   LINK: https://brilliant.org/practice/circuits-1a/
+------------------------------
+177. Practice: Short Circuits
+   LINK: https://brilliant.org/practice/short-circuits-1/
+------------------------------
+178. Practice: Choosing Bulbs
+   LINK: https://brilliant.org/practice/circuits-2a/
+------------------------------
+179. Practice: The Path of Least Resistance
+   LINK: https://brilliant.org/practice/circuits-4a/
+------------------------------
+180. Practice: Bulb Brightness
+   LINK: https://brilliant.org/practice/circuits-5a/
+------------------------------
+181. Practice: Changing Current
+   LINK: https://brilliant.org/practice/changing-current-2-a/
+------------------------------
+182. Practice: Different Bulbs
+   LINK: https://brilliant.org/practice/different-bulbs-1/
+------------------------------
+183. Practice: Conserving Current
+   LINK: https://brilliant.org/practice/circuits-7a/
+------------------------------
+184. Practice: Voltage
+   LINK: https://brilliant.org/practice/voltage-1/
+------------------------------
+185. Practice: Measuring Voltage
+   LINK: https://brilliant.org/practice/measuring-voltage-1/
+------------------------------
+186. Practice: Voltage Around Paths
+   LINK: https://brilliant.org/practice/voltage-paths-1/
+------------------------------
+187. Practice: Branched Voltage
+   LINK: https://brilliant.org/practice/branched-voltage-1/
+------------------------------
+188. Practice: Power and Brightness
+   LINK: https://brilliant.org/practice/power-1/
+------------------------------
+189. Practice: Deducing Power
+   LINK: https://brilliant.org/practice/deducing-power-1/
+------------------------------
+190. Practice: Resistance
+   LINK: https://brilliant.org/practice/resistance-1/
+------------------------------
+191. Practice: Solving for Resistance
+   LINK: https://brilliant.org/practice/solving-resistance-1/
+------------------------------
+192. Practice: Predicting Current
+   LINK: https://brilliant.org/practice/predicting-current-1/
+------------------------------
+193. Practice: Controlling Current
+   LINK: https://brilliant.org/practice/controlling-current-1/
+------------------------------
+194. Practice: Combining Resistance
+   LINK: https://brilliant.org/practice/combining-resistance-1/
+------------------------------
+195. Practice: Dividing Resistance
+   LINK: https://brilliant.org/practice/dividing-resistance-1/
+------------------------------
+196. Practice: Total Resistance
+   LINK: https://brilliant.org/practice/total-resistance-1/
+------------------------------
+197. Practice: Voltage and Resistance
+   LINK: https://brilliant.org/practice/voltage-resistance-1/
+------------------------------
+198. Practice: Resistance and Brightness
+   LINK: https://brilliant.org/practice/resistance-brightness-2-a/
+------------------------------
+199. Practice: Relative Resistance
+   LINK: https://brilliant.org/practice/relative-resistance-1/
+------------------------------
+200. Practice: Sharing Amps and Volts
+   LINK: https://brilliant.org/practice/sharing-amps-and-volts-1/
+------------------------------
+201. Practice: Parallel Volt Shares
+   LINK: https://brilliant.org/practice/parallel-volt-shares-1/
+------------------------------
+202. Practice: Power and Bulb Pairs
+   LINK: https://brilliant.org/practice/power-and-bulb-pairs-1/
+------------------------------
+203. Practice: Momentum Transfer
+   LINK: https://brilliant.org/practice/momentum-transfer-ss-exp-practice-1/
+------------------------------
+204. Practice: Linear Patterns
+   LINK: https://brilliant.org/practice/valinear/
+------------------------------
+205. Practice: Growing Patterns
+   LINK: https://brilliant.org/practice/vagroups/
+------------------------------
+206. Practice: Describing Patterns
+   LINK: https://brilliant.org/practice/vanth/
+------------------------------
+207. Practice: Building Expressions
+   LINK: https://brilliant.org/practice/vaexpression-2/
+------------------------------
+208. Practice: Constant Terms
+   LINK: https://brilliant.org/practice/vaconstant/
+------------------------------
+209. Practice: Linear Expressions
+   LINK: https://brilliant.org/practice/valinexpr/
+------------------------------
+210. Practice: More Linear Expressions
+   LINK: https://brilliant.org/practice/vamorelinexpr/
+------------------------------
+211. Practice: Describing Linear Patterns
+   LINK: https://brilliant.org/practice/describe-linear-1/
+------------------------------
+212. Practice: Building Linear Expressions
+   LINK: https://brilliant.org/practice/vabuildlinear/
+------------------------------
+213. Practice: Linear Pattern Gallery
+   LINK: https://brilliant.org/practice/patternmix-1/
+------------------------------
+214. Practice: Two-Shape Patterns
+   LINK: https://brilliant.org/practice/va-twoshape/
+------------------------------
+215. Practice: Combining Expressions
+   LINK: https://brilliant.org/practice/va-combining/
+------------------------------
+216. Practice: Comparing Expressions
+   LINK: https://brilliant.org/practice/va-comparing/
+------------------------------
+217. Practice: Removing a Shape
+   LINK: https://brilliant.org/practice/taking-a-bite-1/
+------------------------------
+218. Practice: Comparing Linear Expressions
+   LINK: https://brilliant.org/practice/va-comparinglin/
+------------------------------
+219. Practice: Comparing Constants
+   LINK: https://brilliant.org/practice/va-comparecomplex/
+------------------------------
+220. Practice: Using a Table
+   LINK: https://brilliant.org/practice/va-tables-1/
+------------------------------
+221. Practice: Comparing Rates
+   LINK: https://brilliant.org/practice/va-compare-rates-1/
+------------------------------
+222. Practice: Comparing More Rates
+   LINK: https://brilliant.org/practice/va-more-rates-2/
+------------------------------
+223. Practice: Comparing Expressions
+   LINK: https://brilliant.org/practice/va-compare-linexpressions-1/
+------------------------------
+224. Practice: Quadratic Patterns
+   LINK: https://brilliant.org/practice/quad-patterns-1/
+------------------------------
+225. Practice: Quadratics with a Constant
+   LINK: https://brilliant.org/practice/quad-const-1/
+------------------------------
+226. Practice: Quadratics with a Linear Term
+   LINK: https://brilliant.org/practice/quad-lin-1/
+------------------------------
+227. Practice: Patterns with a Punch
+   LINK: https://brilliant.org/practice/pattern-punch/
+------------------------------
+228. Practice: Rectangle Patterns
+   LINK: https://brilliant.org/practice/rect-patt-1/
+------------------------------
+229. Practice: Using Rectangle Area
+   LINK: https://brilliant.org/practice/using-rect-area/
+------------------------------
+230. Practice: A Complicated Area
+   LINK: https://brilliant.org/practice/comp-area-1/
+------------------------------
+231. Practice: Equivalent Expressions
+   LINK: https://brilliant.org/practice/equiv-exp-1/
+------------------------------
+232. Practice: Shifting the Steps
+   LINK: https://brilliant.org/practice/square-steps-1/
+------------------------------
+233. Practice: Taking a Bite
+   LINK: https://brilliant.org/practice/square-bite-1/
+------------------------------
+234. Practice: The Frame
+   LINK: https://brilliant.org/practice/the-frame-set1/
+------------------------------
+235. Practice: The Monster Jaw
+   LINK: https://brilliant.org/practice/monster-jaw-1/
+------------------------------
+236. Practice: A Different Kind of Growth
+   LINK: https://brilliant.org/practice/different-growth-1/
+------------------------------
+237. Practice: Quadratic Growth
+   LINK: https://brilliant.org/practice/different-growth-2-practice-b/
+------------------------------
+238. Practice: A Triangular Pattern
+   LINK: https://brilliant.org/practice/triangular-numbers-practice-3/
+------------------------------
+239. Practice: Describing Quadratic Growth
+   LINK: https://brilliant.org/practice/practice-different-growth-3-b-2/
+------------------------------
+240. Practice: Linear or Quadratic
+   LINK: https://brilliant.org/practice/practice-linear-or-quadratic-a-redesigned-2/
+------------------------------
+241. Practice: Comparing Kinds of Growth
+   LINK: https://brilliant.org/practice/linear-or-quadratic-2-practice-2/
+------------------------------
+242. Practice: Quadratic Versus Linear
+   LINK: https://brilliant.org/practice/quadratic-vs-linear-practice-4/
+------------------------------
+243. Practice: Exponential Patterns
+   LINK: https://brilliant.org/practice/practice-exponential-patterns-2-b-2/
+------------------------------
+244. Practice: Growth Factors
+   LINK: https://brilliant.org/practice/growth-factors-2-a/
+------------------------------
+245. Practice: Building Exponential Patterns
+   LINK: https://brilliant.org/practice/building-exponential-practice-a-2/
+------------------------------
+246. Practice: Building Linear Patterns
+   LINK: https://brilliant.org/practice/building-linear-practice-1/
+------------------------------
+247. Practice: ID'ing the Type of Pattern
+   LINK: https://brilliant.org/practice/kinds-of-growth-practice-4/
+------------------------------
+248. Practice: Building Exponential Expressions
+   LINK: https://brilliant.org/practice/building-exponential-2-practice-5/
+------------------------------
+249. Practice: Comparing Points
+   LINK: https://brilliant.org/practice/comparing-points-1/
+------------------------------
+250. Practice: Bulbs with Voltage
+   LINK: https://brilliant.org/practice/bulbs-with-voltage-1/
+------------------------------
+251. Practice: Pattern Rules
+   LINK: https://brilliant.org/practice/varepeating/
+------------------------------
+252. Practice: Subtracting Volts
+   LINK: https://brilliant.org/practice/voltage-difference-1/
+------------------------------
+253. Practice: The Past And The Future
+   LINK: https://brilliant.org/practice/past-future-basketball-probability/
+------------------------------
+254. Practice: Changing Fortunes
+   LINK: https://brilliant.org/practice/changing-fortunes-politics-probability/
+------------------------------
+255. Practice: Mutually Exclusive Events
+   LINK: https://brilliant.org/practice/mutex-trains-probability/
+------------------------------
+256. Practice: Combining Probabilities
+   LINK: https://brilliant.org/practice/practice-combining-probabilities-2-v0-1-set_one/
+------------------------------
+257. Practice: Conditional Probability
+   LINK: https://brilliant.org/practice/practice-conditional-probability-5-v0-1-set_one/
+------------------------------
+258. Practice: Total Probability
+   LINK: https://brilliant.org/practice/practice-total-probability-2-v0-1-set_one/
+------------------------------
+259. Practice: Updating Predictions
+   LINK: https://brilliant.org/practice/practice-updating-predictions-2-v0-1-set_one/
+------------------------------
+260. Practice: Dependence and Independence
+   LINK: https://brilliant.org/practice/practice-dependence-and-independence-2-v0-1-set_one/
+------------------------------
+261. Practice: Building Models
+   LINK: https://brilliant.org/practice/practice-building-models-2-v0-1-set_one/
+------------------------------
+262. Practice: To the Zero Power
+   LINK: https://brilliant.org/practice/practice-zero-power-a/
+------------------------------
+263. Practice: Multiplying Binomials
+   LINK: https://brilliant.org/practice/multiplying-binomials-practice-1-1-N-uNDUJW/
+------------------------------
+264. Practice: Finding the Units
+   LINK: https://brilliant.org/practice/distributing-terms-practice/
+------------------------------
+265. Practice: Finding Linear Terms
+   LINK: https://brilliant.org/practice/find-linear-term-practice-3/
+------------------------------
+266. Practice: Finding Combined Linear Terms
+   LINK: https://brilliant.org/practice/find-linear-term-2-practice-2-3-1-nt21hzCh/
+------------------------------
+267. Practice: Variables with a Multiple
+   LINK: https://brilliant.org/practice/find-linear-3-actualpracticeset1/
+------------------------------
+268. Practice: Linear and Constant Terms
+   LINK: https://brilliant.org/practice/find-both-2-practice-a/
+------------------------------
+269. Practice: Finding All the Terms
+   LINK: https://brilliant.org/practice/find-both-3-practice-a/
+------------------------------
+270. Practice: Undistributing
+   LINK: https://brilliant.org/practice/undistributing-one-direction-practice/
+------------------------------
+271. Practice: Finding One Factor
+   LINK: https://brilliant.org/practice/finding-two-factors-practice-1-1-zunpZ2j9/
+------------------------------
+272. Practice: Finding Both Sides
+   LINK: https://brilliant.org/practice/factoring-meaning-practice-1/
+------------------------------
+273. Practice: Factoring Quadratics
+   LINK: https://brilliant.org/practice/finding-factors-practice-4/
+------------------------------
+274. Practice: Multiplying Signed Constants
+   LINK: https://brilliant.org/practice/multiplying-signed-constants-practice-1-1-om1Rk71c/
+------------------------------
+275. Practice: Multiplying Signed Linear
+   LINK: https://brilliant.org/practice/multiplying-signed-linear-practice-3/
+------------------------------
+276. Practice: Linear with Coefficients
+   LINK: https://brilliant.org/practice/multiplying-signed-linear-2-practice/
+------------------------------
+277. Practice: Finding Signs
+   LINK: https://brilliant.org/practice/multiplying-linear-constant-practice/
+------------------------------
+278. Practice: Writing Exponential Expressions
+   LINK: https://brilliant.org/practice/practice-writing-exponential-b/
+------------------------------
+279. Practice: Periodic Patterns
+   LINK: https://brilliant.org/practice/va-periodic-2/
+------------------------------
+280. Practice: Extending Periodic Patterns
+   LINK: https://brilliant.org/practice/va-shiftedpattern-1/
+------------------------------
+281. Practice: Periodic Pattern Remainders
+   LINK: https://brilliant.org/practice/va-periodic-remainders-1/
+------------------------------
+282. Practice: Expressing Remainders
+   LINK: https://brilliant.org/practice/va-express-remainders-1/
+------------------------------
+283. Practice: Period of Two
+   LINK: https://brilliant.org/practice/va-periodtwo-1/
+------------------------------
+284. Practice: A Different Period
+   LINK: https://brilliant.org/practice/va-periodfour-1/
+------------------------------
+285. Practice: Periodic Pattern Gallery
+   LINK: https://brilliant.org/practice/va-periodchallenge1-1/
+------------------------------
+286. Practice: Periodic Pattern Gallery 2
+   LINK: https://brilliant.org/practice/va-periodchallenge2-1/
+------------------------------
+287. Practice: Alternating Patterns
+   LINK: https://brilliant.org/practice/practice-alternating-patterns-5-b/
+------------------------------
+288. Practice: Even and Odd Steps
+   LINK: https://brilliant.org/practice/even-and-odd-practice-4/
+------------------------------
+289. Practice: Adding Two Shapes
+   LINK: https://brilliant.org/practice/sum-two-shapes-practice-3/
+------------------------------
+290. Practice: Describing Linear Patterns
+   LINK: https://brilliant.org/practice/equiv-expr-linear-2-practice-5/
+------------------------------
+291. Practice: Describing Quadratic Patterns
+   LINK: https://brilliant.org/practice/equiv-expr-quad-practice-5/
+------------------------------
+292. Practice: Describing Exponential Patterns
+   LINK: https://brilliant.org/practice/equiv-expr-exp-practice-1-new/
+------------------------------
+293. Practice: Two Ways to See
+   LINK: https://brilliant.org/practice/va-finale-2-practice-6/
+------------------------------
+294. Practice: Other Ways to See
+   LINK: https://brilliant.org/practice/va-finale-1-practice-1/
+------------------------------
+295. Practice: Multiplying Expressions
+   LINK: https://brilliant.org/practice/representing-products-practice-2/
+------------------------------
+296. Practice: Simulating Outcomes
+   LINK: https://brilliant.org/practice/simulation-politics-probability/
+------------------------------
+297. Practice: Leading Coefficients
+   LINK: https://brilliant.org/practice/factor-leading-negatives-practice-a/
+------------------------------
+298. Practice: Finding Entire Factors
+   LINK: https://brilliant.org/practice/factor-all-parts-practice-2/
+------------------------------
+299. Practice: Plotting Solutions
+   LINK: https://brilliant.org/practice/plotting-standardform-set1/
+------------------------------
+300. Practice: Plotting x-Intercepts
+   LINK: https://brilliant.org/practice/quadratics-x-intercepts-practice/
+------------------------------
+301. Practice: Factors from Intercepts
+   LINK: https://brilliant.org/practice/factors-from-intercepts-practice/
+------------------------------
+302. Practice: Factored Form
+   LINK: https://brilliant.org/practice/factored-form-6-practice/
+------------------------------
+303. Practice: Solutions on a Graph
+   LINK: https://brilliant.org/practice/solutions-on-a-graph-practice-1-1-AN5MLfh0/
+------------------------------
+304. Practice: Solutions to Quadratics
+   LINK: https://brilliant.org/practice/quadratic-solutions-practice-3/
+------------------------------
+305. Practice: Solving by Factoring
+   LINK: https://brilliant.org/practice/solve-by-factoring-practice/
+------------------------------
+306. Practice: The Importance of Zero
+   LINK: https://brilliant.org/practice/isolating-terms-practice-1/
+------------------------------
+307. Practice: Hard-to-factor Expressions
+   LINK: https://brilliant.org/practice/unfactorable-expressions-practice/
+------------------------------
+308. Practice: Shifting Up and Down
+   LINK: https://brilliant.org/practice/vertical-shift-practice/
+------------------------------
+309. Practice: Graphing a Vertical Shift
+   LINK: https://brilliant.org/practice/vertical-shift-2-practice/
+------------------------------
+310. Practice: Shifting Right and Left
+   LINK: https://brilliant.org/practice/horizontal-shift-2-practice-2/
+------------------------------
+311. Practice: Graphing a Horizontal Shift
+   LINK: https://brilliant.org/practice/graphing-horizontal-shift-practice/
+------------------------------
+312. Practice: Finding the New Vertex
+   LINK: https://brilliant.org/practice/new-vertex-practice/
+------------------------------
+313. Practice: Stretching and Reflecting
+   LINK: https://brilliant.org/practice/stretching-and-reflecting-practice/
+------------------------------
+314. Practice: Graphing a Vertical Stretch
+   LINK: https://brilliant.org/practice/graphing-vertical-stretch-practice/
+------------------------------
+315. Practice: Using All the Parameters
+   LINK: https://brilliant.org/practice/all-the-things-practice-2/
+------------------------------
+316. Practice: Graphing from Vertex Form
+   LINK: https://brilliant.org/practice/graphing-vertex-form-practice-a/
+------------------------------
+317. Practice: Finding Solutions
+   LINK: https://brilliant.org/practice/solving-by-deduction-practice/
+------------------------------
+318. Practice: How Many Solutions
+   LINK: https://brilliant.org/practice/how-many-solutions-practice/
+------------------------------
+319. Practice: Splitting Equations
+   LINK: https://brilliant.org/practice/solving-by-deduction-2-practice/
+------------------------------
+320. Practice: Equations with More Steps
+   LINK: https://brilliant.org/practice/multistep-equations-practice-1/
+------------------------------
+321. Practice: Irrational Solutions
+   LINK: https://brilliant.org/practice/irrational-solutions-practice-1/
+------------------------------
+322. Practice: No Real Solutions
+   LINK: https://brilliant.org/practice/quads-imaginary-1-practice-3/
+------------------------------
+323. Practice: The Imaginary Unit
+   LINK: https://brilliant.org/practice/quads-imaginary-2-practice-1/
+------------------------------
+324. Practice: Complex Solutions
+   LINK: https://brilliant.org/practice/quads-imaginary-3-practice-1/
+------------------------------
+325. Practice: Squaring Binomials
+   LINK: https://brilliant.org/practice/squaring-binomials-practice-4/
+------------------------------
+326. Practice: Perfect Square Trinomials
+   LINK: https://brilliant.org/practice/perfect-square-trinomials-practice-2/
+------------------------------
+327. Practice: Solving by Factoring Perfect Squares
+   LINK: https://brilliant.org/practice/solving-by-factoring-perfect-squares-practice-1/
+------------------------------
+328. Practice: Completing the Square
+   LINK: https://brilliant.org/practice/completing-the-square-7-practice-2/
+------------------------------
+329. Practice: Solving by Completing the Square
+   LINK: https://brilliant.org/practice/completing-the-square-practice-3/
+------------------------------
+330. Practice: Rewriting in Vertex Form
+   LINK: https://brilliant.org/practice/vertex-of-a-shifted-perfect-square-practice-b/
+------------------------------
+331. Practice: Using Complete the Square
+   LINK: https://brilliant.org/practice/rewriting-in-vertex-form-practice-a/
+------------------------------
+332. Practice: Vertex Form with Leading Coefficients
+   LINK: https://brilliant.org/practice/vertex-form-with-leading-coefficients-practice-2/
+------------------------------
+333. Practice: Maximum or Minimum Value
+   LINK: https://brilliant.org/practice/finding-extrema-with-vertex-form-practice/
+------------------------------
+334. Practice: Completing Any Square
+   LINK: https://brilliant.org/practice/quads-qf-1-practice-2/
+------------------------------
+335. Practice: Building a Formula
+   LINK: https://brilliant.org/practice/quads-qf-2-practice-3/
+------------------------------
+336. Practice: The Quadratic Formula
+   LINK: https://brilliant.org/practice/quads-qf-3-practice-2/
+------------------------------
+337. Practice: Using the Formula
+   LINK: https://brilliant.org/practice/quads-qf-5-practice-1/
+------------------------------
+338. Practice: Rearranging First
+   LINK: https://brilliant.org/practice/quads-qf-6-practice-1/
+------------------------------
+339. Practice: Finding Numbers and Signs
+   LINK: https://brilliant.org/practice/factor-negatives-both-practice-a/
+------------------------------
+340. Practice: Multiple Solutions
+   LINK: https://brilliant.org/practice/sched-multiple-sol-set1/
+------------------------------
+341. Practice: Identifying Invariants
+   LINK: https://brilliant.org/practice/id-invariants-set1/
+------------------------------
+342. Practice: Finding Counterexamples
+   LINK: https://brilliant.org/practice/find-counterex-set1/
+------------------------------
+343. Practice: Adapting to New Criteria
+   LINK: https://brilliant.org/practice/new-criteria-short_set1/
+------------------------------
+344. Practice: Testing Algorithms
+   LINK: https://brilliant.org/practice/testing-algorithms_set1/
+------------------------------
+345. Practice: Modifying an Algorithm
+   LINK: https://brilliant.org/practice/new-solution-short_set1/
+------------------------------
+346. Practice: Controlling Order
+   LINK: https://brilliant.org/practice/controlling-order_set1/
+------------------------------
+347. Practice: Verifying Correctness
+   LINK: https://brilliant.org/practice/algorithm-verification_set1/
+------------------------------
+348. Practice: Finding an Algorithm's Limits
+   LINK: https://brilliant.org/practice/algorithm-limits_set1/
+------------------------------
+349. Practice: Updating a Strategy
+   LINK: https://brilliant.org/practice/new-early-set1/
+------------------------------
+350. Practice: Proving Incorrectness
+   LINK: https://brilliant.org/practice/finding-cases-set1/
+------------------------------
+351. Practice: Updating an Algorithm
+   LINK: https://brilliant.org/practice/updating-algo-set1/
+------------------------------
+352. Practice: Reasoning about Criteria
+   LINK: https://brilliant.org/practice/prove-correct-set1/
+------------------------------
+353. Practice: Testing the Strategy
+   LINK: https://brilliant.org/practice/compare-algos-set1/
+------------------------------
+354. Practice: Optimizing
+   LINK: https://brilliant.org/practice/new-optimize-set1/
+------------------------------
+355. Practice: Crafting Counterexamples
+   LINK: https://brilliant.org/practice/craft-counter-set1/
+------------------------------
+356. Practice: Greedy Optimization
+   LINK: https://brilliant.org/practice/greedy-optimize-set1/
+------------------------------
+357. Practice: Problem Equivalence
+   LINK: https://brilliant.org/practice/different-problems_set1/
+------------------------------
+358. Practice: Angle and Radius
+   LINK: https://brilliant.org/practice/angle-and-radius-1/
+------------------------------
+359. Practice: Solving Instances
+   LINK: https://brilliant.org/practice/instances_of_a_problem_set_0/
+------------------------------
+360. Practice: Identifying Points
+   LINK: https://brilliant.org/practice/identifying-points-polar-practice/
+------------------------------
+361. Practice: Negative Angles
+   LINK: https://brilliant.org/practice/negative-angles-practice/
+------------------------------
+362. Practice: Beyond 360°
+   LINK: https://brilliant.org/practice/beyond-360-practice/
+------------------------------
+363. Practice: Radial Rays
+   LINK: https://brilliant.org/practice/radial-lines-practice/
+------------------------------
+364. Practice: Circular Gridlines
+   LINK: https://brilliant.org/practice/circular-gridlines-practice/
+------------------------------
+365. Practice: Annuli and Disks
+   LINK: https://brilliant.org/practice/annulus-polar-practice/
+------------------------------
+366. Practice: Describing Sectors
+   LINK: https://brilliant.org/practice/sector-polar-practice/
+------------------------------
+367. Practice: Selecting Points
+   LINK: https://brilliant.org/practice/selecting-points-polar-practice/
+------------------------------
+368. Practice: Identifying Features
+   LINK: https://brilliant.org/practice/identify-features-polar-practice/
+------------------------------
+369. Practice: Arcs and Arc Length
+   LINK: https://brilliant.org/practice/arcs-and-arclength-practice/
+------------------------------
+370. Practice: Arc Lengths and Angles
+   LINK: https://brilliant.org/practice/arclengths-and-angles-practice/
+------------------------------
+371. Practice: Angles from Arc Lengths
+   LINK: https://brilliant.org/practice/angles-from-arclengths-practice/
+------------------------------
+372. Practice: Angles in Radians
+   LINK: https://brilliant.org/practice/radians-polar-practice/
+------------------------------
+373. Practice: Plotting with Radians
+   LINK: https://brilliant.org/practice/plotting-with-radians-practice-2/
+------------------------------
+374. Practice: Radian Coordinates
+   LINK: https://brilliant.org/practice/radian-coordinates-practice/
+------------------------------
+375. Practice: Regions with Radians
+   LINK: https://brilliant.org/practice/regions-with-radians-practice/
+------------------------------
+376. Practice: Radian Lines and Sectors
+   LINK: https://brilliant.org/practice/radian-features-practice/
+------------------------------
+377. Practice: Rotating Points
+   LINK: https://brilliant.org/practice/polar-rotation-direct-1/
+------------------------------
+378. Practice: Coordinate-Wise Rotation
+   LINK: https://brilliant.org/practice/polar-rotation-coordinates-1/
+------------------------------
+379. Practice: Describing Algorithms
+   LINK: https://brilliant.org/practice/sched-describe-patterns-set1/
+------------------------------
+380. Practice: The Axis of Symmetry
+   LINK: https://brilliant.org/practice/quadratic-equations-line-of-symmetry-practice-a/
+------------------------------
+381. Practice: Axis of Symmetry to Vertex
+   LINK: https://brilliant.org/practice/symmetry-in-standard-form-practice-a/
+------------------------------
+382. Practice: Reading Different Forms
+   LINK: https://brilliant.org/practice/quadratics-axis-of-symmetry-from-vertex-practice-a/
+------------------------------
+383. Practice: Equations from Symmetry
+   LINK: https://brilliant.org/practice/equations-from-symmetry-practice-a/
+------------------------------
+384. Practice: Choosing the Right Form
+   LINK: https://brilliant.org/practice/choosing-the-right-form-practice-a/
+------------------------------
+385. Practice: Plotting in Polar
+   LINK: https://brilliant.org/practice/plotting-polar-coordinates-practice/
+------------------------------
+386. Practice: The Discriminant
+   LINK: https://brilliant.org/practice/quads-qf-7-practice-1/
+------------------------------
+387. Practice: Avoiding Infinite Recursion
+   LINK: https://brilliant.org/practice/py-inf-recursion-set1/
+------------------------------
+388. Practice: Multiple Base Cases
+   LINK: https://brilliant.org/practice/py-multi-base-cases-set1/
+------------------------------
+389. Practice: Tracing Multiple Calls
+   LINK: https://brilliant.org/practice/py-trace-multi-calls-set1/
+------------------------------
+390. Practice: Dynamic Recursive Steps
+   LINK: https://brilliant.org/practice/py-dyno-recursive-steps-set1/
+------------------------------
+391. Practice: Recurrence Relations
+   LINK: https://brilliant.org/practice/py-recurrence-set1/
+------------------------------
+392. Practice: Conditioning on Input
+   LINK: https://brilliant.org/practice/py-rec-input-condition-set1/
+------------------------------
+393. Practice: Choosing a Recursive Path
+   LINK: https://brilliant.org/practice/py-recursive-paths-set1/
+------------------------------
+394. Practice: Writing Programs
+   LINK: https://brilliant.org/practice/tappy-tic-onboard-set1/
+------------------------------
+395. Practice: Recursion
+   LINK: https://brilliant.org/practice/py-recursion-set1/
+------------------------------
+396. Practice: Choosing Transformations
+   LINK: https://brilliant.org/practice/polar-choosing-transformations-1/
+------------------------------
+397. Practice: Estimating x and y
+   LINK: https://brilliant.org/practice/estimating-x-and-y-q3-practice/
+------------------------------
+398. Practice: Plotting on a Cartesian Grid
+   LINK: https://brilliant.org/practice/cartesian-from-polar-practice/
+------------------------------
+399. Practice: Using Sine and Cosine
+   LINK: https://brilliant.org/practice/computing-x-y-practice/
+------------------------------
+400. Practice: Plotting with Sine and Cosine
+   LINK: https://brilliant.org/practice/plotting-with-sine-and-cosine-practice/
+------------------------------
+401. Practice: Estimating Angle
+   LINK: https://brilliant.org/practice/estimating-angle-practice/
+------------------------------
+402. Practice: Polar From Rectangular
+   LINK: https://brilliant.org/practice/polar-from-rectangular-practice/
+------------------------------
+403. Practice: Computing Radius and Slope
+   LINK: https://brilliant.org/practice/computing-r-and-gradient-practice/
+------------------------------
+404. Practice: Computing Polar Angle
+   LINK: https://brilliant.org/practice/computing-inverse-tan-practice-a/
+------------------------------
+405. Practice: Angles from x and y
+   LINK: https://brilliant.org/practice/angles-to-from-xy-points-practice/
+------------------------------
+406. Practice: Computing Polar Coordinates
+   LINK: https://brilliant.org/practice/computing-polar-coordinates-practice-2/
+------------------------------
+407. Practice: Sequencing Commands
+   LINK: https://brilliant.org/practice/sequencing-commands-ss-exp-practice-1/
+------------------------------
+408. Practice: Repeating Patterns
+   LINK: https://brilliant.org/practice/repetition-tappy-insight-ss-exp-practice-1/
+------------------------------
+409. Practice: Debugging Programs
+   LINK: https://brilliant.org/practice/modifying-programs-tappy-insight-ss-exp-practice-1/
+------------------------------
+410. Practice: Looping With Logic
+   LINK: https://brilliant.org/practice/loop-w-logic-tappy-insight-ss-exp-practice-1/
+------------------------------
+411. Practice: While Loop Challenge
+   LINK: https://brilliant.org/practice/while-loop-challenge-ss-exp-check/
+------------------------------
+412. Practice: Recognizing Patterns
+   LINK: https://brilliant.org/practice/recog-patt-tapp-insight-3/
+------------------------------
+413. Practice: Controlling with Logic
+   LINK: https://brilliant.org/practice/choosing-cond-tappy-insight-ss-exp-practice-1/
+------------------------------
+414. Practice: Nesting Loops
+   LINK: https://brilliant.org/practice/nesting-loops-tap-insight-ss-exp-practice-1/
+------------------------------
+415. Practice: Combining Loops
+   LINK: https://brilliant.org/practice/combining-loops-ss-exp-practice-1/
+------------------------------
+416. Practice: Loop Combo Challenge
+   LINK: https://brilliant.org/practice/loop-combo-challenge-ss-exp-check/
+------------------------------
+417. Practice: Using if Statements
+   LINK: https://brilliant.org/practice/tap-using-if-states-set2/
+------------------------------
+418. Practice: Preventing Errors
+   LINK: https://brilliant.org/practice/debugging-if-statements-ss-exp-practice-1/
+------------------------------
+419. Practice: Using if-else Statements
+   LINK: https://brilliant.org/practice/branch-and-nest-tap-ins-ss-exp-practice-1/
+------------------------------
+420. Practice: Branching with Logic
+   LINK: https://brilliant.org/practice/branching-with-logic-ss-exp-practice-1/
+------------------------------
+421. Practice: Branching Challenge
+   LINK: https://brilliant.org/practice/branching-challenge-ss-exp-check/
+------------------------------
+422. Practice: Conditioning on History
+   LINK: https://brilliant.org/practice/condition-history-set1/
+------------------------------
+423. Practice: Nesting Logic
+   LINK: https://brilliant.org/practice/nest-logic-tappy-set3/
+------------------------------
+424. Practice: Complex Branching
+   LINK: https://brilliant.org/practice/complex-branch-tappy-set3/
+------------------------------
+425. Practice: Complex Logic
+   LINK: https://brilliant.org/practice/cx-logic-tappy-set1/
+------------------------------
+426. Practice: Designing Programs
+   LINK: https://brilliant.org/practice/design-progs-tappy-set3/
+------------------------------
+427. Practice: Programming a Website
+   LINK: https://brilliant.org/practice/website_practice_1/
+------------------------------
+428. Practice: Automating Emails
+   LINK: https://brilliant.org/practice/automating_emails_1/
+------------------------------
+429. Practice: Dilating Points
+   LINK: https://brilliant.org/practice/polar-dilation-direct-1/
+------------------------------
+430. Practice: The Call Stack
+   LINK: https://brilliant.org/practice/py-call-stack-set1/
+------------------------------
+431. Practice: Combining Transformations
+   LINK: https://brilliant.org/practice/polar-combining-transformations-1/
+------------------------------
+432. Practice: Calling Functions
+   LINK: https://brilliant.org/practice/py-call-functions-set1/
+------------------------------
+433. Practice: Reusing Functions
+   LINK: https://brilliant.org/practice/py-reuse-functions-set1/
+------------------------------
+434. Practice: Updating Functions
+   LINK: https://brilliant.org/practice/py-update-function-set1/
+------------------------------
+435. Practice: Local Variables
+   LINK: https://brilliant.org/practice/py-local-variables-set1/
+------------------------------
+436. Practice: Multiple Inputs
+   LINK: https://brilliant.org/practice/py-multi-inputs-set1/
+------------------------------
+437. Practice: Identifying Functions
+   LINK: https://brilliant.org/practice/py-identify-functions-set1/
+------------------------------
+438. Practice: Using Multiple Functions
+   LINK: https://brilliant.org/practice/py-multi-function-set1/
+------------------------------
+439. Practice: Decryption Functions
+   LINK: https://brilliant.org/practice/py-decrypt-function-set1/
+------------------------------
+440. Practice: Happy Paths
+   LINK: https://brilliant.org/practice/py-happy-paths-set1/
+------------------------------
+441. Practice: Special Cases
+   LINK: https://brilliant.org/practice/py-special-cases-set1/
+------------------------------
+442. Practice: Edge Cases
+   LINK: https://brilliant.org/practice/py-edge-cases-set1/
+------------------------------
+443. Practice: Checking Preconditions
+   LINK: https://brilliant.org/practice/python-preconditions-set1/
+------------------------------
+444. Practice: Global Variables
+   LINK: https://brilliant.org/practice/py-global-vars-set1/
+------------------------------
+445. Practice: Designing Inputs
+   LINK: https://brilliant.org/practice/py-design-inputs-set1/
+------------------------------
+446. Practice: Local Scope
+   LINK: https://brilliant.org/practice/py-local-scope-set1/
+------------------------------
+447. Practice: Shadowing Variables
+   LINK: https://brilliant.org/practice/py-shadow-vars-set1/
+------------------------------
+448. Practice: Other Return Types
+   LINK: https://brilliant.org/practice/py-return-types-set1/
+------------------------------
+449. Practice: Using Boolean Functions
+   LINK: https://brilliant.org/practice/py-use-bool-functions-set1/
+------------------------------
+450. Practice: Returning Early
+   LINK: https://brilliant.org/practice/py-returning-early-set1/
+------------------------------
+451. Practice: Returning None
+   LINK: https://brilliant.org/practice/py-return-none-set1/
+------------------------------
+452. Practice: Character Encoding
+   LINK: https://brilliant.org/practice/py-char-encoding-set1/
+------------------------------
+453. Practice: Using Mod
+   LINK: https://brilliant.org/practice/python-using-mod-set1/
+------------------------------
+454. Practice: Automating Social Media
+   LINK: https://brilliant.org/practice/social_media_0/
+------------------------------
+455. Practice: Programming an App
+   LINK: https://brilliant.org/practice/tic_16_programming_apps_set_1/
+------------------------------
+456. Practice: Structuring Code
+   LINK: https://brilliant.org/practice/gap-struct-code-set1/
+------------------------------
+457. Practice: Combining Commands
+   LINK: https://brilliant.org/practice/combo-cmds-trn-set1/
+------------------------------
+458. Practice: Using Inputs
+   LINK: https://brilliant.org/practice/cs12_using_input_pset_1/
+------------------------------
+459. Practice: Using Variables
+   LINK: https://brilliant.org/practice/cs12-using-variables-pset1/
+------------------------------
+460. Practice: Updating Variables
+   LINK: https://brilliant.org/practice/cs12_updating_variables_set_1/
+------------------------------
+461. Practice: Incrementing Variables
+   LINK: https://brilliant.org/practice/cs12_incrementing_variables_set_1/
+------------------------------
+462. Practice: Looping with Variables
+   LINK: https://brilliant.org/practice/cs12_looping_with_variables_set1/
+------------------------------
+463. Practice: Looping with Lists
+   LINK: https://brilliant.org/practice/cs12_looping_with_lists_set1/
+------------------------------
+464. Practice: Processing Input
+   LINK: https://brilliant.org/practice/cs12_processing_input_set1/
+------------------------------
+465. Practice: Dealing with Cases
+   LINK: https://brilliant.org/practice/cs12_dealing_with_cases_set1/
+------------------------------
+466. Practice: Navigating a Grid
+   LINK: https://brilliant.org/practice/cs12_navigating_a_grid_set1/
+------------------------------
+467. Practice: Nesting For Loops
+   LINK: https://brilliant.org/practice/cs12_nesting_for_loops_set1/
+------------------------------
+468. Practice: Controlling Loops
+   LINK: https://brilliant.org/practice/cs12_controlling_loops_set1/
+------------------------------
+469. Practice: Avoiding Obstacles
+   LINK: https://brilliant.org/practice/cs12_avoiding_obstacles_set1/
+------------------------------
+470. Practice: Finding Shortcuts
+   LINK: https://brilliant.org/practice/cs12_finding_shortcuts_set1/
+------------------------------
+471. Practice: Chaining Conditionals
+   LINK: https://brilliant.org/practice/cs12_chaining_conditionals_set1/
+------------------------------
+472. Practice: Using Boolean Logic
+   LINK: https://brilliant.org/practice/cs12_backtracking_set1/
+------------------------------
+473. Practice: Extending Logic
+   LINK: https://brilliant.org/practice/cs12_extending_logic_set1/
+------------------------------
+474. Practice: Building Helpers
+   LINK: https://brilliant.org/practice/cs12_building_helpers_set1/
+------------------------------
+475. Practice: Logical Ordering
+   LINK: https://brilliant.org/practice/cs12_logical_ordering_set1/
+------------------------------
+476. Practice: Streamlining Logic
+   LINK: https://brilliant.org/practice/cs12_streamlining_logic_set1/
+------------------------------
+477. Practice: Solving Mazes
+   LINK: https://brilliant.org/practice/cs12_solving_mazes_set1/
+------------------------------
+478. Practice: Building Programs
+   LINK: https://brilliant.org/practice/cs12_building_programs_set1/
+------------------------------
+479. Practice: Indexing Strings
+   LINK: https://brilliant.org/practice/py-index-strings-set1/
+------------------------------
+480. Practice: Functions
+   LINK: https://brilliant.org/practice/py-intro-functions-set1/
+------------------------------
+481. Practice: Debugging Dependencies
+   LINK: https://brilliant.org/practice/py-debugging-dependencies-set1/
+------------------------------
+482. Practice: Planning Tasks
+   LINK: https://brilliant.org/practice/python-planning-tasks-set1/
+------------------------------
+483. Practice: Joining Lists
+   LINK: https://brilliant.org/practice/py-join-lists-set1/
+------------------------------
+484. Practice: List Comprehensions
+   LINK: https://brilliant.org/practice/py-list-comps-set1/
+------------------------------
+485. Practice: Filtering with Comprehensions
+   LINK: https://brilliant.org/practice/py-filter-comps-set1/
+------------------------------
+486. Practice: Dictionary Comprehensions
+   LINK: https://brilliant.org/practice/py-dict-comps-set1/
+------------------------------
+487. Practice: The Vigenère Cipher
+   LINK: https://brilliant.org/practice/py-vigenere-cipher-set1/
+------------------------------
+488. Practice: Function Contracts
+   LINK: https://brilliant.org/practice/py-function-contracts-set2/
+------------------------------
+489. Practice: Verifying AI Code
+   LINK: https://brilliant.org/practice/py-verify-ai-code-set1/
+------------------------------
+490. Practice: Planning an Attack
+   LINK: https://brilliant.org/practice/py-planning-attack-set1/
+------------------------------
+491. Practice: Implementing the Plan
+   LINK: https://brilliant.org/practice/py-implement-plan-set1/
+------------------------------
+492. Practice: Cracking the Code
+   LINK: https://brilliant.org/practice/py-cracking-code-set1/
+------------------------------
+493. Practice: Finding Half
+   LINK: https://brilliant.org/practice/find-half-set1/
+------------------------------
+494. Practice: Graph of a System
+   LINK: https://brilliant.org/practice/graphing-a-system-practice-a/
+------------------------------
+495. Practice: Graphing Constraints
+   LINK: https://brilliant.org/practice/graphing-constraints-practice-a/
+------------------------------
+496. Practice: Building a System
+   LINK: https://brilliant.org/practice/building-a-system-practice-a/
+------------------------------
+497. Practice: Graphing Systems of Equations
+   LINK: https://brilliant.org/practice/ls-level2-1-practice-a/
+------------------------------
+498. Practice: Slope-Intercept and Systems
+   LINK: https://brilliant.org/practice/ls-level2-3-practice-a/
+------------------------------
+499. Practice: Point-Slope and Systems
+   LINK: https://brilliant.org/practice/ls-level2-4-practice-a/
+------------------------------
+500. Practice: Approximate Solutions
+   LINK: https://brilliant.org/practice/ls-level2-2-practice-c/
+------------------------------
+501. Practice: Systems with No Solution
+   LINK: https://brilliant.org/practice/ls-level2-5-practice-b/
+------------------------------
+502. Practice: Systems with Infinitely Many Solutions
+   LINK: https://brilliant.org/practice/ls-level2-6-practice-a/
+------------------------------
+503. Practice: Solve by Substituting
+   LINK: https://brilliant.org/practice/ls-level3-1-practice-a-2/
+------------------------------
+504. Practice: Isolating to Substitute
+   LINK: https://brilliant.org/practice/ls-level3-2-practice-a-2/
+------------------------------
+505. Practice: Adding Equations
+   LINK: https://brilliant.org/practice/ls-level3-3-practice-a-3/
+------------------------------
+506. Practice: Scaling an Equation
+   LINK: https://brilliant.org/practice/ls-level3-4-practice-c-2/
+------------------------------
+507. Practice: Scaling Both Equations
+   LINK: https://brilliant.org/practice/ls-level3-5-practice-a-2/
+------------------------------
+508. Practice: Two Inequality Constraints
+   LINK: https://brilliant.org/practice/ls-level4-1-practice-a/
+------------------------------
+509. Practice: Graphing a System of Inequalities
+   LINK: https://brilliant.org/practice/ls-level4-2-practice-a/
+------------------------------
+510. Practice: Building a System of Inequalities
+   LINK: https://brilliant.org/practice/ls-level4-4-practice-a/
+------------------------------
+511. Practice: Interpreting Solutions
+   LINK: https://brilliant.org/practice/ls-level4-9-practice-a/
+------------------------------
+512. Practice: Reading Graphs
+   LINK: https://brilliant.org/practice/ls-level4-7-practice-a-2/
+------------------------------
+513. Practice: Representing Solutions
+   LINK: https://brilliant.org/practice/ls-level4-5-practice-a-2/
+------------------------------
+514. Practice: Graphing Systems
+   LINK: https://brilliant.org/practice/ls-level4-6-practice-a-2/
+------------------------------
+515. Practice: Special Systems of Inequalities
+   LINK: https://brilliant.org/practice/ls-level4-8-practice-a-2/
+------------------------------
+516. Practice: Helper Functions
+   LINK: https://brilliant.org/practice/py-helper-functions-set1/
+------------------------------
+517. Practice: Combining Parts
+   LINK: https://brilliant.org/practice/combining-parts-1/
+------------------------------
+518. Practice: Splitting Parts
+   LINK: https://brilliant.org/practice/splitting-parts-1/
+------------------------------
+519. Practice: Splitting and Combining
+   LINK: https://brilliant.org/practice/splitting-and-combining-1/
+------------------------------
+520. Practice: Equal Parts
+   LINK: https://brilliant.org/practice/equal-parts-1/
+------------------------------
+521. Practice: Sixths and Twelfths
+   LINK: https://brilliant.org/practice/final-six-tw-1-1-EsUZsr-6/
+------------------------------
+522. Practice: Eighths and Sixteenths
+   LINK: https://brilliant.org/practice/final-eig-sixt-3-1-BshT6eC6/
+------------------------------
+523. Practice: Making Equivalent Fractions
+   LINK: https://brilliant.org/practice/making-equivalent-1-V8hND7YT/
+------------------------------
+524. Practice: Simplifying Fractions
+   LINK: https://brilliant.org/practice/final-simp-1-1-hWrqJT3I/
+------------------------------
+525. Practice: Identifying Equivalents
+   LINK: https://brilliant.org/practice/og-id-eq-h251l6kb/
+------------------------------
+526. Practice: Two Constraints
+   LINK: https://brilliant.org/practice/intro-systems-practice-d/
+------------------------------
+527. Practice: Reusing Helpers
+   LINK: https://brilliant.org/practice/py-reuse-helpers-set2/
+------------------------------
+528. Practice: Comparing More Equivalents
+   LINK: https://brilliant.org/practice/not-multiples-3-1-1F7HW7uA/
+------------------------------
+529. Practice: Identifying the Greatest
+   LINK: https://brilliant.org/practice/greatest-fraction-practice/
+------------------------------
+530. Practice: Adding Fractions
+   LINK: https://brilliant.org/practice/adding-fractions-practice-5-1-dCZ3TxLx/
+------------------------------
+531. Practice: Adding Same-Sized Fractions
+   LINK: https://brilliant.org/practice/add-unit-fractions-practice/
+------------------------------
+532. Practice: Adding Unlike Parts
+   LINK: https://brilliant.org/practice/adding-different-2/
+------------------------------
+533. Practice: Adding Unit Fractions
+   LINK: https://brilliant.org/practice/adding-nonmultiples-2/
+------------------------------
+534. Practice: Adding Any Fractions
+   LINK: https://brilliant.org/practice/adding-unlike-1/
+------------------------------
+535. Practice: Multiples of Fractions
+   LINK: https://brilliant.org/practice/fraction-by-integer-1-3-1-SITa2h_E/
+------------------------------
+536. Practice: Expressing Multiples
+   LINK: https://brilliant.org/practice/expressing-multiples-1-2-1-dV95fO9e/
+------------------------------
+537. Practice: Fractions of Unit Fractions
+   LINK: https://brilliant.org/practice/fractions-of-fractions-practice/
+------------------------------
+538. Practice: Products of Unit Fractions
+   LINK: https://brilliant.org/practice/expressing-fouf-practice/
+------------------------------
+539. Practice: Fraction of Any Fraction
+   LINK: https://brilliant.org/practice/fractions-of-fractions-2-practice/
+------------------------------
+540. Practice: Multiplying Fractions
+   LINK: https://brilliant.org/practice/multiplying-fractions-practice/
+------------------------------
+541. Practice: Intro to Percentages
+   LINK: https://brilliant.org/practice/intro-percentages-1/
+------------------------------
+542. Practice: Working out Percentages
+   LINK: https://brilliant.org/practice/mental-math-percents-1/
+------------------------------
+543. Practice: Percentages and Batteries
+   LINK: https://brilliant.org/practice/battery-percentage-1/
+------------------------------
+544. Practice: Percentages as Fractions
+   LINK: https://brilliant.org/practice/fraction-blanks-1/
+------------------------------
+545. Practice: Percent Increase
+   LINK: https://brilliant.org/practice/percent-increase-1/
+------------------------------
+546. Practice: Price Increase
+   LINK: https://brilliant.org/practice/price-increase-1/
+------------------------------
+547. Practice: Calculating Percent Increase
+   LINK: https://brilliant.org/practice/percent-increase-blanks-1/
+------------------------------
+548. Practice: Percentages as Tenths
+   LINK: https://brilliant.org/practice/tenths-equivalence-1/
+------------------------------
+549. Practice: Percentages as Hundredths
+   LINK: https://brilliant.org/practice/hundredths-1/
+------------------------------
+550. Practice: Finding the Percentage
+   LINK: https://brilliant.org/practice/finding-the-percentage-1/
+------------------------------
+551. Practice: Percentages as Decimals
+   LINK: https://brilliant.org/practice/decimals-1/
+------------------------------
+552. Practice: Calculating the Percentage
+   LINK: https://brilliant.org/practice/calculating-the-percentage-1/
+------------------------------
+553. Practice: Percent Decrease
+   LINK: https://brilliant.org/practice/percent-decrease-1/
+------------------------------
+554. Practice: Calculating Percent Decrease
+   LINK: https://brilliant.org/practice/percentage-decrease-blanks-1/
+------------------------------
+555. Practice: Finding the Original Price
+   LINK: https://brilliant.org/practice/finding-the-original-price-1/
+------------------------------
+556. Practice: Reversing Percentages
+   LINK: https://brilliant.org/practice/reversing-percentages-1/
+------------------------------
+557. Practice: Compound Changes
+   LINK: https://brilliant.org/practice/compound-changes-receipts-practice/
+------------------------------
+558. Practice: Splitting Percent Changes
+   LINK: https://brilliant.org/practice/splitting-percent-changes-practice-1/
+------------------------------
+559. Practice: Growing and Shrinking
+   LINK: https://brilliant.org/practice/grow-and-shrink/
+------------------------------
+560. Practice: Exponential Growth
+   LINK: https://brilliant.org/practice/exp-growth-percentages/
+------------------------------
+561. Practice: Positives and Negatives
+   LINK: https://brilliant.org/practice/numeric-expressions-1-practice/
+------------------------------
+562. Practice: Negative Numbers
+   LINK: https://brilliant.org/practice/numeric-expressions-3-practice/
+------------------------------
+563. Practice: Making Integers
+   LINK: https://brilliant.org/practice/numeric-expressions-2-practice/
+------------------------------
+564. Practice: Addition
+   LINK: https://brilliant.org/practice/numeric-expressions-4-practice/
+------------------------------
+565. Practice: Increasing Value
+   LINK: https://brilliant.org/practice/numeric-expressions-5-practice-2/
+------------------------------
+566. Practice: Decreasing Value
+   LINK: https://brilliant.org/practice/numeric-expressions-6-practice-2/
+------------------------------
+567. Practice: Zero
+   LINK: https://brilliant.org/practice/numeric-expressions-7-practice/
+------------------------------
+568. Practice: Opposites
+   LINK: https://brilliant.org/practice/numeric-expressions-8-practice/
+------------------------------
+569. Practice: Adding Negatives
+   LINK: https://brilliant.org/practice/numeric-expressions-9-practice/
+------------------------------
+570. Practice: Adding Negatives and Positives
+   LINK: https://brilliant.org/practice/numeric-expressions-10-practice/
+------------------------------
+571. Practice: Missing Values
+   LINK: https://brilliant.org/practice/numeric-expressions-11-practice/
+------------------------------
+572. Practice: Comparing Denominators
+   LINK: https://brilliant.org/practice/same-numerator-1-1-1--W-x6T8T/
+------------------------------
+573. Practice: Comparing Equivalents
+   LINK: https://brilliant.org/practice/den-multiples-1/
+------------------------------
+574. Practice: Enumeration
+   LINK: https://brilliant.org/practice/py-enumerate-set1/
+------------------------------
+575. Practice: Preconditions and Postconditions
+   LINK: https://brilliant.org/practice/py-pre-post-ss-set1/
+------------------------------
+576. Practice: Reasoning about Correctness
+   LINK: https://brilliant.org/practice/py-algo-correct-set1/
+------------------------------
+577. Practice: Loop Invariants
+   LINK: https://brilliant.org/practice/py-loop-invariant-set1/
+------------------------------
+578. Practice: Counterexamples
+   LINK: https://brilliant.org/practice/py-counterexamples-set1/
+------------------------------
+579. Practice: Best and Worst Cases
+   LINK: https://brilliant.org/practice/py-algo-best-worst-set1/
+------------------------------
+580. Practice: Time Complexity
+   LINK: https://brilliant.org/practice/py-algo-complexity-set1/
+------------------------------
+581. Practice: Estimating with Big-O
+   LINK: https://brilliant.org/practice/py-algo-big-o-set1/
+------------------------------
+582. Practice: The Multiplication Principle
+   LINK: https://brilliant.org/practice/py-mult-runtime-set1/
+------------------------------
+583. Practice: The Cost of Slicing
+   LINK: https://brilliant.org/practice/py-hidden-costs-set1/
+------------------------------
+584. Practice: The Cost of Lists
+   LINK: https://brilliant.org/practice/py-list-ops-set1/
+------------------------------
+585. Practice: Subtracting Negatives
+   LINK: https://brilliant.org/practice/numeric-expressions-13-practice/
+------------------------------
+586. Practice: Subtracting From Zero
+   LINK: https://brilliant.org/practice/numeric-expressions-16b-practice-a/
+------------------------------
+587. Practice: Subtracting Positives 2
+   LINK: https://brilliant.org/practice/numeric-expressions-15-practice/
+------------------------------
+588. Practice: Subtracting Negatives 2
+   LINK: https://brilliant.org/practice/numeric-expressions-16-practice/
+------------------------------
+589. Practice: Adding The Opposite
+   LINK: https://brilliant.org/practice/numeric-expression-17-practice/
+------------------------------
+590. Practice: Subtracting Using Addition
+   LINK: https://brilliant.org/practice/numeric-expressions-18-practice/
+------------------------------
+591. Practice: Subtracting the Opposite
+   LINK: https://brilliant.org/practice/numeric-expressions-18b-practice/
+------------------------------
+592. Practice: Order in Subtraction
+   LINK: https://brilliant.org/practice/numeric-expressions-19-practice/
+------------------------------
+593. Practice: Adding in Any Order
+   LINK: https://brilliant.org/practice/numeric-expressions-20-practice/
+------------------------------
+594. Practice: The Number Line
+   LINK: https://brilliant.org/practice/number-line-intro-practice-3/
+------------------------------
+595. Practice: Addition on the Number Line
+   LINK: https://brilliant.org/practice/the-number-line-practice-a-10/
+------------------------------
+596. Practice: Adding Large Integers
+   LINK: https://brilliant.org/practice/numeric-expressions-25-practice-set-a-2/
+------------------------------
+597. Practice: Adding Several Integers
+   LINK: https://brilliant.org/practice/numeric-expressions-26-practice-b/
+------------------------------
+598. Practice: Subtraction from 0
+   LINK: https://brilliant.org/practice/number-line-subtraction-practice-set-1/
+------------------------------
+599. Practice: Subtraction on the Number Line
+   LINK: https://brilliant.org/practice/numeric-expressions-22-practice-set-a/
+------------------------------
+600. Practice: Ordering Integers
+   LINK: https://brilliant.org/practice/numeric-order-magnitude-1-ps1/
+------------------------------
+601. Practice: Ordering Negatives
+   LINK: https://brilliant.org/practice/numeric-order-magnitude-2-practice-1/
+------------------------------
+602. Practice: Absolute Value
+   LINK: https://brilliant.org/practice/numeric-order-magnitude-4-practice-a/
+------------------------------
+603. Practice: Absolute Value Inequalities
+   LINK: https://brilliant.org/practice/abs-val-ineq-practice-1/
+------------------------------
+604. Practice: Reasoning with Absolute Value
+   LINK: https://brilliant.org/practice/abs-val-relationships-1/
+------------------------------
+605. Practice: Distance Between Integers
+   LINK: https://brilliant.org/practice/distance-practice-a-2/
+------------------------------
+606. Practice: A Pair at Every Distance
+   LINK: https://brilliant.org/practice/distance-2-practice-1/
+------------------------------
+607. Practice: Subtracting to Find Distance
+   LINK: https://brilliant.org/practice/distance-3-practice/
+------------------------------
+608. Practice: Absolute Value and Distance
+   LINK: https://brilliant.org/practice/distance-4-practice-a/
+------------------------------
+609. Practice: Reasoning About Distance
+   LINK: https://brilliant.org/practice/distance-6-practice-b/
+------------------------------
+610. Practice: Order in Expressions
+   LINK: https://brilliant.org/practice/order-ops-intro-1-practice-b/
+------------------------------
+611. Practice: Order and Addition
+   LINK: https://brilliant.org/practice/order-ops-intro-2-practice-a/
+------------------------------
+612. Practice: Order and Subtraction
+   LINK: https://brilliant.org/practice/order-ops-1-practice-a/
+------------------------------
+613. Practice: Rewriting Subtraction as Addition
+   LINK: https://brilliant.org/practice/order-ops-2-practice-a/
+------------------------------
+614. Practice: Strategic Rearrangement
+   LINK: https://brilliant.org/practice/order-ops-9-practice-a/
+------------------------------
+615. Practice: Longer Expressions
+   LINK: https://brilliant.org/practice/order-ops-5-practice-a/
+------------------------------
+616. Practice: Solving a Simpler Problem
+   LINK: https://brilliant.org/practice/py-simpler-prob-ss-set1/
+------------------------------
+617. Practice: Subtracting Positives
+   LINK: https://brilliant.org/practice/numeric-expressions-12-practice/
+------------------------------
+618. Practice: Tracing Algorithms
+   LINK: https://brilliant.org/practice/py-trace-algos-set1/
+------------------------------
+619. Practice: Returning Values
+   LINK: https://brilliant.org/practice/pp-returning-values-practice-1/
+------------------------------
+620. Practice: Debugging Functions
+   LINK: https://brilliant.org/practice/pp-debugging-functions-practice-2/
+------------------------------
+621. Practice: Multiple Functions
+   LINK: https://brilliant.org/practice/pixel_pusher_multiple_functions_1/
+------------------------------
+622. Practice: Coloring with Tuples
+   LINK: https://brilliant.org/practice/pixel_pusher_unpacking_values_practice_1/
+------------------------------
+623. Practice: Erasing Colors
+   LINK: https://brilliant.org/practice/pp-erasing-colors-set1/
+------------------------------
+624. Practice: Local Variables
+   LINK: https://brilliant.org/practice/pixel_pusher_local_variables_practice_1/
+------------------------------
+625. Practice: Inverting Colors
+   LINK: https://brilliant.org/practice/pp-inverting-colors-set1/
+------------------------------
+626. Practice: Tinkering with Functions
+   LINK: https://brilliant.org/practice/pp-update-function-set1/
+------------------------------
+627. Practice: Tracing Errors
+   LINK: https://brilliant.org/practice/pixel_pusher_tracing_errors_1/
+------------------------------
+628. Practice: Testing with Images
+   LINK: https://brilliant.org/practice/pp-test-functions-set1/
+------------------------------
+629. Practice: Debugging with Images
+   LINK: https://brilliant.org/practice/pp-debug-artifacts-set2/
+------------------------------
+630. Practice: Function Dependency
+   LINK: https://brilliant.org/practice/pixel_pusher_function_dependency_practice_1/
+------------------------------
+631. Practice: Building Functions
+   LINK: https://brilliant.org/practice/pp-build-funcs-set1/
+------------------------------
+632. Practice: Using Functions
+   LINK: https://brilliant.org/practice/pixel_pusher_using_functions_practice_1/
+------------------------------
+633. Practice: Debugging Dependencies
+   LINK: https://brilliant.org/practice/pixel_pusher_debugging_dependencies_1/
+------------------------------
+634. Practice: Composing Functions
+   LINK: https://brilliant.org/practice/pp-compose-funcs-set1/
+------------------------------
+635. Practice: Ordering Compositions
+   LINK: https://brilliant.org/practice/pp-ordering-compose-set1/
+------------------------------
+636. Practice: Reusing Functions
+   LINK: https://brilliant.org/practice/pp-reusing-functions-set1/
+------------------------------
+637. Practice: Using Multiple Inputs
+   LINK: https://brilliant.org/practice/pp-multi-input-set1/
+------------------------------
+638. Practice: Customizing Functions
+   LINK: https://brilliant.org/practice/pp-custom-functions-set1/
+------------------------------
+639. Practice: Passing Values
+   LINK: https://brilliant.org/practice/pp-passing-values-set1/
+------------------------------
+640. Practice: Combining Separations
+   LINK: https://brilliant.org/practice/combining-separation-practice-3/
+------------------------------
+641. Practice: The Closest Point
+   LINK: https://brilliant.org/practice/closest-point-practice-1/
+------------------------------
+642. Practice: Functions
+   LINK: https://brilliant.org/practice/pp-intro-functions-practice-1/
+------------------------------
+643. Practice: Comparing Distance
+   LINK: https://brilliant.org/practice/comparing-distance-practice-1/
+------------------------------
+644. Practice: Within a Distance
+   LINK: https://brilliant.org/practice/close-to-multiple-points-practice-b/
+------------------------------
+645. Practice: Distance Ranges
+   LINK: https://brilliant.org/practice/distance-ranges-set-1/
+------------------------------
+646. Practice: Equal Distance
+   LINK: https://brilliant.org/practice/same-distance-1/
+------------------------------
+647. Practice: Estimating Distance
+   LINK: https://brilliant.org/practice/estimating-distance-practice-a/
+------------------------------
+648. Practice: Rectangle Area
+   LINK: https://brilliant.org/practice/measuring-area-practice-3/
+------------------------------
+649. Practice: Calculating Side Lengths
+   LINK: https://brilliant.org/practice/rectangle-area-1/
+------------------------------
+650. Practice: Absolute Values
+   LINK: https://brilliant.org/practice/absolute-values-practice-1/
+------------------------------
+651. Practice: Triangle Area
+   LINK: https://brilliant.org/practice/triangle-area-practice/
+------------------------------
+652. Practice: Combining Rectangles
+   LINK: https://brilliant.org/practice/combining-rectangles-practice-1/
+------------------------------
+653. Practice: Polygon Area
+   LINK: https://brilliant.org/practice/polygon-area-practice-a/
+------------------------------
+654. Practice: Distances with Variables
+   LINK: https://brilliant.org/practice/distance-expressions-practice/
+------------------------------
+655. Practice: Rectangle Area Expressions
+   LINK: https://brilliant.org/practice/areas-with-variables-practice/
+------------------------------
+656. Practice: Triangle Area Expressions
+   LINK: https://brilliant.org/practice/triangle-area-expressions-practice/
+------------------------------
+657. Practice: Variable Side Lengths
+   LINK: https://brilliant.org/practice/leaving-the-plane-practice/
+------------------------------
+658. Practice: Selecting Shapes
+   LINK: https://brilliant.org/practice/selecting-shapes-practice-2/
+------------------------------
+659. Practice: Area Expressions
+   LINK: https://brilliant.org/practice/area-expressions-practice-2/
+------------------------------
+660. Practice: Compound Shape Expressions
+   LINK: https://brilliant.org/practice/compound-shape-expressions-practice/
+------------------------------
+661. Practice: Equating Areas
+   LINK: https://brilliant.org/practice/compound-shape-expressions-practice-2/
+------------------------------
+662. Practice: Pythagoras' Theorem
+   LINK: https://brilliant.org/practice/pythagoras-theorem-practice-1-if-larger-numbers-are-ok/
+------------------------------
+663. Practice: Direct Distance
+   LINK: https://brilliant.org/practice/diagonal-distance-practice/
+------------------------------
+664. Practice: Improving Efficiency
+   LINK: https://brilliant.org/practice/py-improve-efficiency-set1/
+------------------------------
+665. Practice: Adjusting Images
+   LINK: https://brilliant.org/practice/pp-adjusting-images-set1/
+------------------------------
+666. Practice: Mean Values
+   LINK: https://brilliant.org/practice/means-translation-1/
+------------------------------
+667. Practice: Finding Totals
+   LINK: https://brilliant.org/practice/means-sum-3/
+------------------------------
+668. Practice: Rebalancing
+   LINK: https://brilliant.org/practice/central-values-2/
+------------------------------
+669. Practice: Asymmetric Distributions
+   LINK: https://brilliant.org/practice/means-asymmetrical-1/
+------------------------------
+670. Practice: Means of Lists
+   LINK: https://brilliant.org/practice/list-mean-2/
+------------------------------
+671. Practice: Splitting
+   LINK: https://brilliant.org/practice/means-splitting-2/
+------------------------------
+672. Practice: Finding Means
+   LINK: https://brilliant.org/practice/balanced-moves-1/
+------------------------------
+673. Practice: Adding a Point
+   LINK: https://brilliant.org/practice/adding-point-2/
+------------------------------
+674. Practice: Updating Means
+   LINK: https://brilliant.org/practice/ds-adding-lists-2/
+------------------------------
+675. Practice: Comparisons
+   LINK: https://brilliant.org/practice/ds-compare-1/
+------------------------------
+676. Practice: Median
+   LINK: https://brilliant.org/practice/median-one-1/
+------------------------------
+677. Practice: Finding Medians
+   LINK: https://brilliant.org/practice/median-2/
+------------------------------
+678. Practice: Splitting
+   LINK: https://brilliant.org/practice/split-median-1/
+------------------------------
+679. Practice: Medians of Lists
+   LINK: https://brilliant.org/practice/ds-median-lists-practice-1/
+------------------------------
+680. Practice: Adding a Point
+   LINK: https://brilliant.org/practice/addingto-median-1/
+------------------------------
+681. Practice: Comparing Median and Mean
+   LINK: https://brilliant.org/practice/compare-mm-2/
+------------------------------
+682. Practice: Modes
+   LINK: https://brilliant.org/practice/mode-2/
+------------------------------
+683. Practice: Middle 50%
+   LINK: https://brilliant.org/practice/middle-2/
+------------------------------
+684. Practice: Segmenting Data
+   LINK: https://brilliant.org/practice/segment-2/
+------------------------------
+685. Practice: Quartiles
+   LINK: https://brilliant.org/practice/quartiles-2/
+------------------------------
+686. Practice: Interquartile Range
+   LINK: https://brilliant.org/practice/iqr-2/
+------------------------------
+687. Practice: Quartiles of Lists
+   LINK: https://brilliant.org/practice/qlists-2/
+------------------------------
+688. Practice: Boxplots
+   LINK: https://brilliant.org/practice/boxplot-2/
+------------------------------
+689. Practice: Adding Whiskers
+   LINK: https://brilliant.org/practice/adding-whiskers-1/
+------------------------------
+690. Practice: Matching the Boxplot
+   LINK: https://brilliant.org/practice/matching-boxplots-1/
+------------------------------
+691. Practice: The Range
+   LINK: https://brilliant.org/practice/the-range-1/
+------------------------------
+692. Practice: Comparing Distributions
+   LINK: https://brilliant.org/practice/comparing-distributions-1/
+------------------------------
+693. Practice: Outliers
+   LINK: https://brilliant.org/practice/outliers-1/
+------------------------------
+694. Practice: Skewing the Mean
+   LINK: https://brilliant.org/practice/skewing-the-mean-1/
+------------------------------
+695. Practice: Defining Outliers
+   LINK: https://brilliant.org/practice/defining-outliers-1b/
+------------------------------
+696. Practice: Squares and Sides
+   LINK: https://brilliant.org/practice/squares-and-sides-a/
+------------------------------
+697. Practice: Demonstrating Pythagoras
+   LINK: https://brilliant.org/practice/demonstrating-pythagoras-1/
+------------------------------
+698. Practice: Proving Pythagoras
+   LINK: https://brilliant.org/practice/proving-pythagoras-1/
+------------------------------
+699. Practice: The Unknown Side
+   LINK: https://brilliant.org/practice/pythagorean-sides-a/
+------------------------------
+700. Practice: Distance from the Grid
+   LINK: https://brilliant.org/practice/grid-diagonals-practice/
+------------------------------
+701. Practice: Distance from Coordinates
+   LINK: https://brilliant.org/practice/distance-from-coordinates-practice/
+------------------------------
+702. Practice: Exact Distance
+   LINK: https://brilliant.org/practice/exact-distance-practice-1/
+------------------------------
+703. Practice: Minimum Distance
+   LINK: https://brilliant.org/practice/minimum-distance-practice-1/
+------------------------------
+704. Practice: Minimum and Maximum Distance
+   LINK: https://brilliant.org/practice/maximum-minimum-practice-1/
+------------------------------
+705. Practice: Points on a Circle
+   LINK: https://brilliant.org/practice/points-on-a-circle-practice-1/
+------------------------------
+706. Practice: Circle Radius
+   LINK: https://brilliant.org/practice/circle-radius-1/
+------------------------------
+707. Practice: The Equation of a Circle
+   LINK: https://brilliant.org/practice/circle-equation-practice-1/
+------------------------------
+708. Practice: The Missing Coordinate
+   LINK: https://brilliant.org/practice/missing-coordinate-practice-1/
+------------------------------
+709. Practice: Naming Circles
+   LINK: https://brilliant.org/practice/naming-circles-practice-1/
+------------------------------
+710. Practice: Plotting Circles
+   LINK: https://brilliant.org/practice/plotting-circles-practice-1/
+------------------------------
+711. Practice: Leaving the Origin
+   LINK: https://brilliant.org/practice/leaving-the-origin-1/
+------------------------------
+712. Practice: Radius from Coordinates
+   LINK: https://brilliant.org/practice/radius-from-coordinates-practice-1/
+------------------------------
+713. Practice: General Circle Equations
+   LINK: https://brilliant.org/practice/general-circle-equation-practice-1/
+------------------------------
+714. Practice: Plotting from the Equation
+   LINK: https://brilliant.org/practice/plotting-from-the-equation-practice-1/
+------------------------------
+715. Practice: Balancing
+   LINK: https://brilliant.org/practice/balancing-1/
+------------------------------
+716. Practice: Distributions
+   LINK: https://brilliant.org/practice/dist-mean-3/
+------------------------------
+717. Practice: Combining and Coefficients
+   LINK: https://brilliant.org/practice/linear-equations-3-practice-4/
+------------------------------
+718. Practice: Writing Expressions
+   LINK: https://brilliant.org/practice/linear-equations-2b-practice-5/
+------------------------------
+719. Practice: Dividing to Solve
+   LINK: https://brilliant.org/practice/invoices-one-step-practice-1/
+------------------------------
+720. Practice: Solving in Two Steps
+   LINK: https://brilliant.org/practice/linear-equations-11-practice-7/
+------------------------------
+721. Practice: Equation Solving Moves
+   LINK: https://brilliant.org/practice/linear-equations-12-practice-4/
+------------------------------
+722. Practice: Dividing First
+   LINK: https://brilliant.org/practice/dividing-first-practice-1/
+------------------------------
+723. Practice: Multiple Steps
+   LINK: https://brilliant.org/practice/linear-equations-multiple-steps-practice/
+------------------------------
+724. Practice: Solutions to Inequalities
+   LINK: https://brilliant.org/practice/linear-equations-soln-ineq1-practice-3/
+------------------------------
+725. Practice: Graphing Solutions
+   LINK: https://brilliant.org/practice/linear-equations-graphing-soln-practice-1/
+------------------------------
+726. Practice: Reading Inequalities
+   LINK: https://brilliant.org/practice/linear-equations-reading-ie-practice-1/
+------------------------------
+727. Practice: Finding the Boundary
+   LINK: https://brilliant.org/practice/linear-equations-onestep-inequalities-practice-2/
+------------------------------
+728. Practice: Solving Inequalities
+   LINK: https://brilliant.org/practice/linear-equations-twostep-inequalities-practice-1/
+------------------------------
+729. Practice: Combining Terms
+   LINK: https://brilliant.org/practice/solving-with-combining-practice-4/
+------------------------------
+730. Practice: Combining to Solve
+   LINK: https://brilliant.org/practice/combining-to-solve-practice/
+------------------------------
+731. Practice: Variables on Both Sides
+   LINK: https://brilliant.org/practice/variables-both-sides-practice-2/
+------------------------------
+732. Practice: Solving Equations
+   LINK: https://brilliant.org/practice/solving-equations-finale-practice/
+------------------------------
+733. Practice: Negative Values
+   LINK: https://brilliant.org/practice/linear-equations-6-practice-1/
+------------------------------
+734. Practice: Missing Values and Negatives
+   LINK: https://brilliant.org/practice/linear-equations-7-practice-1/
+------------------------------
+735. Practice: Negative Constants
+   LINK: https://brilliant.org/practice/linear-equations-8-practice-1/
+------------------------------
+736. Practice: Negative Coefficients
+   LINK: https://brilliant.org/practice/linear-equations-9-practice-1/
+------------------------------
+737. Practice: More Missing Values
+   LINK: https://brilliant.org/practice/linear-equations-10-practice/
+------------------------------
+738. Practice: Negative Solutions
+   LINK: https://brilliant.org/practice/linear-equations-negative-solutions-practice-12/
+------------------------------
+739. Practice: Subtraction and Negative Coefficients
+   LINK: https://brilliant.org/practice/linear-equations-sub-negative-practice-2/
+------------------------------
+740. Practice: Rewriting -x
+   LINK: https://brilliant.org/practice/linear-equations-rewriting-x-practice/
+------------------------------
+741. Practice: Combining Negatives
+   LINK: https://brilliant.org/practice/linear-equations-combining-neg-practice/
+------------------------------
+742. Practice: Testing Values in Inequalities
+   LINK: https://brilliant.org/practice/linear-inequalities-1-practice-c/
+------------------------------
+743. Practice: Dividing by a Negative Value
+   LINK: https://brilliant.org/practice/linear-inequalities-2-practice-1/
+------------------------------
+744. Practice: Graphing Solutions
+   LINK: https://brilliant.org/practice/linear-inequalities-3-practice-2/
+------------------------------
+745. Practice: Solving Inequalities
+   LINK: https://brilliant.org/practice/linear-inequalities-5-a-practice-d/
+------------------------------
+746. Practice: Multiples
+   LINK: https://brilliant.org/practice/linear-equations-multiples-practice-a/
+------------------------------
+747. Practice: Distributing
+   LINK: https://brilliant.org/practice/linear-equations-distributing-practice-a/
+------------------------------
+748. Practice: Distributing with Negatives
+   LINK: https://brilliant.org/practice/linear-equations-dist-neg-practice-b/
+------------------------------
+749. Practice: Distributing to Solve
+   LINK: https://brilliant.org/practice/linear-equations-dist-to-solve-practice-a/
+------------------------------
+750. Practice: Distribute or Divide
+   LINK: https://brilliant.org/practice/linear-equations-distribute-or-divide-practice-2/
+------------------------------
+751. Practice: More Distributing to Solve
+   LINK: https://brilliant.org/practice/linear-equations-dist-to-solve2-practice-3/
+------------------------------
+752. Practice: Combining Groups
+   LINK: https://brilliant.org/practice/combining-groups-practice-1/
+------------------------------
+753. Practice: Factoring Constants
+   LINK: https://brilliant.org/practice/linear-equations-factoring1-practice/
+------------------------------
+754. Practice: Greatest Common Factor
+   LINK: https://brilliant.org/practice/linear-equations-factoring3-practice/
+------------------------------
+755. Practice: Factoring to Solve
+   LINK: https://brilliant.org/practice/linear-equations-factoring4-practice/
+------------------------------
+756. Practice: No Solutions
+   LINK: https://brilliant.org/practice/no-solutions-practice-2/
+------------------------------
+757. Practice: Many Solutions
+   LINK: https://brilliant.org/practice/linear-equations-inf-many-solutions-practice-1/
+------------------------------
+758. Practice: Variable Self-Update
+   LINK: https://brilliant.org/practice/python-var-self-update-set1/
+------------------------------
+759. Practice: Outside the Whiskers
+   LINK: https://brilliant.org/practice/outside-whiskers-1/
+------------------------------
+760. Practice: Variables
+   LINK: https://brilliant.org/practice/linear-equations-1-practice-6/
+------------------------------
+761. Practice: Different Denominators
+   LINK: https://brilliant.org/practice/frac-different-denom-practice-1/
+------------------------------
+762. Practice: Eliminating Denominators
+   LINK: https://brilliant.org/practice/lcd-practice-1/
+------------------------------
+763. Practice: Fractions Outside and Inside
+   LINK: https://brilliant.org/practice/solving-with-fractions-practice-1/
+------------------------------
+764. Practice: Adding Percentages
+   LINK: https://brilliant.org/practice/adding-percentages-practice-3/
+------------------------------
+765. Practice: Subtracting Percentages
+   LINK: https://brilliant.org/practice/subtracting-percents-practice-1/
+------------------------------
+766. Practice: Two Discounts
+   LINK: https://brilliant.org/practice/two-discounts-practice-4/
+------------------------------
+767. Practice: Comparing Deals
+   LINK: https://brilliant.org/practice/comparing-deals-practice-3/
+------------------------------
+768. Practice: Multiple Inequalities
+   LINK: https://brilliant.org/practice/lee-ci-6-practice-a/
+------------------------------
+769. Practice: Writing Compound Inequalities
+   LINK: https://brilliant.org/practice/lee-ci-7-practice-a/
+------------------------------
+770. Practice: Either Inequality
+   LINK: https://brilliant.org/practice/lee-ci-8-practice-a/
+------------------------------
+771. Practice: Combining Graphs
+   LINK: https://brilliant.org/practice/lee-ci-11-practice-a/
+------------------------------
+772. Practice: Solving Compound Inequalities
+   LINK: https://brilliant.org/practice/lee-ci-10-practice-a/
+------------------------------
+773. Practice: Periodic Phenomena
+   LINK: https://brilliant.org/practice/periodic-phenomena-practice-4/
+------------------------------
+774. Practice: Reciprocals
+   LINK: https://brilliant.org/practice/linear-equations-reciprocals-1/
+------------------------------
+775. Practice: Horizontal Shifts of Periodic Functions
+   LINK: https://brilliant.org/practice/horizontal-shifts-practice-a/
+------------------------------
+776. Practice: Midline of a Periodic Function
+   LINK: https://brilliant.org/practice/peaks-and-troughs-practice-a/
+------------------------------
+777. Practice: Amplitude of a Periodic Function
+   LINK: https://brilliant.org/practice/amplitude-of-periodic-functions-practice-a/
+------------------------------
+778. Practice: Predator and Prey
+   LINK: https://brilliant.org/practice/time-between-peaks-practice-a/
+------------------------------
+779. Practice: Sine from Circular Motion
+   LINK: https://brilliant.org/practice/periodic-functions-from-circular-motion-practice-3/
+------------------------------
+780. Practice: Cosine from Circular Motion
+   LINK: https://brilliant.org/practice/cosine-from-circular-motion-practice-1/
+------------------------------
+781. Practice: Period and Speed
+   LINK: https://brilliant.org/practice/period-and-speed-practice-1/
+------------------------------
+782. Practice: The Unit Circle
+   LINK: https://brilliant.org/practice/the-unit-circle-trig-practice-1/
+------------------------------
+783. Practice: The Cosine Function
+   LINK: https://brilliant.org/practice/the-cosine-function-practice-1/
+------------------------------
+784. Practice: The Sine Function
+   LINK: https://brilliant.org/practice/the-sine-function-practice-1/
+------------------------------
+785. Practice: Cosine & Sine Together
+   LINK: https://brilliant.org/practice/cosine-and-sine-together-practice-1/
+------------------------------
+786. Practice: Complementary Angles
+   LINK: https://brilliant.org/practice/complementary-angles-practice-1/
+------------------------------
+787. Practice: The Pythagorean Identity
+   LINK: https://brilliant.org/practice/pythagorean-identity-practice-1/
+------------------------------
+788. Practice: The 45-45-90 Triangle
+   LINK: https://brilliant.org/practice/triangle-trig-2-practice-1/
+------------------------------
+789. Practice: 30-60-90 Triangles
+   LINK: https://brilliant.org/practice/triangle-trig-3-practice-1/
+------------------------------
+790. Practice: Key Angles on the Unit Circle
+   LINK: https://brilliant.org/practice/triangle-trig-4-practice-1/
+------------------------------
+791. Practice: Arc Length on the Unit Circle
+   LINK: https://brilliant.org/practice/arclength-along-a-circle-practice-a/
+------------------------------
+792. Practice: Arc Length on Any Circle
+   LINK: https://brilliant.org/practice/arclength-on-any-circle-2-practice-a/
+------------------------------
+793. Practice: Radians
+   LINK: https://brilliant.org/practice/radians-practice-a/
+------------------------------
+794. Practice: Degrees to Radians
+   LINK: https://brilliant.org/practice/degrees-to-radians-practice-a/
+------------------------------
+795. Practice: Radians to Degrees
+   LINK: https://brilliant.org/practice/radians-to-degrees-practice-a/
+------------------------------
+796. Practice: Angle Identification
+   LINK: https://brilliant.org/practice/angle-identification-practice-a/
+------------------------------
+797. Practice: Coterminal Angles
+   LINK: https://brilliant.org/practice/coterminal-angles-practice-a/
+------------------------------
+798. Practice: Negative Angles
+   LINK: https://brilliant.org/practice/negative-angles-2-practice-c/
+------------------------------
+799. Practice: Evaluating Cosine and Sine with Radians
+   LINK: https://brilliant.org/practice/cos-sin-with-radians-practice-a/
+------------------------------
+800. Practice: Unit Circle Coordinates of 1, 0, and -1
+   LINK: https://brilliant.org/practice/cos-sin-cardinal-points-practice-a/
+------------------------------
+801. Practice: Repeated Values of Cosine and Sine
+   LINK: https://brilliant.org/practice/repeated-values-cos-sin-practice-a/
+------------------------------
+802. Practice: Negative Values of Cosine
+   LINK: https://brilliant.org/practice/negative-values-cos-practice-a/
+------------------------------
+803. Practice: Same Denominator
+   LINK: https://brilliant.org/practice/frac-combining-practice-1/
+------------------------------
+804. Practice: The Period of a Function
+   LINK: https://brilliant.org/practice/period-of-a-function-practice-a/
+------------------------------
+805. Practice: Combining Translations
+   LINK: https://brilliant.org/practice/combining-translations-practice/
+------------------------------
+806. Practice: Undoing Translations
+   LINK: https://brilliant.org/practice/undoing-translations-practice/
+------------------------------
+807. Practice: Coordinate-wise Translation
+   LINK: https://brilliant.org/practice/coordinate-translation-practice-1/
+------------------------------
+808. Practice: Fitting within a Region
+   LINK: https://brilliant.org/practice/translate-into-region-practice-1/
+------------------------------
+809. Practice: Rotation Around the Origin
+   LINK: https://brilliant.org/practice/rotation-around-the-origin-practice-1/
+------------------------------
+810. Practice: Rotating Shapes
+   LINK: https://brilliant.org/practice/rotating-shapes-practice-1/
+------------------------------
+811. Practice: Rotating Both Ways
+   LINK: https://brilliant.org/practice/rotating-both-ways-practice-1/
+------------------------------
+812. Practice: Composing Rotations
+   LINK: https://brilliant.org/practice/composing-rotations-practice-1/
+------------------------------
+813. Practice: Rotating by 180°
+   LINK: https://brilliant.org/practice/rotating-180-practice-1/
+------------------------------
+814. Practice: Rotating by 90°
+   LINK: https://brilliant.org/practice/rotating-90-practice-1/
+------------------------------
+815. Practice: Rotating by 270°
+   LINK: https://brilliant.org/practice/rotating-270-practice-1/
+------------------------------
+816. Practice: Rotating by Coordinates
+   LINK: https://brilliant.org/practice/rotating-by-coordinate-practice-1/
+------------------------------
+817. Practice: Rotating before Translating
+   LINK: https://brilliant.org/practice/chaining-transformations-practice/
+------------------------------
+818. Practice: Rotating Around a Point
+   LINK: https://brilliant.org/practice/rotating-around-point-1/
+------------------------------
+819. Practice: Rotating to Move
+   LINK: https://brilliant.org/practice/rotation-outside-center/
+------------------------------
+820. Practice: Translating before Rotating
+   LINK: https://brilliant.org/practice/translating-before-rotating/
+------------------------------
+821. Practice: Translation by Rotation
+   LINK: https://brilliant.org/practice/translation-by-rotation-1/
+------------------------------
+822. Practice: Gridline Translations
+   LINK: https://brilliant.org/practice/distance-of-rotations-practice-1/
+------------------------------
+823. Practice: Negative Values of Sine
+   LINK: https://brilliant.org/practice/negative-values-sin-practice-a/
+------------------------------
+824. Practice: The Sine Graph
+   LINK: https://brilliant.org/practice/the-sine-graph-practice-a/
+------------------------------
+825. Practice: The Cosine Graph
+   LINK: https://brilliant.org/practice/the-cosine-graph-practice-a/
+------------------------------
+826. Practice: Cosine and Sine at Negative Angles
+   LINK: https://brilliant.org/practice/cos-sin-negative-angles-practice-a/
+------------------------------
+827. Practice: Sine and Cosine after 2π
+   LINK: https://brilliant.org/practice/sin-cos-period-practice-c/
+------------------------------
+828. Practice: Quarter-period Shifts
+   LINK: https://brilliant.org/practice/quarter-period-shifts-cos-sin-practice-a/
+------------------------------
+829. Practice: Tangent
+   LINK: https://brilliant.org/practice/tangent-1-practice-1/
+------------------------------
+830. Practice: Tangent and Triangles
+   LINK: https://brilliant.org/practice/tangent-2b-practice-1/
+------------------------------
+831. Practice: Values of Tangent
+   LINK: https://brilliant.org/practice/tangent-3-practice-1/
+------------------------------
+832. Practice: Tangent in Four Quadrants
+   LINK: https://brilliant.org/practice/tangent-4-practice-1/
+------------------------------
+833. Practice: The Graph of Tangent
+   LINK: https://brilliant.org/practice/tangent-5-practice-1/
+------------------------------
+834. Practice: Horizontal Stretches
+   LINK: https://brilliant.org/practice/transforming-trig-1-practice-b/
+------------------------------
+835. Practice: Period of a Wave
+   LINK: https://brilliant.org/practice/transforming-trig-2-practice-b-2/
+------------------------------
+836. Practice: Rational Periods
+   LINK: https://brilliant.org/practice/transforming-trig-3-practice-1/
+------------------------------
+837. Practice: Amplitude
+   LINK: https://brilliant.org/practice/transforming-trig-4-practice-a-2/
+------------------------------
+838. Practice: Midline Shifts
+   LINK: https://brilliant.org/practice/transforming-trig-5-practice-a-2/
+------------------------------
+839. Practice: Phase Shifts
+   LINK: https://brilliant.org/practice/transforming-trig-6-practice/
+------------------------------
+840. Practice: General Transformations
+   LINK: https://brilliant.org/practice/transforming-trig-7-practice-a/
+------------------------------
+841. Practice: Equations in cos(θ) and sin(θ)
+   LINK: https://brilliant.org/practice/equations-in-cos-and-sin-practice-a/
+------------------------------
+842. Practice: Infinitely Many Solutions
+   LINK: https://brilliant.org/practice/infinitely-many-solutions-practice-a/
+------------------------------
+843. Practice: All Solutions to Trig Equations
+   LINK: https://brilliant.org/practice/infinitly-many-trig-eq-solutions-practice-c/
+------------------------------
+844. Practice: Trig Equations with Dilations
+   LINK: https://brilliant.org/practice/eqns-with-frequencies-practice-a-2/
+------------------------------
+845. Practice: Non-linear Trig Equations
+   LINK: https://brilliant.org/practice/non-linear-trig-equations-practice-a/
+------------------------------
+846. Practice: Negative Translations
+   LINK: https://brilliant.org/practice/negative-translations-practice-1/
+------------------------------
+847. Practice: Translating Shapes
+   LINK: https://brilliant.org/practice/translating-shapes-practice-1/
+------------------------------
+848. Practice: Evaluating Sine and Cosine
+   LINK: https://brilliant.org/practice/evaluating-sin-and-cos-practice-a/
+------------------------------
+849. Practice: Drawing Vectors
+   LINK: https://brilliant.org/practice/drawing-vector-sums-practice-1/
+------------------------------
+850. Practice: Component-Wise Addition
+   LINK: https://brilliant.org/practice/vector-addition-component-wise-practice-1/
+------------------------------
+851. Practice: Opposite Vectors
+   LINK: https://brilliant.org/practice/opposite-vectors-practice-a/
+------------------------------
+852. Practice: Vector Subtraction
+   LINK: https://brilliant.org/practice/vector-subtraction-practice-a/
+------------------------------
+853. Practice: Drawing Differences
+   LINK: https://brilliant.org/practice/drawing-vector-differences-practice-a/
+------------------------------
+854. Practice: Vector Differences
+   LINK: https://brilliant.org/practice/vector-differences-practice-a/
+------------------------------
+855. Practice: Scalar Multiplication
+   LINK: https://brilliant.org/practice/scalar-multiplication-practice-a/
+------------------------------
+856. Practice: Diagonal Translations
+   LINK: https://brilliant.org/practice/axes-of-rotation-practice-1/
+------------------------------
+857. Practice: Limits of Rotation
+   LINK: https://brilliant.org/practice/limits-of-rotation-practice-1/
+------------------------------
+858. Practice: Reflecting Across Axes
+   LINK: https://brilliant.org/practice/manual-reflection-practice-1/
+------------------------------
+859. Practice: The Line of Reflection
+   LINK: https://brilliant.org/practice/the-line-of-reflection-practice-1/
+------------------------------
+860. Practice: Reflecting Shapes
+   LINK: https://brilliant.org/practice/reflecting-shapes-practice-1/
+------------------------------
+861. Practice: Reflection to a Region
+   LINK: https://brilliant.org/practice/reflection-regions-practice-1/
+------------------------------
+862. Practice: Reversing Reflection
+   LINK: https://brilliant.org/practice/reversing-reflection-practice-1/
+------------------------------
+863. Practice: Reflecting Coordinates
+   LINK: https://brilliant.org/practice/reflecting-coordinates-practice-1/
+------------------------------
+864. Practice: Reflecting Vertices
+   LINK: https://brilliant.org/practice/reflecting-vertices-practice-1/
+------------------------------
+865. Practice: Reflecting Across y=x
+   LINK: https://brilliant.org/practice/reflecting-y-x-practice-1/
+------------------------------
+866. Practice: Reflecting Across y=-x
+   LINK: https://brilliant.org/practice/reflecting-y-minus-x-practice-1/
+------------------------------
+867. Practice: Choosing the Coordinate Reflection
+   LINK: https://brilliant.org/practice/choosing-coordinate-reflection-practice-1/
+------------------------------
+868. Practice: Reflecting to Translate
+   LINK: https://brilliant.org/practice/reflecting-to-translate-practice/
+------------------------------
+869. Practice: Reflecting to Rotate
+   LINK: https://brilliant.org/practice/reflecting-through-180-practice/
+------------------------------
+870. Practice: Reflecting to Rotate by 90°
+   LINK: https://brilliant.org/practice/reflecting-through-90-practice/
+------------------------------
+871. Practice: Rotation Around a Point
+   LINK: https://brilliant.org/practice/reflecting-around-points-practice/
+------------------------------
+872. Practice: 90° Rotation Around a Point
+   LINK: https://brilliant.org/practice/reflecting-90-around-points-practice/
+------------------------------
+873. Practice: Congruence
+   LINK: https://brilliant.org/practice/direct-congruence-practice/
+------------------------------
+874. Practice: Proving Congruence
+   LINK: https://brilliant.org/practice/proving-congruence-practice/
+------------------------------
+875. Practice: Reflectional Symmetry
+   LINK: https://brilliant.org/practice/reflectional-symmetry-practice/
+------------------------------
+876. Practice: Rotational Symmetry
+   LINK: https://brilliant.org/practice/rotational-symmetry-practice/
+------------------------------
+877. Practice: Identifying Symmetry
+   LINK: https://brilliant.org/practice/identifying-symmetry-practice/
+------------------------------
+878. Practice: Symmetry and Congruence
+   LINK: https://brilliant.org/practice/symmetry-and-congruence-practice/
+------------------------------
+879. Practice: Dilating Points
+   LINK: https://brilliant.org/practice/dilation-points-1/
+------------------------------
+880. Practice: Dilating Shapes
+   LINK: https://brilliant.org/practice/dilating-shapes-1/
+------------------------------
+881. Practice: Dilating and Translating
+   LINK: https://brilliant.org/practice/dilating-and-translating-1/
+------------------------------
+882. Practice: Dilating Around a Point
+   LINK: https://brilliant.org/practice/dilating-around-point-practice-1/
+------------------------------
+883. Practice: Dilating Points to Targets
+   LINK: https://brilliant.org/practice/dilating-points-to-targets-practice-1/
+------------------------------
+884. Practice: Translating By Dilating
+   LINK: https://brilliant.org/practice/dilating-move-shapes-practice-1/
+------------------------------
+885. Practice: Dilations and Congruence
+   LINK: https://brilliant.org/practice/similarity-introduction-practice-1/
+------------------------------
+886. Practice: Similarity
+   LINK: https://brilliant.org/practice/proving-similarity-practice-1/
+------------------------------
+887. Practice: Identifying Similarity
+   LINK: https://brilliant.org/practice/identifying-similarity-practice-1/
+------------------------------
+888. Practice: Stretching in One Direction
+   LINK: https://brilliant.org/practice/stretch-1-direction-practice/
+------------------------------
+889. Practice: Stretching in Two Directions
+   LINK: https://brilliant.org/practice/stretch-2-directions-practice/
+------------------------------
+890. Practice: Stretching Shapes
+   LINK: https://brilliant.org/practice/stretching-shapes-practice/
+------------------------------
+891. Practice: Transforming Points Into Targets
+   LINK: https://brilliant.org/practice/stretching-move-points-to-target-practice/
+------------------------------
+892. Practice: Vector Addition
+   LINK: https://brilliant.org/practice/vector-addition-practice-1/
+------------------------------
+893. Practice: Selecting Angles
+   LINK: https://brilliant.org/practice/choosing-angles-practice-1/
+------------------------------
+894. Practice: Linear Combination Grids
+   LINK: https://brilliant.org/practice/linear-combination-grids-practice-c/
+------------------------------
+895. Practice: Drawing Linear Combinations
+   LINK: https://brilliant.org/practice/drawing-linear-combinations-practice-a/
+------------------------------
+896. Practice: Linear Interpolation
+   LINK: https://brilliant.org/practice/linear-interpolation-practice-a/
+------------------------------
+897. Practice: Magnitude and Direction
+   LINK: https://brilliant.org/practice/magnitude-and-direction-practice/
+------------------------------
+898. Practice: Drawing from Polar Form
+   LINK: https://brilliant.org/practice/plotting-from-magnitude-direction-practice-2/
+------------------------------
+899. Practice: Polar Angles
+   LINK: https://brilliant.org/practice/inverse-tangent-practice/
+------------------------------
+900. Practice: Finding the Polar Angle
+   LINK: https://brilliant.org/practice/finding-the-angle-practice/
+------------------------------
+901. Practice: Computing from Components
+   LINK: https://brilliant.org/practice/computing-angles-practice/
+------------------------------
+902. Practice: Vector Components
+   LINK: https://brilliant.org/practice/vector-components-from-d-and-m-practice/
+------------------------------
+903. Practice: Non-Polar Angles
+   LINK: https://brilliant.org/practice/equivalent-expressions-2-practice/
+------------------------------
+904. Practice: Combining Vectors
+   LINK: https://brilliant.org/practice/combining-vectors-from-d-and-m-practice/
+------------------------------
+905. Practice: Adding Velocities
+   LINK: https://brilliant.org/practice/adding-velocities-direct-practice-a/
+------------------------------
+906. Practice: Velocity from Bearing
+   LINK: https://brilliant.org/practice/velocity-from-bearing-practice-a/
+------------------------------
+907. Practice: Combining Velocity Bearings
+   LINK: https://brilliant.org/practice/combining-velocity-bearings-practice-a/
+------------------------------
+908. Practice: Relative Velocity
+   LINK: https://brilliant.org/practice/relative-velocity-practice-a/
+------------------------------
+909. Practice: Scaling and Magnitude
+   LINK: https://brilliant.org/practice/scaling-and-magnitude-practice-2/
+------------------------------
+910. Practice: Unit Vectors
+   LINK: https://brilliant.org/practice/unit-vectors-practice-1/
+------------------------------
+911. Practice: Comparing Unit Vectors
+   LINK: https://brilliant.org/practice/vector-similarity-practice-1/
+------------------------------
+912. Practice: The Dot Product
+   LINK: https://brilliant.org/practice/dot-product-practice-1/
+------------------------------
+913. Practice: Unit Vector Dot Products
+   LINK: https://brilliant.org/practice/unit-vector-dot-products-practice-3/
+------------------------------
+914. Practice: General Dot Products
+   LINK: https://brilliant.org/practice/general-dot-products-practice-1/
+------------------------------
+915. Practice: Scaling Dot Products
+   LINK: https://brilliant.org/practice/scaled-vector-dot-products-practice-1/
+------------------------------
+916. Practice: Dot Product from Magnitudes
+   LINK: https://brilliant.org/practice/dot-product-from-m-and-a-practice-1/
+------------------------------
+917. Practice: Angle from Dot Product
+   LINK: https://brilliant.org/practice/angle-from-dot-product-practice-2/
+------------------------------
+918. Practice: Self Dot Products
+   LINK: https://brilliant.org/practice/self-dot-products-practice-1/
+------------------------------
+919. Practice: Orthogonal Dot Products
+   LINK: https://brilliant.org/practice/orthogonal-dot-products-practice-1/
+------------------------------
+920. Practice: Vectors from Combinations
+   LINK: https://brilliant.org/practice/vectors-from-combinations-practice-1/
+------------------------------
+921. Practice: Possible Combinations
+   LINK: https://brilliant.org/practice/possible-combinations-practice-1/
+------------------------------
+922. Practice: Standard Basis Vectors
+   LINK: https://brilliant.org/practice/basis-vectors-practice-4/
+------------------------------
+923. Practice: Transforming Vectors
+   LINK: https://brilliant.org/practice/transforming-vectors-practice-2/
+------------------------------
+924. Practice: Transforming Basis Vectors
+   LINK: https://brilliant.org/practice/transforming-basis-vectors-practice-2/
+------------------------------
+925. Practice: Linear Transformations
+   LINK: https://brilliant.org/practice/vector-linear-transformations-practice-2/
+------------------------------
+926. Practice: Transforming Combinations
+   LINK: https://brilliant.org/practice/transforming-combinations-practice-5/
+------------------------------
+927. Practice: Plotting Transformed Vectors
+   LINK: https://brilliant.org/practice/plotting-transformed-vectors-practice-3/
+------------------------------
+928. Practice: Non-Integer Combinations
+   LINK: https://brilliant.org/practice/non-integer-combinations-practice-1/
+------------------------------
+929. Practice: Coordinate Pairs
+   LINK: https://brilliant.org/practice/coordinate-pairs-practice/
+------------------------------
+930. Practice: Axes
+   LINK: https://brilliant.org/practice/axes-practice/
+------------------------------
+931. Practice: x and y Coordinates
+   LINK: https://brilliant.org/practice/x-and-y-coords-practice/
+------------------------------
+932. Practice: Plotting Points
+   LINK: https://brilliant.org/practice/plotting-points-practice/
+------------------------------
+933. Practice: Identifying Points
+   LINK: https://brilliant.org/practice/identifying-points-practice/
+------------------------------
+934. Practice: Applied Coordinates
+   LINK: https://brilliant.org/practice/applied-coordinates-practice-1/
+------------------------------
+935. Practice: Negative Coordinates
+   LINK: https://brilliant.org/practice/negative-coordinates-practice/
+------------------------------
+936. Practice: Linear Combinations
+   LINK: https://brilliant.org/practice/linear-combinations-practice-a/
+------------------------------
+937. Practice: Coordinates
+   LINK: https://brilliant.org/practice/coordinates-2-set-1/
+------------------------------
+938. Practice: Plotting Negative Coordinates
+   LINK: https://brilliant.org/practice/plotting-negative-coords-practice/
+------------------------------
+939. Practice: Identifying More Points
+   LINK: https://brilliant.org/practice/identifying-negative-coords-practice/
+------------------------------
+940. Practice: City Temperatures
+   LINK: https://brilliant.org/practice/temperature-coordinates-practice-1/
+------------------------------
+941. Practice: From Points to Lines
+   LINK: https://brilliant.org/practice/points-to-lines-practice/
+------------------------------
+942. Practice: Horizontal Lines
+   LINK: https://brilliant.org/practice/horizontal-lines-practice/
+------------------------------
+943. Practice: Vertical Lines
+   LINK: https://brilliant.org/practice/vertical-lines-1/
+------------------------------
+944. Practice: Horizontal and Vertical Lines
+   LINK: https://brilliant.org/practice/horiz-and-vert-lines-practice/
+------------------------------
+945. Practice: Interpreting Lines
+   LINK: https://brilliant.org/practice/interpreting-lines-practice-1/
+------------------------------
+946. Practice: y Inequalities
+   LINK: https://brilliant.org/practice/y-inequalities-practice-1/
+------------------------------
+947. Practice: x Inequalities
+   LINK: https://brilliant.org/practice/x-inequalities-practice-1/
+------------------------------
+948. Practice: Identifying Regions
+   LINK: https://brilliant.org/practice/identifying-regions-practice-1/
+------------------------------
+949. Practice: Or Equal To
+   LINK: https://brilliant.org/practice/or-equal-to-plane-practice-3/
+------------------------------
+950. Practice: Marking Boundaries
+   LINK: https://brilliant.org/practice/marking-boundaries-practice-1/
+------------------------------
+951. Practice: Accounting Inequalities
+   LINK: https://brilliant.org/practice/accounting-inequalities-practice-1/
+------------------------------
+952. Practice: Distance From Axes
+   LINK: https://brilliant.org/practice/distance-between-points-practice-2/
+------------------------------
+953. Practice: Absolute Value
+   LINK: https://brilliant.org/practice/distance-absolute-value-practice-2/
+------------------------------
+954. Practice: Selecting for Distance
+   LINK: https://brilliant.org/practice/selecting-for-distance-practice-2/
+------------------------------
+955. Practice: Giving Coordinates
+   LINK: https://brilliant.org/practice/giving-coordinates-practice-2/
+------------------------------
+956. Practice: Temperature Differences
+   LINK: https://brilliant.org/practice/temperature-differences-practice-2/
+------------------------------
+957. Practice: Reading Bar Charts
+   LINK: https://brilliant.org/practice/edv-readingbars-set1/
+------------------------------
+958. Practice: Analyzing Bar Charts
+   LINK: https://brilliant.org/practice/analyze-bars-set1/
+------------------------------
+959. Practice: Pie Charts
+   LINK: https://brilliant.org/practice/piecharts-set1/
+------------------------------
+960. Practice: Histograms
+   LINK: https://brilliant.org/practice/vis-data-12-set1/
+------------------------------
+961. Practice: Percentiles
+   LINK: https://brilliant.org/practice/vis-data-13-set1/
+------------------------------
+962. Practice: Boxplots
+   LINK: https://brilliant.org/practice/vis-data-21-set1/
+------------------------------
+963. Practice: Comparing Boxplots
+   LINK: https://brilliant.org/practice/vis-data-22-set1/
+------------------------------
+964. Practice: Seasonal Variation
+   LINK: https://brilliant.org/practice/vis-data-23-set1/
+------------------------------
+965. Practice: Line Graphs
+   LINK: https://brilliant.org/practice/vis-data-31-set1/
+------------------------------
+966. Practice: Trends
+   LINK: https://brilliant.org/practice/vis-data-32-set1/
+------------------------------
+967. Practice: Comparing Trends
+   LINK: https://brilliant.org/practice/vis-data-33-set1/
+------------------------------
+968. Practice: Observing Relationships
+   LINK: https://brilliant.org/practice/vis-data-41-set1/
+------------------------------
+969. Practice: Reading Scatter Plots
+   LINK: https://brilliant.org/practice/vis-data-42-set1/
+------------------------------
+970. Practice: Log Scales
+   LINK: https://brilliant.org/practice/practice-exploring-relationships-3-v0-set_two/
+------------------------------
+971. Practice: Comparing on Log Scales
+   LINK: https://brilliant.org/practice/practice-exploring-relationships-3-v0-set_one/
+------------------------------
+972. Practice: Data Tables
+   LINK: https://brilliant.org/practice/vis-data-14-set1/
+------------------------------
+973. Practice: Filtering with Logic
+   LINK: https://brilliant.org/practice/vis-data-51-set1/
+------------------------------
+974. Practice: Filters with Inequalities
+   LINK: https://brilliant.org/practice/vis-data-52-set1/
+------------------------------
+975. Practice: Grouping Data
+   LINK: https://brilliant.org/practice/vis-data-53-set1/
+------------------------------
+976. Practice: Grouping and Filtering
+   LINK: https://brilliant.org/practice/vis-data-54-set1/
+------------------------------
+977. Practice: Drawing Conclusions
+   LINK: https://brilliant.org/practice/vis-data-55-set1/
+------------------------------
+978. Practice: Transforming Data
+   LINK: https://brilliant.org/practice/vis-data-56-set1/
+------------------------------
+979. Practice: Counting Cafes
+   LINK: https://brilliant.org/practice/vis-data-57-set1/
+------------------------------
+980. Practice: The Square Root of -1
+   LINK: https://brilliant.org/practice/square-root-minus-1-complex-plane-practice/
+------------------------------
+981. Practice: Imaginary Numbers
+   LINK: https://brilliant.org/practice/imaginary-numbers-complex-plane-square-form-practice-1/
+------------------------------
+982. Practice: Complex Numbers
+   LINK: https://brilliant.org/practice/complex-numbers-polar-plane-practice/
+------------------------------
+983. Practice: Plotting Complex Numbers
+   LINK: https://brilliant.org/practice/plotting-complex-numbers-practice/
+------------------------------
+984. Practice: Identifying Complex Points
+   LINK: https://brilliant.org/practice/identifying-complex-points-practice/
+------------------------------
+985. Practice: Points in Quadrants
+   LINK: https://brilliant.org/practice/points-in-quadrant-practice-1/
+------------------------------
+986. Practice: Subtracting Complex Numbers
+   LINK: https://brilliant.org/practice/subtracting-complex-numbers-practice/
+------------------------------
+987. Practice: Absolute Value
+   LINK: https://brilliant.org/practice/complex-distance-practice/
+------------------------------
+988. Practice: Complex Separation
+   LINK: https://brilliant.org/practice/complex-separation-2-practice-1/
+------------------------------
+989. Practice: Scalar Multiplication
+   LINK: https://brilliant.org/practice/scalar-multiplication-complex-practice/
+------------------------------
+990. Practice: Scaling Magnitudes
+   LINK: https://brilliant.org/practice/scalar-multiplication-complex-plane-practice/
+------------------------------
+991. Practice: Simplifying Expressions
+   LINK: https://brilliant.org/practice/simplifying-complex-expressions-practice/
+------------------------------
+992. Practice: Multiplying by i
+   LINK: https://brilliant.org/practice/multiplying-by-i-practice/
+------------------------------
+993. Practice: Rotation by Multiplication
+   LINK: https://brilliant.org/practice/rotation-by-multiplication-practice/
+------------------------------
+994. Practice: Multiple Rotations
+   LINK: https://brilliant.org/practice/multiple-rotations-practice/
+------------------------------
+995. Practice: Scaling and Rotating
+   LINK: https://brilliant.org/practice/scaling-and-rotating-practice/
+------------------------------
+996. Practice: General Multiplication
+   LINK: https://brilliant.org/practice/general-multiplication-practice/
+------------------------------
+997. Practice: Complex Pairs
+   LINK: https://brilliant.org/practice/complex-pairs-practice/
+------------------------------
+998. Practice: Adding Conjugates
+   LINK: https://brilliant.org/practice/adding-and-subtracting-conjugates-practice/
+------------------------------
+999. Practice: Multiplying Conjugates
+   LINK: https://brilliant.org/practice/multiplying-conjugates-practice/
+------------------------------
+1000. Practice: Functions Re and Im
+   LINK: https://brilliant.org/practice/re-and-im-complex-practice/
+------------------------------

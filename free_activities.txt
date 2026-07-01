@@ -1,0 +1,5092 @@
+--- BRILLIANT FREE ACTIVITIES CONTENT ---
+
+Title: Practice: Quotients
+URL: https://brilliant.org/practice/quotient-rule-practice-set-1/
+Content:
+Sign in
+A world-class
+tutor for
+every home
+Your personal tutor for math and coding. Built by top learning experts from MIT and Harvard.
+I’m a learner
+I’m a parent or teacher
+Award-winning
+learning that’s effective and fun
+100,000+
+5-star app store reviews
+10 million+
+learners around the world
+Meet Koji, your personal tutor
+Concepts that click
+Every session is visual and interactive. Instead of just memorizing, you play with concepts until they click. And you work through problems step-by-step, building your intuition along the way.
+Built to make you think
+Like the best human tutors, Koji asks the right questions, provides visual guidance, and gets to the heart of where you’re getting stuck. It’s the difference between getting the answer and actually understanding it.
+Adapts to exactly where you are
+Koji tracks what you’ve mastered and where you’re stuck, then builds practice around the gaps. He speeds up when you’re ready, and slows down when you need it.
+Designed to keep
+you learning
+Brilliant is designed to feel like a challenge, not a chore. Streaks, levels, and daily goals motivate you to build on your progress and keep moving forward.
+From grade 5 to college and beyond
+Math
+Computer Science
+Science
+Data Analysis
+Covered subjects
+Arithmetic Thinking
+Proportional Reasoning
+Probability and Chance
+Visual Algebra
+Solving Equations
+Quadratics
+Calculus
+26 additional courses
+Covered subjects
+Thinking in Code
+Programming with Variables
+Thinking in Python
+Programming with Functions
+Algorithmic Thinking
+Computer Science Fundamentals
+Introduction to Neural Networks
+7 additional courses
+Covered subjects
+Scientific Thinking
+Circuits
+Digital Circuits
+Quantum Computing
+Beyond the Nutshell
+Covered subjects
+Exploring Data Visually
+Probability in Data
+Clustering & Classification
+Regression
+Predicting with Probability
+Always on your
+schedule
+Say goodbye to trial-and-error hiring, driving across town, and fitting another thing into your schedule. Koji is there Sunday night before the test, Saturday morning for fun, and the quiet 20 minutes before dinner.
+Built by top learning
+experts
+Our curriculum is crafted by award-winning teachers, subject-matter experts, and learning designers from top institutions.
+Students, parents, and teachers love us
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+Showing testimonial 2 of 5
+The best tutor you’ll ever have
+is already here
+Get started
+Download on the
+App Store
+Get it on
+Google Play
+Product
+Courses
+Pricing
+Gift Brilliant
+Homeschooling
+Help
+Company
+About us
+Careers
+Educators
+Behind the scenes
+A Tutor in Every Home
+AI at Brilliant
+AI Evals for Learning Games
+Visual Algebra
+Decomposition and Abstraction
+Terms of service
+Privacy policy
+Do not sell my personal information
+California privacy policy
+© 2026 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo are trademarks of Brilliant Worldwide, Inc.
+--------------------------------------------------------------------------------
+
+Title: Practice: Updating with Expressions
+URL: https://brilliant.org/practice/cc_variable_expressions_1/
+Content:
+Sign in
+A world-class
+tutor for
+every home
+Your personal tutor for math and coding. Built by top learning experts from MIT and Harvard.
+I’m a learner
+I’m a parent or teacher
+Award-winning
+learning that’s effective and fun
+100,000+
+5-star app store reviews
+10 million+
+learners around the world
+Meet Koji, your personal tutor
+Concepts that click
+Every session is visual and interactive. Instead of just memorizing, you play with concepts until they click. And you work through problems step-by-step, building your intuition along the way.
+Built to make you think
+Like the best human tutors, Koji asks the right questions, provides visual guidance, and gets to the heart of where you’re getting stuck. It’s the difference between getting the answer and actually understanding it.
+Adapts to exactly where you are
+Koji tracks what you’ve mastered and where you’re stuck, then builds practice around the gaps. He speeds up when you’re ready, and slows down when you need it.
+Designed to keep
+you learning
+Brilliant is designed to feel like a challenge, not a chore. Streaks, levels, and daily goals motivate you to build on your progress and keep moving forward.
+From grade 5 to college and beyond
+Math
+Computer Science
+Science
+Data Analysis
+Covered subjects
+Arithmetic Thinking
+Proportional Reasoning
+Probability and Chance
+Visual Algebra
+Solving Equations
+Quadratics
+Calculus
+26 additional courses
+Covered subjects
+Thinking in Code
+Programming with Variables
+Thinking in Python
+Programming with Functions
+Algorithmic Thinking
+Computer Science Fundamentals
+Introduction to Neural Networks
+7 additional courses
+Covered subjects
+Scientific Thinking
+Circuits
+Digital Circuits
+Quantum Computing
+Beyond the Nutshell
+Covered subjects
+Exploring Data Visually
+Probability in Data
+Clustering & Classification
+Regression
+Predicting with Probability
+Always on your
+schedule
+Say goodbye to trial-and-error hiring, driving across town, and fitting another thing into your schedule. Koji is there Sunday night before the test, Saturday morning for fun, and the quiet 20 minutes before dinner.
+Built by top learning
+experts
+Our curriculum is crafted by award-winning teachers, subject-matter experts, and learning designers from top institutions.
+Students, parents, and teachers love us
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+Showing testimonial 2 of 5
+The best tutor you’ll ever have
+is already here
+Get started
+Download on the
+App Store
+Get it on
+Google Play
+Product
+Courses
+Pricing
+Gift Brilliant
+Homeschooling
+Help
+Company
+About us
+Careers
+Educators
+Behind the scenes
+A Tutor in Every Home
+AI at Brilliant
+AI Evals for Learning Games
+Visual Algebra
+Decomposition and Abstraction
+Terms of service
+Privacy policy
+Do not sell my personal information
+California privacy policy
+© 2026 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo are trademarks of Brilliant Worldwide, Inc.
+--------------------------------------------------------------------------------
+
+Title: Practice: Adding Moments
+URL: https://brilliant.org/practice/adding-moments-ss-exp-practice-1/
+Content:
+Sign in
+A world-class
+tutor for
+every home
+Your personal tutor for math and coding. Built by top learning experts from MIT and Harvard.
+I’m a learner
+I’m a parent or teacher
+Award-winning
+learning that’s effective and fun
+100,000+
+5-star app store reviews
+10 million+
+learners around the world
+Meet Koji, your personal tutor
+Concepts that click
+Every session is visual and interactive. Instead of just memorizing, you play with concepts until they click. And you work through problems step-by-step, building your intuition along the way.
+Built to make you think
+Like the best human tutors, Koji asks the right questions, provides visual guidance, and gets to the heart of where you’re getting stuck. It’s the difference between getting the answer and actually understanding it.
+Adapts to exactly where you are
+Koji tracks what you’ve mastered and where you’re stuck, then builds practice around the gaps. He speeds up when you’re ready, and slows down when you need it.
+Designed to keep
+you learning
+Brilliant is designed to feel like a challenge, not a chore. Streaks, levels, and daily goals motivate you to build on your progress and keep moving forward.
+From grade 5 to college and beyond
+Math
+Computer Science
+Science
+Data Analysis
+Covered subjects
+Arithmetic Thinking
+Proportional Reasoning
+Probability and Chance
+Visual Algebra
+Solving Equations
+Quadratics
+Calculus
+26 additional courses
+Covered subjects
+Thinking in Code
+Programming with Variables
+Thinking in Python
+Programming with Functions
+Algorithmic Thinking
+Computer Science Fundamentals
+Introduction to Neural Networks
+7 additional courses
+Covered subjects
+Scientific Thinking
+Circuits
+Digital Circuits
+Quantum Computing
+Beyond the Nutshell
+Covered subjects
+Exploring Data Visually
+Probability in Data
+Clustering & Classification
+Regression
+Predicting with Probability
+Always on your
+schedule
+Say goodbye to trial-and-error hiring, driving across town, and fitting another thing into your schedule. Koji is there Sunday night before the test, Saturday morning for fun, and the quiet 20 minutes before dinner.
+Built by top learning
+experts
+Our curriculum is crafted by award-winning teachers, subject-matter experts, and learning designers from top institutions.
+Students, parents, and teachers love us
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+Showing testimonial 2 of 5
+The best tutor you’ll ever have
+is already here
+Get started
+Download on the
+App Store
+Get it on
+Google Play
+Product
+Courses
+Pricing
+Gift Brilliant
+Homeschooling
+Help
+Company
+About us
+Careers
+Educators
+Behind the scenes
+A Tutor in Every Home
+AI at Brilliant
+AI Evals for Learning Games
+Visual Algebra
+Decomposition and Abstraction
+Terms of service
+Privacy policy
+Do not sell my personal information
+California privacy policy
+© 2026 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo are trademarks of Brilliant Worldwide, Inc.
+--------------------------------------------------------------------------------
+
+Title: Practice: Extending Structures
+URL: https://brilliant.org/practice/structures-31a/
+Content:
+Sign in
+A world-class
+tutor for
+every home
+Your personal tutor for math and coding. Built by top learning experts from MIT and Harvard.
+I’m a learner
+I’m a parent or teacher
+Award-winning
+learning that’s effective and fun
+100,000+
+5-star app store reviews
+10 million+
+learners around the world
+Meet Koji, your personal tutor
+Concepts that click
+Every session is visual and interactive. Instead of just memorizing, you play with concepts until they click. And you work through problems step-by-step, building your intuition along the way.
+Built to make you think
+Like the best human tutors, Koji asks the right questions, provides visual guidance, and gets to the heart of where you’re getting stuck. It’s the difference between getting the answer and actually understanding it.
+Adapts to exactly where you are
+Koji tracks what you’ve mastered and where you’re stuck, then builds practice around the gaps. He speeds up when you’re ready, and slows down when you need it.
+Designed to keep
+you learning
+Brilliant is designed to feel like a challenge, not a chore. Streaks, levels, and daily goals motivate you to build on your progress and keep moving forward.
+From grade 5 to college and beyond
+Math
+Computer Science
+Science
+Data Analysis
+Covered subjects
+Arithmetic Thinking
+Proportional Reasoning
+Probability and Chance
+Visual Algebra
+Solving Equations
+Quadratics
+Calculus
+26 additional courses
+Covered subjects
+Thinking in Code
+Programming with Variables
+Thinking in Python
+Programming with Functions
+Algorithmic Thinking
+Computer Science Fundamentals
+Introduction to Neural Networks
+7 additional courses
+Covered subjects
+Scientific Thinking
+Circuits
+Digital Circuits
+Quantum Computing
+Beyond the Nutshell
+Covered subjects
+Exploring Data Visually
+Probability in Data
+Clustering & Classification
+Regression
+Predicting with Probability
+Always on your
+schedule
+Say goodbye to trial-and-error hiring, driving across town, and fitting another thing into your schedule. Koji is there Sunday night before the test, Saturday morning for fun, and the quiet 20 minutes before dinner.
+Built by top learning
+experts
+Our curriculum is crafted by award-winning teachers, subject-matter experts, and learning designers from top institutions.
+Students, parents, and teachers love us
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+Showing testimonial 2 of 5
+The best tutor you’ll ever have
+is already here
+Get started
+Download on the
+App Store
+Get it on
+Google Play
+Product
+Courses
+Pricing
+Gift Brilliant
+Homeschooling
+Help
+Company
+About us
+Careers
+Educators
+Behind the scenes
+A Tutor in Every Home
+AI at Brilliant
+AI Evals for Learning Games
+Visual Algebra
+Decomposition and Abstraction
+Terms of service
+Privacy policy
+Do not sell my personal information
+California privacy policy
+© 2026 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo are trademarks of Brilliant Worldwide, Inc.
+--------------------------------------------------------------------------------
+
+Title: Practice: Mutually Exclusive Events
+URL: https://brilliant.org/practice/mutex-trains-probability/
+Content:
+Sign in
+A world-class
+tutor for
+every home
+Your personal tutor for math and coding. Built by top learning experts from MIT and Harvard.
+I’m a learner
+I’m a parent or teacher
+Award-winning
+learning that’s effective and fun
+100,000+
+5-star app store reviews
+10 million+
+learners around the world
+Meet Koji, your personal tutor
+Concepts that click
+Every session is visual and interactive. Instead of just memorizing, you play with concepts until they click. And you work through problems step-by-step, building your intuition along the way.
+Built to make you think
+Like the best human tutors, Koji asks the right questions, provides visual guidance, and gets to the heart of where you’re getting stuck. It’s the difference between getting the answer and actually understanding it.
+Adapts to exactly where you are
+Koji tracks what you’ve mastered and where you’re stuck, then builds practice around the gaps. He speeds up when you’re ready, and slows down when you need it.
+Designed to keep
+you learning
+Brilliant is designed to feel like a challenge, not a chore. Streaks, levels, and daily goals motivate you to build on your progress and keep moving forward.
+From grade 5 to college and beyond
+Math
+Computer Science
+Science
+Data Analysis
+Covered subjects
+Arithmetic Thinking
+Proportional Reasoning
+Probability and Chance
+Visual Algebra
+Solving Equations
+Quadratics
+Calculus
+26 additional courses
+Covered subjects
+Thinking in Code
+Programming with Variables
+Thinking in Python
+Programming with Functions
+Algorithmic Thinking
+Computer Science Fundamentals
+Introduction to Neural Networks
+7 additional courses
+Covered subjects
+Scientific Thinking
+Circuits
+Digital Circuits
+Quantum Computing
+Beyond the Nutshell
+Covered subjects
+Exploring Data Visually
+Probability in Data
+Clustering & Classification
+Regression
+Predicting with Probability
+Always on your
+schedule
+Say goodbye to trial-and-error hiring, driving across town, and fitting another thing into your schedule. Koji is there Sunday night before the test, Saturday morning for fun, and the quiet 20 minutes before dinner.
+Built by top learning
+experts
+Our curriculum is crafted by award-winning teachers, subject-matter experts, and learning designers from top institutions.
+Students, parents, and teachers love us
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+Showing testimonial 2 of 5
+The best tutor you’ll ever have
+is already here
+Get started
+Download on the
+App Store
+Get it on
+Google Play
+Product
+Courses
+Pricing
+Gift Brilliant
+Homeschooling
+Help
+Company
+About us
+Careers
+Educators
+Behind the scenes
+A Tutor in Every Home
+AI at Brilliant
+AI Evals for Learning Games
+Visual Algebra
+Decomposition and Abstraction
+Terms of service
+Privacy policy
+Do not sell my personal information
+California privacy policy
+© 2026 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo are trademarks of Brilliant Worldwide, Inc.
+--------------------------------------------------------------------------------
+
+Title: Practice: Selecting Points
+URL: https://brilliant.org/practice/selecting-points-polar-practice/
+Content:
+Sign in
+A world-class
+tutor for
+every home
+Your personal tutor for math and coding. Built by top learning experts from MIT and Harvard.
+I’m a learner
+I’m a parent or teacher
+Award-winning
+learning that’s effective and fun
+100,000+
+5-star app store reviews
+10 million+
+learners around the world
+Meet Koji, your personal tutor
+Concepts that click
+Every session is visual and interactive. Instead of just memorizing, you play with concepts until they click. And you work through problems step-by-step, building your intuition along the way.
+Built to make you think
+Like the best human tutors, Koji asks the right questions, provides visual guidance, and gets to the heart of where you’re getting stuck. It’s the difference between getting the answer and actually understanding it.
+Adapts to exactly where you are
+Koji tracks what you’ve mastered and where you’re stuck, then builds practice around the gaps. He speeds up when you’re ready, and slows down when you need it.
+Designed to keep
+you learning
+Brilliant is designed to feel like a challenge, not a chore. Streaks, levels, and daily goals motivate you to build on your progress and keep moving forward.
+From grade 5 to college and beyond
+Math
+Computer Science
+Science
+Data Analysis
+Covered subjects
+Arithmetic Thinking
+Proportional Reasoning
+Probability and Chance
+Visual Algebra
+Solving Equations
+Quadratics
+Calculus
+26 additional courses
+Covered subjects
+Thinking in Code
+Programming with Variables
+Thinking in Python
+Programming with Functions
+Algorithmic Thinking
+Computer Science Fundamentals
+Introduction to Neural Networks
+7 additional courses
+Covered subjects
+Scientific Thinking
+Circuits
+Digital Circuits
+Quantum Computing
+Beyond the Nutshell
+Covered subjects
+Exploring Data Visually
+Probability in Data
+Clustering & Classification
+Regression
+Predicting with Probability
+Always on your
+schedule
+Say goodbye to trial-and-error hiring, driving across town, and fitting another thing into your schedule. Koji is there Sunday night before the test, Saturday morning for fun, and the quiet 20 minutes before dinner.
+Built by top learning
+experts
+Our curriculum is crafted by award-winning teachers, subject-matter experts, and learning designers from top institutions.
+Students, parents, and teachers love us
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+Showing testimonial 2 of 5
+The best tutor you’ll ever have
+is already here
+Get started
+Download on the
+App Store
+Get it on
+Google Play
+Product
+Courses
+Pricing
+Gift Brilliant
+Homeschooling
+Help
+Company
+About us
+Careers
+Educators
+Behind the scenes
+A Tutor in Every Home
+AI at Brilliant
+AI Evals for Learning Games
+Visual Algebra
+Decomposition and Abstraction
+Terms of service
+Privacy policy
+Do not sell my personal information
+California privacy policy
+© 2026 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo are trademarks of Brilliant Worldwide, Inc.
+--------------------------------------------------------------------------------
+
+Title: Practice: Dynamic Recursive Steps
+URL: https://brilliant.org/practice/py-dyno-recursive-steps-set1/
+Content:
+Sign in
+A world-class
+tutor for
+every home
+Your personal tutor for math and coding. Built by top learning experts from MIT and Harvard.
+I’m a learner
+I’m a parent or teacher
+Award-winning
+learning that’s effective and fun
+100,000+
+5-star app store reviews
+10 million+
+learners around the world
+Meet Koji, your personal tutor
+Concepts that click
+Every session is visual and interactive. Instead of just memorizing, you play with concepts until they click. And you work through problems step-by-step, building your intuition along the way.
+Built to make you think
+Like the best human tutors, Koji asks the right questions, provides visual guidance, and gets to the heart of where you’re getting stuck. It’s the difference between getting the answer and actually understanding it.
+Adapts to exactly where you are
+Koji tracks what you’ve mastered and where you’re stuck, then builds practice around the gaps. He speeds up when you’re ready, and slows down when you need it.
+Designed to keep
+you learning
+Brilliant is designed to feel like a challenge, not a chore. Streaks, levels, and daily goals motivate you to build on your progress and keep moving forward.
+From grade 5 to college and beyond
+Math
+Computer Science
+Science
+Data Analysis
+Covered subjects
+Arithmetic Thinking
+Proportional Reasoning
+Probability and Chance
+Visual Algebra
+Solving Equations
+Quadratics
+Calculus
+26 additional courses
+Covered subjects
+Thinking in Code
+Programming with Variables
+Thinking in Python
+Programming with Functions
+Algorithmic Thinking
+Computer Science Fundamentals
+Introduction to Neural Networks
+7 additional courses
+Covered subjects
+Scientific Thinking
+Circuits
+Digital Circuits
+Quantum Computing
+Beyond the Nutshell
+Covered subjects
+Exploring Data Visually
+Probability in Data
+Clustering & Classification
+Regression
+Predicting with Probability
+Always on your
+schedule
+Say goodbye to trial-and-error hiring, driving across town, and fitting another thing into your schedule. Koji is there Sunday night before the test, Saturday morning for fun, and the quiet 20 minutes before dinner.
+Built by top learning
+experts
+Our curriculum is crafted by award-winning teachers, subject-matter experts, and learning designers from top institutions.
+Students, parents, and teachers love us
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+Showing testimonial 2 of 5
+The best tutor you’ll ever have
+is already here
+Get started
+Download on the
+App Store
+Get it on
+Google Play
+Product
+Courses
+Pricing
+Gift Brilliant
+Homeschooling
+Help
+Company
+About us
+Careers
+Educators
+Behind the scenes
+A Tutor in Every Home
+AI at Brilliant
+AI Evals for Learning Games
+Visual Algebra
+Decomposition and Abstraction
+Terms of service
+Privacy policy
+Do not sell my personal information
+California privacy policy
+© 2026 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo are trademarks of Brilliant Worldwide, Inc.
+--------------------------------------------------------------------------------
+
+Title: Practice: Graphing Constraints
+URL: https://brilliant.org/practice/graphing-constraints-practice-a/
+Content:
+Sign in
+A world-class
+tutor for
+every home
+Your personal tutor for math and coding. Built by top learning experts from MIT and Harvard.
+I’m a learner
+I’m a parent or teacher
+Award-winning
+learning that’s effective and fun
+100,000+
+5-star app store reviews
+10 million+
+learners around the world
+Meet Koji, your personal tutor
+Concepts that click
+Every session is visual and interactive. Instead of just memorizing, you play with concepts until they click. And you work through problems step-by-step, building your intuition along the way.
+Built to make you think
+Like the best human tutors, Koji asks the right questions, provides visual guidance, and gets to the heart of where you’re getting stuck. It’s the difference between getting the answer and actually understanding it.
+Adapts to exactly where you are
+Koji tracks what you’ve mastered and where you’re stuck, then builds practice around the gaps. He speeds up when you’re ready, and slows down when you need it.
+Designed to keep
+you learning
+Brilliant is designed to feel like a challenge, not a chore. Streaks, levels, and daily goals motivate you to build on your progress and keep moving forward.
+From grade 5 to college and beyond
+Math
+Computer Science
+Science
+Data Analysis
+Covered subjects
+Arithmetic Thinking
+Proportional Reasoning
+Probability and Chance
+Visual Algebra
+Solving Equations
+Quadratics
+Calculus
+26 additional courses
+Covered subjects
+Thinking in Code
+Programming with Variables
+Thinking in Python
+Programming with Functions
+Algorithmic Thinking
+Computer Science Fundamentals
+Introduction to Neural Networks
+7 additional courses
+Covered subjects
+Scientific Thinking
+Circuits
+Digital Circuits
+Quantum Computing
+Beyond the Nutshell
+Covered subjects
+Exploring Data Visually
+Probability in Data
+Clustering & Classification
+Regression
+Predicting with Probability
+Always on your
+schedule
+Say goodbye to trial-and-error hiring, driving across town, and fitting another thing into your schedule. Koji is there Sunday night before the test, Saturday morning for fun, and the quiet 20 minutes before dinner.
+Built by top learning
+experts
+Our curriculum is crafted by award-winning teachers, subject-matter experts, and learning designers from top institutions.
+Students, parents, and teachers love us
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+Showing testimonial 2 of 5
+The best tutor you’ll ever have
+is already here
+Get started
+Download on the
+App Store
+Get it on
+Google Play
+Product
+Courses
+Pricing
+Gift Brilliant
+Homeschooling
+Help
+Company
+About us
+Careers
+Educators
+Behind the scenes
+A Tutor in Every Home
+AI at Brilliant
+AI Evals for Learning Games
+Visual Algebra
+Decomposition and Abstraction
+Terms of service
+Privacy policy
+Do not sell my personal information
+California privacy policy
+© 2026 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo are trademarks of Brilliant Worldwide, Inc.
+--------------------------------------------------------------------------------
+
+Title: Practice: The Closest Point
+URL: https://brilliant.org/practice/closest-point-practice-1/
+Content:
+Sign in
+A world-class
+tutor for
+every home
+Your personal tutor for math and coding. Built by top learning experts from MIT and Harvard.
+I’m a learner
+I’m a parent or teacher
+Award-winning
+learning that’s effective and fun
+100,000+
+5-star app store reviews
+10 million+
+learners around the world
+Meet Koji, your personal tutor
+Concepts that click
+Every session is visual and interactive. Instead of just memorizing, you play with concepts until they click. And you work through problems step-by-step, building your intuition along the way.
+Built to make you think
+Like the best human tutors, Koji asks the right questions, provides visual guidance, and gets to the heart of where you’re getting stuck. It’s the difference between getting the answer and actually understanding it.
+Adapts to exactly where you are
+Koji tracks what you’ve mastered and where you’re stuck, then builds practice around the gaps. He speeds up when you’re ready, and slows down when you need it.
+Designed to keep
+you learning
+Brilliant is designed to feel like a challenge, not a chore. Streaks, levels, and daily goals motivate you to build on your progress and keep moving forward.
+From grade 5 to college and beyond
+Math
+Computer Science
+Science
+Data Analysis
+Covered subjects
+Arithmetic Thinking
+Proportional Reasoning
+Probability and Chance
+Visual Algebra
+Solving Equations
+Quadratics
+Calculus
+26 additional courses
+Covered subjects
+Thinking in Code
+Programming with Variables
+Thinking in Python
+Programming with Functions
+Algorithmic Thinking
+Computer Science Fundamentals
+Introduction to Neural Networks
+7 additional courses
+Covered subjects
+Scientific Thinking
+Circuits
+Digital Circuits
+Quantum Computing
+Beyond the Nutshell
+Covered subjects
+Exploring Data Visually
+Probability in Data
+Clustering & Classification
+Regression
+Predicting with Probability
+Always on your
+schedule
+Say goodbye to trial-and-error hiring, driving across town, and fitting another thing into your schedule. Koji is there Sunday night before the test, Saturday morning for fun, and the quiet 20 minutes before dinner.
+Built by top learning
+experts
+Our curriculum is crafted by award-winning teachers, subject-matter experts, and learning designers from top institutions.
+Students, parents, and teachers love us
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+Showing testimonial 2 of 5
+The best tutor you’ll ever have
+is already here
+Get started
+Download on the
+App Store
+Get it on
+Google Play
+Product
+Courses
+Pricing
+Gift Brilliant
+Homeschooling
+Help
+Company
+About us
+Careers
+Educators
+Behind the scenes
+A Tutor in Every Home
+AI at Brilliant
+AI Evals for Learning Games
+Visual Algebra
+Decomposition and Abstraction
+Terms of service
+Privacy policy
+Do not sell my personal information
+California privacy policy
+© 2026 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo are trademarks of Brilliant Worldwide, Inc.
+--------------------------------------------------------------------------------
+
+Title: Practice: Radius from Coordinates
+URL: https://brilliant.org/practice/radius-from-coordinates-practice-1/
+Content:
+Sign in
+A world-class
+tutor for
+every home
+Your personal tutor for math and coding. Built by top learning experts from MIT and Harvard.
+I’m a learner
+I’m a parent or teacher
+Award-winning
+learning that’s effective and fun
+100,000+
+5-star app store reviews
+10 million+
+learners around the world
+Meet Koji, your personal tutor
+Concepts that click
+Every session is visual and interactive. Instead of just memorizing, you play with concepts until they click. And you work through problems step-by-step, building your intuition along the way.
+Built to make you think
+Like the best human tutors, Koji asks the right questions, provides visual guidance, and gets to the heart of where you’re getting stuck. It’s the difference between getting the answer and actually understanding it.
+Adapts to exactly where you are
+Koji tracks what you’ve mastered and where you’re stuck, then builds practice around the gaps. He speeds up when you’re ready, and slows down when you need it.
+Designed to keep
+you learning
+Brilliant is designed to feel like a challenge, not a chore. Streaks, levels, and daily goals motivate you to build on your progress and keep moving forward.
+From grade 5 to college and beyond
+Math
+Computer Science
+Science
+Data Analysis
+Covered subjects
+Arithmetic Thinking
+Proportional Reasoning
+Probability and Chance
+Visual Algebra
+Solving Equations
+Quadratics
+Calculus
+26 additional courses
+Covered subjects
+Thinking in Code
+Programming with Variables
+Thinking in Python
+Programming with Functions
+Algorithmic Thinking
+Computer Science Fundamentals
+Introduction to Neural Networks
+7 additional courses
+Covered subjects
+Scientific Thinking
+Circuits
+Digital Circuits
+Quantum Computing
+Beyond the Nutshell
+Covered subjects
+Exploring Data Visually
+Probability in Data
+Clustering & Classification
+Regression
+Predicting with Probability
+Always on your
+schedule
+Say goodbye to trial-and-error hiring, driving across town, and fitting another thing into your schedule. Koji is there Sunday night before the test, Saturday morning for fun, and the quiet 20 minutes before dinner.
+Built by top learning
+experts
+Our curriculum is crafted by award-winning teachers, subject-matter experts, and learning designers from top institutions.
+Students, parents, and teachers love us
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+Showing testimonial 2 of 5
+The best tutor you’ll ever have
+is already here
+Get started
+Download on the
+App Store
+Get it on
+Google Play
+Product
+Courses
+Pricing
+Gift Brilliant
+Homeschooling
+Help
+Company
+About us
+Careers
+Educators
+Behind the scenes
+A Tutor in Every Home
+AI at Brilliant
+AI Evals for Learning Games
+Visual Algebra
+Decomposition and Abstraction
+Terms of service
+Privacy policy
+Do not sell my personal information
+California privacy policy
+© 2026 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo are trademarks of Brilliant Worldwide, Inc.
+--------------------------------------------------------------------------------
+
+Title: Practice: Eliminating Denominators
+URL: https://brilliant.org/practice/lcd-practice-1/
+Content:
+Sign in
+A world-class
+tutor for
+every home
+Your personal tutor for math and coding. Built by top learning experts from MIT and Harvard.
+I’m a learner
+I’m a parent or teacher
+Award-winning
+learning that’s effective and fun
+100,000+
+5-star app store reviews
+10 million+
+learners around the world
+Meet Koji, your personal tutor
+Concepts that click
+Every session is visual and interactive. Instead of just memorizing, you play with concepts until they click. And you work through problems step-by-step, building your intuition along the way.
+Built to make you think
+Like the best human tutors, Koji asks the right questions, provides visual guidance, and gets to the heart of where you’re getting stuck. It’s the difference between getting the answer and actually understanding it.
+Adapts to exactly where you are
+Koji tracks what you’ve mastered and where you’re stuck, then builds practice around the gaps. He speeds up when you’re ready, and slows down when you need it.
+Designed to keep
+you learning
+Brilliant is designed to feel like a challenge, not a chore. Streaks, levels, and daily goals motivate you to build on your progress and keep moving forward.
+From grade 5 to college and beyond
+Math
+Computer Science
+Science
+Data Analysis
+Covered subjects
+Arithmetic Thinking
+Proportional Reasoning
+Probability and Chance
+Visual Algebra
+Solving Equations
+Quadratics
+Calculus
+26 additional courses
+Covered subjects
+Thinking in Code
+Programming with Variables
+Thinking in Python
+Programming with Functions
+Algorithmic Thinking
+Computer Science Fundamentals
+Introduction to Neural Networks
+7 additional courses
+Covered subjects
+Scientific Thinking
+Circuits
+Digital Circuits
+Quantum Computing
+Beyond the Nutshell
+Covered subjects
+Exploring Data Visually
+Probability in Data
+Clustering & Classification
+Regression
+Predicting with Probability
+Always on your
+schedule
+Say goodbye to trial-and-error hiring, driving across town, and fitting another thing into your schedule. Koji is there Sunday night before the test, Saturday morning for fun, and the quiet 20 minutes before dinner.
+Built by top learning
+experts
+Our curriculum is crafted by award-winning teachers, subject-matter experts, and learning designers from top institutions.
+Students, parents, and teachers love us
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+Showing testimonial 2 of 5
+The best tutor you’ll ever have
+is already here
+Get started
+Download on the
+App Store
+Get it on
+Google Play
+Product
+Courses
+Pricing
+Gift Brilliant
+Homeschooling
+Help
+Company
+About us
+Careers
+Educators
+Behind the scenes
+A Tutor in Every Home
+AI at Brilliant
+AI Evals for Learning Games
+Visual Algebra
+Decomposition and Abstraction
+Terms of service
+Privacy policy
+Do not sell my personal information
+California privacy policy
+© 2026 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo are trademarks of Brilliant Worldwide, Inc.
+--------------------------------------------------------------------------------
+
+Title: Practice: Rotating by 270°
+URL: https://brilliant.org/practice/rotating-270-practice-1/
+Content:
+Sign in
+A world-class
+tutor for
+every home
+Your personal tutor for math and coding. Built by top learning experts from MIT and Harvard.
+I’m a learner
+I’m a parent or teacher
+Award-winning
+learning that’s effective and fun
+100,000+
+5-star app store reviews
+10 million+
+learners around the world
+Meet Koji, your personal tutor
+Concepts that click
+Every session is visual and interactive. Instead of just memorizing, you play with concepts until they click. And you work through problems step-by-step, building your intuition along the way.
+Built to make you think
+Like the best human tutors, Koji asks the right questions, provides visual guidance, and gets to the heart of where you’re getting stuck. It’s the difference between getting the answer and actually understanding it.
+Adapts to exactly where you are
+Koji tracks what you’ve mastered and where you’re stuck, then builds practice around the gaps. He speeds up when you’re ready, and slows down when you need it.
+Designed to keep
+you learning
+Brilliant is designed to feel like a challenge, not a chore. Streaks, levels, and daily goals motivate you to build on your progress and keep moving forward.
+From grade 5 to college and beyond
+Math
+Computer Science
+Science
+Data Analysis
+Covered subjects
+Arithmetic Thinking
+Proportional Reasoning
+Probability and Chance
+Visual Algebra
+Solving Equations
+Quadratics
+Calculus
+26 additional courses
+Covered subjects
+Thinking in Code
+Programming with Variables
+Thinking in Python
+Programming with Functions
+Algorithmic Thinking
+Computer Science Fundamentals
+Introduction to Neural Networks
+7 additional courses
+Covered subjects
+Scientific Thinking
+Circuits
+Digital Circuits
+Quantum Computing
+Beyond the Nutshell
+Covered subjects
+Exploring Data Visually
+Probability in Data
+Clustering & Classification
+Regression
+Predicting with Probability
+Always on your
+schedule
+Say goodbye to trial-and-error hiring, driving across town, and fitting another thing into your schedule. Koji is there Sunday night before the test, Saturday morning for fun, and the quiet 20 minutes before dinner.
+Built by top learning
+experts
+Our curriculum is crafted by award-winning teachers, subject-matter experts, and learning designers from top institutions.
+Students, parents, and teachers love us
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+Showing testimonial 2 of 5
+The best tutor you’ll ever have
+is already here
+Get started
+Download on the
+App Store
+Get it on
+Google Play
+Product
+Courses
+Pricing
+Gift Brilliant
+Homeschooling
+Help
+Company
+About us
+Careers
+Educators
+Behind the scenes
+A Tutor in Every Home
+AI at Brilliant
+AI Evals for Learning Games
+Visual Algebra
+Decomposition and Abstraction
+Terms of service
+Privacy policy
+Do not sell my personal information
+California privacy policy
+© 2026 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo are trademarks of Brilliant Worldwide, Inc.
+--------------------------------------------------------------------------------
+
+Title: Practice: Reflecting Shapes
+URL: https://brilliant.org/practice/reflecting-shapes-practice-1/
+Content:
+Sign in
+A world-class
+tutor for
+every home
+Your personal tutor for math and coding. Built by top learning experts from MIT and Harvard.
+I’m a learner
+I’m a parent or teacher
+Award-winning
+learning that’s effective and fun
+100,000+
+5-star app store reviews
+10 million+
+learners around the world
+Meet Koji, your personal tutor
+Concepts that click
+Every session is visual and interactive. Instead of just memorizing, you play with concepts until they click. And you work through problems step-by-step, building your intuition along the way.
+Built to make you think
+Like the best human tutors, Koji asks the right questions, provides visual guidance, and gets to the heart of where you’re getting stuck. It’s the difference between getting the answer and actually understanding it.
+Adapts to exactly where you are
+Koji tracks what you’ve mastered and where you’re stuck, then builds practice around the gaps. He speeds up when you’re ready, and slows down when you need it.
+Designed to keep
+you learning
+Brilliant is designed to feel like a challenge, not a chore. Streaks, levels, and daily goals motivate you to build on your progress and keep moving forward.
+From grade 5 to college and beyond
+Math
+Computer Science
+Science
+Data Analysis
+Covered subjects
+Arithmetic Thinking
+Proportional Reasoning
+Probability and Chance
+Visual Algebra
+Solving Equations
+Quadratics
+Calculus
+26 additional courses
+Covered subjects
+Thinking in Code
+Programming with Variables
+Thinking in Python
+Programming with Functions
+Algorithmic Thinking
+Computer Science Fundamentals
+Introduction to Neural Networks
+7 additional courses
+Covered subjects
+Scientific Thinking
+Circuits
+Digital Circuits
+Quantum Computing
+Beyond the Nutshell
+Covered subjects
+Exploring Data Visually
+Probability in Data
+Clustering & Classification
+Regression
+Predicting with Probability
+Always on your
+schedule
+Say goodbye to trial-and-error hiring, driving across town, and fitting another thing into your schedule. Koji is there Sunday night before the test, Saturday morning for fun, and the quiet 20 minutes before dinner.
+Built by top learning
+experts
+Our curriculum is crafted by award-winning teachers, subject-matter experts, and learning designers from top institutions.
+Students, parents, and teachers love us
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+Showing testimonial 2 of 5
+The best tutor you’ll ever have
+is already here
+Get started
+Download on the
+App Store
+Get it on
+Google Play
+Product
+Courses
+Pricing
+Gift Brilliant
+Homeschooling
+Help
+Company
+About us
+Careers
+Educators
+Behind the scenes
+A Tutor in Every Home
+AI at Brilliant
+AI Evals for Learning Games
+Visual Algebra
+Decomposition and Abstraction
+Terms of service
+Privacy policy
+Do not sell my personal information
+California privacy policy
+© 2026 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo are trademarks of Brilliant Worldwide, Inc.
+--------------------------------------------------------------------------------
+
+Title: Practice: Proving Congruence
+URL: https://brilliant.org/practice/proving-congruence-practice/
+Content:
+Sign in
+A world-class
+tutor for
+every home
+Your personal tutor for math and coding. Built by top learning experts from MIT and Harvard.
+I’m a learner
+I’m a parent or teacher
+Award-winning
+learning that’s effective and fun
+100,000+
+5-star app store reviews
+10 million+
+learners around the world
+Meet Koji, your personal tutor
+Concepts that click
+Every session is visual and interactive. Instead of just memorizing, you play with concepts until they click. And you work through problems step-by-step, building your intuition along the way.
+Built to make you think
+Like the best human tutors, Koji asks the right questions, provides visual guidance, and gets to the heart of where you’re getting stuck. It’s the difference between getting the answer and actually understanding it.
+Adapts to exactly where you are
+Koji tracks what you’ve mastered and where you’re stuck, then builds practice around the gaps. He speeds up when you’re ready, and slows down when you need it.
+Designed to keep
+you learning
+Brilliant is designed to feel like a challenge, not a chore. Streaks, levels, and daily goals motivate you to build on your progress and keep moving forward.
+From grade 5 to college and beyond
+Math
+Computer Science
+Science
+Data Analysis
+Covered subjects
+Arithmetic Thinking
+Proportional Reasoning
+Probability and Chance
+Visual Algebra
+Solving Equations
+Quadratics
+Calculus
+26 additional courses
+Covered subjects
+Thinking in Code
+Programming with Variables
+Thinking in Python
+Programming with Functions
+Algorithmic Thinking
+Computer Science Fundamentals
+Introduction to Neural Networks
+7 additional courses
+Covered subjects
+Scientific Thinking
+Circuits
+Digital Circuits
+Quantum Computing
+Beyond the Nutshell
+Covered subjects
+Exploring Data Visually
+Probability in Data
+Clustering & Classification
+Regression
+Predicting with Probability
+Always on your
+schedule
+Say goodbye to trial-and-error hiring, driving across town, and fitting another thing into your schedule. Koji is there Sunday night before the test, Saturday morning for fun, and the quiet 20 minutes before dinner.
+Built by top learning
+experts
+Our curriculum is crafted by award-winning teachers, subject-matter experts, and learning designers from top institutions.
+Students, parents, and teachers love us
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+Showing testimonial 2 of 5
+The best tutor you’ll ever have
+is already here
+Get started
+Download on the
+App Store
+Get it on
+Google Play
+Product
+Courses
+Pricing
+Gift Brilliant
+Homeschooling
+Help
+Company
+About us
+Careers
+Educators
+Behind the scenes
+A Tutor in Every Home
+AI at Brilliant
+AI Evals for Learning Games
+Visual Algebra
+Decomposition and Abstraction
+Terms of service
+Privacy policy
+Do not sell my personal information
+California privacy policy
+© 2026 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo are trademarks of Brilliant Worldwide, Inc.
+--------------------------------------------------------------------------------
+
+Title: Practice: Simplifying Expressions
+URL: https://brilliant.org/practice/simplifying-complex-expressions-practice/
+Content:
+Sign in
+A world-class
+tutor for
+every home
+Your personal tutor for math and coding. Built by top learning experts from MIT and Harvard.
+I’m a learner
+I’m a parent or teacher
+Award-winning
+learning that’s effective and fun
+100,000+
+5-star app store reviews
+10 million+
+learners around the world
+Meet Koji, your personal tutor
+Concepts that click
+Every session is visual and interactive. Instead of just memorizing, you play with concepts until they click. And you work through problems step-by-step, building your intuition along the way.
+Built to make you think
+Like the best human tutors, Koji asks the right questions, provides visual guidance, and gets to the heart of where you’re getting stuck. It’s the difference between getting the answer and actually understanding it.
+Adapts to exactly where you are
+Koji tracks what you’ve mastered and where you’re stuck, then builds practice around the gaps. He speeds up when you’re ready, and slows down when you need it.
+Designed to keep
+you learning
+Brilliant is designed to feel like a challenge, not a chore. Streaks, levels, and daily goals motivate you to build on your progress and keep moving forward.
+From grade 5 to college and beyond
+Math
+Computer Science
+Science
+Data Analysis
+Covered subjects
+Arithmetic Thinking
+Proportional Reasoning
+Probability and Chance
+Visual Algebra
+Solving Equations
+Quadratics
+Calculus
+26 additional courses
+Covered subjects
+Thinking in Code
+Programming with Variables
+Thinking in Python
+Programming with Functions
+Algorithmic Thinking
+Computer Science Fundamentals
+Introduction to Neural Networks
+7 additional courses
+Covered subjects
+Scientific Thinking
+Circuits
+Digital Circuits
+Quantum Computing
+Beyond the Nutshell
+Covered subjects
+Exploring Data Visually
+Probability in Data
+Clustering & Classification
+Regression
+Predicting with Probability
+Always on your
+schedule
+Say goodbye to trial-and-error hiring, driving across town, and fitting another thing into your schedule. Koji is there Sunday night before the test, Saturday morning for fun, and the quiet 20 minutes before dinner.
+Built by top learning
+experts
+Our curriculum is crafted by award-winning teachers, subject-matter experts, and learning designers from top institutions.
+Students, parents, and teachers love us
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+“
+I wasn’t getting the slope unit in class, but it finally clicked after 20 minutes talking to Koji!
+Eliza
+7th grader
+“
+I didn’t expect him to learn this fast. He explained how to write algorithms at dinner tonight.
+Noah
+Parent of
+16 year old
+“
+I learned the basics of Trigonometry in 12 days, I just got into a flow. I’m best in my class now.
+Tyler
+10th grader
+“
+She’ll get stuck on a problem and then yell, ‘Never mind, Mom, I got it!’ How great is that?
+Arianne
+Parent of
+10 year old
+“
+They enthusiastically do it outside of class. I had 8th graders say, ‘This makes me want to do more math!’
+Aaron
+Algebra Teacher
+Showing testimonial 2 of 5
+The best tutor you’ll ever have
+is already here
+Get started
+Download on the
+App Store
+Get it on
+Google Play
+Product
+Courses
+Pricing
+Gift Brilliant
+Homeschooling
+Help
+Company
+About us
+Careers
+Educators
+Behind the scenes
+A Tutor in Every Home
+AI at Brilliant
+AI Evals for Learning Games
+Visual Algebra
+Decomposition and Abstraction
+Terms of service
+Privacy policy
+Do not sell my personal information
+California privacy policy
+© 2026 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo are trademarks of Brilliant Worldwide, Inc.
+--------------------------------------------------------------------------------
+
+Title: Practice: Constant Terms
+URL: https://brilliant.org/practice/vaconstant/
+Content:
+Home
+Courses
+Go Premium
+3
+1
+Subscribe to Premium and save 20%. Go Premium
+1
+T
+W
+Th
+F
+S
+Unlock all learning with Premium to get smarter, faster
+Explore Premium
+HYDROGEN LEAGUE
+Top 15 advance · 3 days left
+1
+H
+Henrique F
+2275
+XP
+2
+W
+Wayne M
+1340
+XP
+3
+F
+Friedbert H
+1145
+XP
+4
+J
+JingYi C
+935
+XP
+5
+C
+Christophe D
+825
+XP
+6
+B
+Bo S
+815
+XP
+7
+M
+Malcolm W
+790
+XP
+8
+S
+Siglinde L
+725
+XP
+9
+N
+Nicola M
+570
+XP
+10
+R
+Robert H
+470
+XP
+11
+W
+Wayne M
+465
+XP
+12
+E
+Elizabeth F
+435
+XP
+13
+V
+Vijay V
+425
+XP
+14
+A
+Augusto d
+420
+XP
+14
+J
+Jorge A
+420
+XP
+14
+A
+Amari R
+420
+XP
+Advancing to next league
+17
+A
+Amber D
+405
+XP
+17
+E
+Elijah G
+405
+XP
+19
+W
+Whitney B
+400
+XP
+20
+N
+Ning T
+385
+XP
+21
+D
+Damon D
+360
+XP
+22
+B
+Burcu K
+275
+XP
+23
+K
+Kaylee P
+215
+XP
+23
+O
+Onur E
+215
+XP
+25
+Q
+Qiang L
+165
+XP
+26
+A
+Andrei V
+125
+XP
+27
+E
+Eric G
+100
+XP
+28
+Q
+Qiang Z
+60
+XP
+29
+C
+Christopher C
+55
+XP
+30
+D
+Dontay M
+40
+XP
+Programming with Functions
+LEVEL 1
+Warm Up
+Returning Values
+Start
+RECOMMENDED
+Exploring Data Visually
+LEVEL 1
+Reading Bar Charts
+Analyzing Bar Charts
+Start
+RECOMMENDED
+Scientific Thinking
+LEVEL 1
+Connecting Gears
+Gears Changing Speeds
+Start
+RECOMMENDED
+Probability and Chance
+LEVEL 1
+Comparing Likelihoods
+Multiple Decks
+Start
+RECOMMENDED
+Algorithmic Thinking
+LEVEL 1
+The Scheduling Problem
+Solving Instances
+Start
+We use cookies to keep the site running, understand how learners use Brilliant, improve lessons and features, and support advertising from us and our partners. You can manage your privacy choices at any time.
+Got It
+--------------------------------------------------------------------------------
+
+Title: Practice: Longer Expressions
+URL: https://brilliant.org/practice/order-ops-5-practice-a/
+Content:
+Home
+Courses
+Go Premium
+3
+1
+Subscribe to Premium and save 20%. Go Premium
+1
+T
+W
+Th
+F
+S
+Unlock all learning with Premium to get smarter, faster
+Explore Premium
+HYDROGEN LEAGUE
+Top 15 advance · 3 days left
+1
+H
+Henrique F
+2275
+XP
+2
+W
+Wayne M
+1340
+XP
+3
+F
+Friedbert H
+1145
+XP
+4
+J
+JingYi C
+935
+XP
+5
+C
+Christophe D
+825
+XP
+6
+B
+Bo S
+815
+XP
+7
+M
+Malcolm W
+790
+XP
+8
+S
+Siglinde L
+725
+XP
+9
+N
+Nicola M
+570
+XP
+10
+R
+Robert H
+470
+XP
+11
+W
+Wayne M
+465
+XP
+12
+E
+Elizabeth F
+435
+XP
+13
+V
+Vijay V
+425
+XP
+14
+A
+Augusto d
+420
+XP
+14
+J
+Jorge A
+420
+XP
+14
+A
+Amari R
+420
+XP
+Advancing to next league
+17
+A
+Amber D
+405
+XP
+17
+E
+Elijah G
+405
+XP
+19
+W
+Whitney B
+400
+XP
+20
+N
+Ning T
+385
+XP
+21
+D
+Damon D
+360
+XP
+22
+B
+Burcu K
+275
+XP
+23
+K
+Kaylee P
+215
+XP
+23
+O
+Onur E
+215
+XP
+25
+Q
+Qiang L
+165
+XP
+26
+A
+Andrei V
+125
+XP
+27
+E
+Eric G
+100
+XP
+28
+Q
+Qiang Z
+60
+XP
+29
+C
+Christopher C
+55
+XP
+30
+D
+Dontay M
+40
+XP
+Programming with Functions
+LEVEL 1
+Warm Up
+Returning Values
+Start
+RECOMMENDED
+Exploring Data Visually
+LEVEL 1
+Reading Bar Charts
+Analyzing Bar Charts
+Start
+RECOMMENDED
+Scientific Thinking
+LEVEL 1
+Connecting Gears
+Gears Changing Speeds
+Start
+RECOMMENDED
+Probability and Chance
+LEVEL 1
+Comparing Likelihoods
+Multiple Decks
+Start
+RECOMMENDED
+Algorithmic Thinking
+LEVEL 1
+The Scheduling Problem
+Solving Instances
+Start
+--------------------------------------------------------------------------------
+
+Title: Practice: Solving for Resistance
+URL: https://brilliant.org/practice/solving-resistance-1/
+Content:
+Home
+Courses
+Go Premium
+3
+1
+Subscribe to Premium and save 20%. Go Premium
+1
+T
+W
+Th
+F
+S
+Unlock all learning with Premium to get smarter, faster
+Explore Premium
+HYDROGEN LEAGUE
+Top 15 advance · 3 days left
+1
+H
+Henrique F
+2275
+XP
+2
+W
+Wayne M
+1340
+XP
+3
+F
+Friedbert H
+1145
+XP
+4
+J
+JingYi C
+935
+XP
+5
+C
+Christophe D
+825
+XP
+6
+B
+Bo S
+815
+XP
+7
+M
+Malcolm W
+790
+XP
+8
+S
+Siglinde L
+725
+XP
+9
+N
+Nicola M
+570
+XP
+10
+R
+Robert H
+470
+XP
+11
+W
+Wayne M
+465
+XP
+12
+E
+Elizabeth F
+435
+XP
+13
+V
+Vijay V
+425
+XP
+14
+A
+Augusto d
+420
+XP
+14
+J
+Jorge A
+420
+XP
+14
+A
+Amari R
+420
+XP
+Advancing to next league
+17
+A
+Amber D
+405
+XP
+17
+E
+Elijah G
+405
+XP
+19
+W
+Whitney B
+400
+XP
+20
+N
+Ning T
+385
+XP
+21
+D
+Damon D
+360
+XP
+22
+B
+Burcu K
+275
+XP
+23
+K
+Kaylee P
+215
+XP
+23
+O
+Onur E
+215
+XP
+25
+Q
+Qiang L
+165
+XP
+26
+A
+Andrei V
+125
+XP
+27
+E
+Eric G
+100
+XP
+28
+Q
+Qiang Z
+60
+XP
+29
+C
+Christopher C
+55
+XP
+30
+D
+Dontay M
+40
+XP
+Programming with Functions
+LEVEL 1
+Warm Up
+Returning Values
+Start
+RECOMMENDED
+Exploring Data Visually
+LEVEL 1
+Reading Bar Charts
+Analyzing Bar Charts
+Start
+RECOMMENDED
+Scientific Thinking
+LEVEL 1
+Connecting Gears
+Gears Changing Speeds
+Start
+RECOMMENDED
+Probability and Chance
+LEVEL 1
+Comparing Likelihoods
+Multiple Decks
+Start
+RECOMMENDED
+Algorithmic Thinking
+LEVEL 1
+The Scheduling Problem
+Solving Instances
+Start
+--------------------------------------------------------------------------------
+
+Title: Practice: Stretching and Reflecting
+URL: https://brilliant.org/practice/stretching-and-reflecting-practice/
+Content:
+Home
+Courses
+Go Premium
+3
+1
+Subscribe to Premium and save 20%. Go Premium
+1
+T
+W
+Th
+F
+S
+Unlock all learning with Premium to get smarter, faster
+Explore Premium
+HYDROGEN LEAGUE
+Top 15 advance · 3 days left
+1
+H
+Henrique F
+2275
+XP
+2
+W
+Wayne M
+1340
+XP
+3
+F
+Friedbert H
+1145
+XP
+4
+J
+JingYi C
+935
+XP
+5
+C
+Christophe D
+825
+XP
+6
+B
+Bo S
+815
+XP
+7
+M
+Malcolm W
+790
+XP
+8
+S
+Siglinde L
+725
+XP
+9
+N
+Nicola M
+570
+XP
+10
+R
+Robert H
+470
+XP
+11
+W
+Wayne M
+465
+XP
+12
+E
+Elizabeth F
+435
+XP
+13
+V
+Vijay V
+425
+XP
+14
+A
+Augusto d
+420
+XP
+14
+J
+Jorge A
+420
+XP
+14
+A
+Amari R
+420
+XP
+Advancing to next league
+17
+A
+Amber D
+405
+XP
+17
+E
+Elijah G
+405
+XP
+19
+W
+Whitney B
+400
+XP
+20
+N
+Ning T
+385
+XP
+21
+D
+Damon D
+360
+XP
+22
+B
+Burcu K
+275
+XP
+23
+K
+Kaylee P
+215
+XP
+23
+O
+Onur E
+215
+XP
+25
+Q
+Qiang L
+165
+XP
+26
+A
+Andrei V
+125
+XP
+27
+E
+Eric G
+100
+XP
+28
+Q
+Qiang Z
+60
+XP
+29
+C
+Christopher C
+55
+XP
+30
+D
+Dontay M
+40
+XP
+Programming with Functions
+LEVEL 1
+Warm Up
+Returning Values
+Start
+RECOMMENDED
+Exploring Data Visually
+LEVEL 1
+Reading Bar Charts
+Analyzing Bar Charts
+Start
+RECOMMENDED
+Scientific Thinking
+LEVEL 1
+Connecting Gears
+Gears Changing Speeds
+Start
+RECOMMENDED
+Probability and Chance
+LEVEL 1
+Comparing Likelihoods
+Multiple Decks
+Start
+RECOMMENDED
+Algorithmic Thinking
+LEVEL 1
+The Scheduling Problem
+Solving Instances
+Start
+--------------------------------------------------------------------------------
+
+Title: Practice: Grouping Data
+URL: https://brilliant.org/practice/vis-data-53-set1/
+Content:
+Home
+Courses
+Go Premium
+3
+1
+Subscribe to Premium and save 20%. Go Premium
+1
+T
+W
+Th
+F
+S
+Unlock all learning with Premium to get smarter, faster
+Explore Premium
+HYDROGEN LEAGUE
+Top 15 advance · 3 days left
+1
+H
+Henrique F
+2275
+XP
+2
+W
+Wayne M
+1340
+XP
+3
+F
+Friedbert H
+1145
+XP
+4
+J
+JingYi C
+935
+XP
+5
+C
+Christophe D
+825
+XP
+6
+B
+Bo S
+815
+XP
+7
+M
+Malcolm W
+790
+XP
+8
+S
+Siglinde L
+725
+XP
+9
+N
+Nicola M
+570
+XP
+10
+R
+Robert H
+470
+XP
+11
+W
+Wayne M
+465
+XP
+12
+E
+Elizabeth F
+435
+XP
+13
+V
+Vijay V
+425
+XP
+14
+A
+Augusto d
+420
+XP
+14
+J
+Jorge A
+420
+XP
+14
+A
+Amari R
+420
+XP
+Advancing to next league
+17
+A
+Amber D
+405
+XP
+17
+E
+Elijah G
+405
+XP
+19
+W
+Whitney B
+400
+XP
+20
+N
+Ning T
+385
+XP
+21
+D
+Damon D
+360
+XP
+22
+B
+Burcu K
+275
+XP
+23
+K
+Kaylee P
+215
+XP
+23
+O
+Onur E
+215
+XP
+25
+Q
+Qiang L
+165
+XP
+26
+A
+Andrei V
+125
+XP
+27
+E
+Eric G
+100
+XP
+28
+Q
+Qiang Z
+60
+XP
+29
+C
+Christopher C
+55
+XP
+30
+D
+Dontay M
+40
+XP
+Programming with Functions
+LEVEL 1
+Warm Up
+Returning Values
+Start
+RECOMMENDED
+Exploring Data Visually
+LEVEL 1
+Reading Bar Charts
+Analyzing Bar Charts
+Start
+RECOMMENDED
+Scientific Thinking
+LEVEL 1
+Connecting Gears
+Gears Changing Speeds
+Start
+RECOMMENDED
+Probability and Chance
+LEVEL 1
+Comparing Likelihoods
+Multiple Decks
+Start
+RECOMMENDED
+Algorithmic Thinking
+LEVEL 1
+The Scheduling Problem
+Solving Instances
+Start
+--------------------------------------------------------------------------------
+
+Title: Practice: Rotation by Multiplication
+URL: https://brilliant.org/practice/rotation-by-multiplication-practice/
+Content:
+Home
+Courses
+Go Premium
+3
+1
+Subscribe to Premium and save 20%. Go Premium
+1
+T
+W
+Th
+F
+S
+Unlock all learning with Premium to get smarter, faster
+Explore Premium
+HYDROGEN LEAGUE
+Top 15 advance · 3 days left
+1
+H
+Henrique F
+2275
+XP
+2
+W
+Wayne M
+1340
+XP
+3
+F
+Friedbert H
+1145
+XP
+4
+J
+JingYi C
+935
+XP
+5
+C
+Christophe D
+825
+XP
+6
+B
+Bo S
+815
+XP
+7
+M
+Malcolm W
+790
+XP
+8
+S
+Siglinde L
+725
+XP
+9
+N
+Nicola M
+570
+XP
+10
+R
+Robert H
+470
+XP
+11
+W
+Wayne M
+465
+XP
+12
+E
+Elizabeth F
+435
+XP
+13
+V
+Vijay V
+425
+XP
+14
+A
+Augusto d
+420
+XP
+14
+J
+Jorge A
+420
+XP
+14
+A
+Amari R
+420
+XP
+Advancing to next league
+17
+A
+Amber D
+405
+XP
+17
+E
+Elijah G
+405
+XP
+19
+W
+Whitney B
+400
+XP
+20
+N
+Ning T
+385
+XP
+21
+D
+Damon D
+360
+XP
+22
+B
+Burcu K
+275
+XP
+23
+K
+Kaylee P
+215
+XP
+23
+O
+Onur E
+215
+XP
+25
+Q
+Qiang L
+165
+XP
+26
+A
+Andrei V
+125
+XP
+27
+E
+Eric G
+100
+XP
+28
+Q
+Qiang Z
+60
+XP
+29
+C
+Christopher C
+55
+XP
+30
+D
+Dontay M
+40
+XP
+Programming with Functions
+LEVEL 1
+Warm Up
+Returning Values
+Start
+RECOMMENDED
+Exploring Data Visually
+LEVEL 1
+Reading Bar Charts
+Analyzing Bar Charts
+Start
+RECOMMENDED
+Scientific Thinking
+LEVEL 1
+Connecting Gears
+Gears Changing Speeds
+Start
+RECOMMENDED
+Probability and Chance
+LEVEL 1
+Comparing Likelihoods
+Multiple Decks
+Start
+RECOMMENDED
+Algorithmic Thinking
+LEVEL 1
+The Scheduling Problem
+Solving Instances
+Start
+--------------------------------------------------------------------------------
+
+Title: Practice: Either/Or
+URL: https://brilliant.org/practice/generated-size-1-1-T32rVJ0b/
+Content:
+Home
+Courses
+Go Premium
+3
+1
+Subscribe to Premium and save 20%. Go Premium
+1
+T
+W
+Th
+F
+S
+Unlock all learning with Premium to get smarter, faster
+Explore Premium
+HYDROGEN LEAGUE
+Top 15 advance · 3 days left
+1
+H
+Henrique F
+2275
+XP
+2
+W
+Wayne M
+1340
+XP
+3
+F
+Friedbert H
+1145
+XP
+4
+J
+JingYi C
+935
+XP
+5
+C
+Christophe D
+825
+XP
+6
+B
+Bo S
+815
+XP
+7
+M
+Malcolm W
+790
+XP
+8
+S
+Siglinde L
+725
+XP
+9
+N
+Nicola M
+570
+XP
+10
+R
+Robert H
+470
+XP
+11
+W
+Wayne M
+465
+XP
+12
+E
+Elizabeth F
+435
+XP
+13
+V
+Vijay V
+425
+XP
+14
+A
+Augusto d
+420
+XP
+14
+J
+Jorge A
+420
+XP
+14
+A
+Amari R
+420
+XP
+Advancing to next league
+17
+A
+Amber D
+405
+XP
+17
+E
+Elijah G
+405
+XP
+19
+W
+Whitney B
+400
+XP
+20
+N
+Ning T
+385
+XP
+21
+D
+Damon D
+360
+XP
+22
+B
+Burcu K
+275
+XP
+23
+K
+Kaylee P
+215
+XP
+23
+O
+Onur E
+215
+XP
+25
+Q
+Qiang L
+165
+XP
+26
+A
+Andrei V
+125
+XP
+27
+E
+Eric G
+100
+XP
+28
+Q
+Qiang Z
+60
+XP
+29
+C
+Christopher C
+55
+XP
+30
+D
+Dontay M
+40
+XP
+Programming with Functions
+LEVEL 1
+Warm Up
+Returning Values
+Start
+RECOMMENDED
+Exploring Data Visually
+LEVEL 1
+Reading Bar Charts
+Analyzing Bar Charts
+Start
+RECOMMENDED
+Scientific Thinking
+LEVEL 1
+Connecting Gears
+Gears Changing Speeds
+Start
+RECOMMENDED
+Probability and Chance
+LEVEL 1
+Comparing Likelihoods
+Multiple Decks
+Start
+RECOMMENDED
+Algorithmic Thinking
+LEVEL 1
+The Scheduling Problem
+Solving Instances
+Start
+--------------------------------------------------------------------------------
+
+Title: Practice: Joining Lists
+URL: https://brilliant.org/practice/py-join-lists-set1/
+Content:
+Home
+Courses
+Go Premium
+3
+1
+Subscribe to Premium and save 20%. Go Premium
+1
+T
+W
+Th
+F
+S
+Unlock all learning with Premium to get smarter, faster
+Explore Premium
+HYDROGEN LEAGUE
+Top 15 advance · 3 days left
+1
+H
+Henrique F
+2275
+XP
+2
+W
+Wayne M
+1340
+XP
+3
+F
+Friedbert H
+1145
+XP
+4
+J
+JingYi C
+935
+XP
+5
+C
+Christophe D
+825
+XP
+6
+B
+Bo S
+815
+XP
+7
+M
+Malcolm W
+790
+XP
+8
+S
+Siglinde L
+725
+XP
+9
+N
+Nicola M
+570
+XP
+10
+R
+Robert H
+470
+XP
+11
+W
+Wayne M
+465
+XP
+12
+E
+Elizabeth F
+435
+XP
+13
+V
+Vijay V
+425
+XP
+14
+A
+Augusto d
+420
+XP
+14
+J
+Jorge A
+420
+XP
+14
+A
+Amari R
+420
+XP
+Advancing to next league
+17
+A
+Amber D
+405
+XP
+17
+E
+Elijah G
+405
+XP
+19
+W
+Whitney B
+400
+XP
+20
+N
+Ning T
+385
+XP
+21
+D
+Damon D
+360
+XP
+22
+B
+Burcu K
+275
+XP
+23
+K
+Kaylee P
+215
+XP
+23
+O
+Onur E
+215
+XP
+25
+Q
+Qiang L
+165
+XP
+26
+A
+Andrei V
+125
+XP
+27
+E
+Eric G
+100
+XP
+28
+Q
+Qiang Z
+60
+XP
+29
+C
+Christopher C
+55
+XP
+30
+D
+Dontay M
+40
+XP
+Programming with Functions
+LEVEL 1
+Warm Up
+Returning Values
+Start
+RECOMMENDED
+Exploring Data Visually
+LEVEL 1
+Reading Bar Charts
+Analyzing Bar Charts
+Start
+RECOMMENDED
+Scientific Thinking
+LEVEL 1
+Connecting Gears
+Gears Changing Speeds
+Start
+RECOMMENDED
+Probability and Chance
+LEVEL 1
+Comparing Likelihoods
+Multiple Decks
+Start
+RECOMMENDED
+Algorithmic Thinking
+LEVEL 1
+The Scheduling Problem
+Solving Instances
+Start
+--------------------------------------------------------------------------------
+
+Title: Practice: Subtraction on the Number Line
+URL: https://brilliant.org/practice/numeric-expressions-22-practice-set-a/
+Content:
+Home
+Courses
+Go Premium
+3
+1
+Subscribe to Premium and save 20%. Go Premium
+1
+T
+W
+Th
+F
+S
+Unlock all learning with Premium to get smarter, faster
+Explore Premium
+HYDROGEN LEAGUE
+Top 15 advance · 3 days left
+1
+H
+Henrique F
+2275
+XP
+2
+W
+Wayne M
+1340
+XP
+3
+F
+Friedbert H
+1145
+XP
+4
+J
+JingYi C
+935
+XP
+5
+C
+Christophe D
+825
+XP
+6
+B
+Bo S
+815
+XP
+7
+M
+Malcolm W
+790
+XP
+8
+S
+Siglinde L
+725
+XP
+9
+N
+Nicola M
+570
+XP
+10
+R
+Robert H
+470
+XP
+11
+W
+Wayne M
+465
+XP
+12
+E
+Elizabeth F
+435
+XP
+13
+V
+Vijay V
+425
+XP
+14
+A
+Augusto d
+420
+XP
+14
+J
+Jorge A
+420
+XP
+14
+A
+Amari R
+420
+XP
+Advancing to next league
+17
+A
+Amber D
+405
+XP
+17
+E
+Elijah G
+405
+XP
+19
+W
+Whitney B
+400
+XP
+20
+N
+Ning T
+385
+XP
+21
+D
+Damon D
+360
+XP
+22
+B
+Burcu K
+275
+XP
+23
+K
+Kaylee P
+215
+XP
+23
+O
+Onur E
+215
+XP
+25
+Q
+Qiang L
+165
+XP
+26
+A
+Andrei V
+125
+XP
+27
+E
+Eric G
+100
+XP
+28
+Q
+Qiang Z
+60
+XP
+29
+C
+Christopher C
+55
+XP
+30
+D
+Dontay M
+40
+XP
+Programming with Functions
+LEVEL 1
+Warm Up
+Returning Values
+Start
+RECOMMENDED
+Exploring Data Visually
+LEVEL 1
+Reading Bar Charts
+Analyzing Bar Charts
+Start
+RECOMMENDED
+Scientific Thinking
+LEVEL 1
+Connecting Gears
+Gears Changing Speeds
+Start
+RECOMMENDED
+Probability and Chance
+LEVEL 1
+Comparing Likelihoods
+Multiple Decks
+Start
+RECOMMENDED
+Algorithmic Thinking
+LEVEL 1
+The Scheduling Problem
+Solving Instances
+Start
+--------------------------------------------------------------------------------
+
+Title: Practice: Radians
+URL: https://brilliant.org/practice/radians-practice-a/
+Content:
+Home
+Courses
+Go Premium
+3
+1
+Subscribe to Premium and save 20%. Go Premium
+1
+T
+W
+Th
+F
+S
+Unlock all learning with Premium to get smarter, faster
+Explore Premium
+HYDROGEN LEAGUE
+Top 15 advance · 3 days left
+1
+H
+Henrique F
+2275
+XP
+2
+W
+Wayne M
+1340
+XP
+3
+F
+Friedbert H
+1145
+XP
+4
+J
+JingYi C
+935
+XP
+5
+C
+Christophe D
+825
+XP
+6
+B
+Bo S
+815
+XP
+7
+M
+Malcolm W
+790
+XP
+8
+S
+Siglinde L
+725
+XP
+9
+N
+Nicola M
+570
+XP
+10
+R
+Robert H
+470
+XP
+11
+W
+Wayne M
+465
+XP
+12
+E
+Elizabeth F
+435
+XP
+13
+V
+Vijay V
+425
+XP
+14
+A
+Augusto d
+420
+XP
+14
+J
+Jorge A
+420
+XP
+14
+A
+Amari R
+420
+XP
+Advancing to next league
+17
+A
+Amber D
+405
+XP
+17
+E
+Elijah G
+405
+XP
+19
+W
+Whitney B
+400
+XP
+20
+N
+Ning T
+385
+XP
+21
+D
+Damon D
+360
+XP
+22
+B
+Burcu K
+275
+XP
+23
+K
+Kaylee P
+215
+XP
+23
+O
+Onur E
+215
+XP
+25
+Q
+Qiang L
+165
+XP
+26
+A
+Andrei V
+125
+XP
+27
+E
+Eric G
+100
+XP
+28
+Q
+Qiang Z
+60
+XP
+29
+C
+Christopher C
+55
+XP
+30
+D
+Dontay M
+40
+XP
+Programming with Functions
+LEVEL 1
+Warm Up
+Returning Values
+Start
+RECOMMENDED
+Exploring Data Visually
+LEVEL 1
+Reading Bar Charts
+Analyzing Bar Charts
+Start
+RECOMMENDED
+Scientific Thinking
+LEVEL 1
+Connecting Gears
+Gears Changing Speeds
+Start
+RECOMMENDED
+Probability and Chance
+LEVEL 1
+Comparing Likelihoods
+Multiple Decks
+Start
+RECOMMENDED
+Algorithmic Thinking
+LEVEL 1
+The Scheduling Problem
+Solving Instances
+Start
+--------------------------------------------------------------------------------
+
+Title: Practice: Scaling and Rotating
+URL: https://brilliant.org/practice/scaling-and-rotating-practice/
+Content:
+Home
+Courses
+Go Premium
+3
+1
+Subscribe to Premium and save 20%. Go Premium
+1
+T
+W
+Th
+F
+S
+Unlock all learning with Premium to get smarter, faster
+Explore Premium
+HYDROGEN LEAGUE
+Top 15 advance · 2 days left
+1
+H
+Henrique F
+2275
+XP
+2
+W
+Wayne M
+1340
+XP
+3
+F
+Friedbert H
+1145
+XP
+4
+J
+JingYi C
+935
+XP
+5
+C
+Christophe D
+825
+XP
+6
+B
+Bo S
+815
+XP
+7
+R
+Robert H
+805
+XP
+8
+M
+Malcolm W
+790
+XP
+9
+S
+Siglinde L
+725
+XP
+10
+N
+Nicola M
+570
+XP
+11
+W
+Wayne M
+465
+XP
+12
+E
+Elizabeth F
+435
+XP
+13
+V
+Vijay V
+425
+XP
+14
+A
+Amari R
+420
+XP
+14
+J
+Jorge A
+420
+XP
+14
+A
+Augusto d
+420
+XP
+Advancing to next league
+17
+E
+Elijah G
+405
+XP
+17
+A
+Amber D
+405
+XP
+19
+W
+Whitney B
+400
+XP
+20
+N
+Ning T
+385
+XP
+21
+D
+Damon D
+360
+XP
+22
+B
+Burcu K
+275
+XP
+23
+K
+Kaylee P
+215
+XP
+23
+O
+Onur E
+215
+XP
+25
+Q
+Qiang L
+165
+XP
+26
+A
+Andrei V
+125
+XP
+27
+E
+Eric G
+100
+XP
+28
+Q
+Qiang Z
+60
+XP
+29
+C
+Christopher C
+55
+XP
+30
+D
+Dontay M
+40
+XP
+Programming with Functions
+LEVEL 1
+Warm Up
+Returning Values
+Start
+RECOMMENDED
+Exploring Data Visually
+LEVEL 1
+Reading Bar Charts
+Analyzing Bar Charts
+Start
+RECOMMENDED
+Scientific Thinking
+LEVEL 1
+Connecting Gears
+Gears Changing Speeds
+Start
+RECOMMENDED
+Probability and Chance
+LEVEL 1
+Comparing Likelihoods
+Multiple Decks
+Start
+RECOMMENDED
+Algorithmic Thinking
+LEVEL 1
+The Scheduling Problem
+Solving Instances
+Start
+--------------------------------------------------------------------------------
+
+Title: Practice: Returning None
+URL: https://brilliant.org/practice/py-return-none-set1/
+Content:
+Home
+Courses
+Go Premium
+3
+1
+Subscribe to Premium and save 20%. Go Premium
+1
+T
+W
+Th
+F
+S
+Unlock all learning with Premium to get smarter, faster
+Explore Premium
+HYDROGEN LEAGUE
+Top 15 advance · 2 days left
+1
+H
+Henrique F
+2275
+XP
+2
+W
+Wayne M
+1340
+XP
+3
+F
+Friedbert H
+1145
+XP
+4
+J
+JingYi C
+935
+XP
+5
+C
+Christophe D
+825
+XP
+6
+B
+Bo S
+815
+XP
+7
+R
+Robert H
+805
+XP
+8
+M
+Malcolm W
+790
+XP
+9
+S
+Siglinde L
+725
+XP
+10
+N
+Nicola M
+570
+XP
+11
+W
+Wayne M
+465
+XP
+12
+E
+Elizabeth F
+435
+XP
+13
+V
+Vijay V
+425
+XP
+14
+A
+Amari R
+420
+XP
+14
+J
+Jorge A
+420
+XP
+14
+A
+Augusto d
+420
+XP
+Advancing to next league
+17
+E
+Elijah G
+405
+XP
+17
+A
+Amber D
+405
+XP
+19
+W
+Whitney B
+400
+XP
+20
+N
+Ning T
+385
+XP
+21
+D
+Damon D
+360
+XP
+22
+B
+Burcu K
+275
+XP
+23
+K
+Kaylee P
+215
+XP
+23
+O
+Onur E
+215
+XP
+25
+Q
+Qiang L
+165
+XP
+26
+A
+Andrei V
+125
+XP
+27
+E
+Eric G
+100
+XP
+28
+Q
+Qiang Z
+60
+XP
+29
+C
+Christopher C
+55
+XP
+30
+D
+Dontay M
+40
+XP
+Programming with Functions
+LEVEL 1
+Warm Up
+Returning Values
+Start
+RECOMMENDED
+Exploring Data Visually
+LEVEL 1
+Reading Bar Charts
+Analyzing Bar Charts
+Start
+RECOMMENDED
+Scientific Thinking
+LEVEL 1
+Connecting Gears
+Gears Changing Speeds
+Start
+RECOMMENDED
+Probability and Chance
+LEVEL 1
+Comparing Likelihoods
+Multiple Decks
+Start
+RECOMMENDED
+Algorithmic Thinking
+LEVEL 1
+The Scheduling Problem
+Solving Instances
+Start
+--------------------------------------------------------------------------------
+
+Title: Practice: Intro to Percentages
+URL: https://brilliant.org/practice/intro-percentages-1/
+Content:
+Home
+Courses
+Go Premium
+3
+1
+Subscribe to Premium and save 20%. Go Premium
+1
+T
+W
+Th
+F
+S
+Unlock all learning with Premium to get smarter, faster
+Explore Premium
+HYDROGEN LEAGUE
+Top 15 advance · 2 days left
+1
+H
+Henrique F
+2275
+XP
+2
+W
+Wayne M
+1340
+XP
+3
+F
+Friedbert H
+1145
+XP
+4
+J
+JingYi C
+935
+XP
+5
+C
+Christophe D
+825
+XP
+6
+B
+Bo S
+815
+XP
+7
+R
+Robert H
+805
+XP
+8
+M
+Malcolm W
+790
+XP
+9
+S
+Siglinde L
+725
+XP
+10
+N
+Nicola M
+570
+XP
+11
+W
+Wayne M
+465
+XP
+12
+E
+Elizabeth F
+435
+XP
+13
+V
+Vijay V
+425
+XP
+14
+A
+Amari R
+420
+XP
+14
+J
+Jorge A
+420
+XP
+14
+A
+Augusto d
+420
+XP
+Advancing to next league
+17
+E
+Elijah G
+405
+XP
+17
+A
+Amber D
+405
+XP
+19
+W
+Whitney B
+400
+XP
+20
+N
+Ning T
+385
+XP
+21
+D
+Damon D
+360
+XP
+22
+B
+Burcu K
+275
+XP
+23
+K
+Kaylee P
+215
+XP
+23
+O
+Onur E
+215
+XP
+25
+Q
+Qiang L
+165
+XP
+26
+A
+Andrei V
+125
+XP
+27
+E
+Eric G
+100
+XP
+28
+Q
+Qiang Z
+60
+XP
+29
+C
+Christopher C
+55
+XP
+30
+D
+Dontay M
+40
+XP
+Programming with Functions
+LEVEL 1
+Warm Up
+Returning Values
+Start
+RECOMMENDED
+Exploring Data Visually
+LEVEL 1
+Reading Bar Charts
+Analyzing Bar Charts
+Start
+RECOMMENDED
+Scientific Thinking
+LEVEL 1
+Connecting Gears
+Gears Changing Speeds
+Start
+RECOMMENDED
+Probability and Chance
+LEVEL 1
+Comparing Likelihoods
+Multiple Decks
+Start
+RECOMMENDED
+Algorithmic Thinking
+LEVEL 1
+The Scheduling Problem
+Solving Instances
+Start
+--------------------------------------------------------------------------------
+
