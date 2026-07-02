@@ -547,21 +547,31 @@ def clear_selections(page) -> bool:
         if reset_btn.is_enabled():
             print("    [clear_selections] Clicking Start over / Reset button...")
             if robust_click(page, reset_btn):
-                page.wait_for_timeout(1000)
+                # Wait until all slots are actually empty (Elm animation)
+                for attempt in range(6):  # Up to 3 seconds (6 x 500ms)
+                    page.wait_for_timeout(500)
+                    placed = get_placed_blocks_count(page)
+                    if placed == 0:
+                        break
                 return True
     except Exception:
         pass
 
-    # 2. If no reset button, manually clear slots by clicking blocks inside slots
+    # 2. If no reset button, manually clear slots by clicking filled slots
     cleared_any = False
     try:
-        slot_blocks = page.locator("[class*='beacon'] [class*='draggable'], [class*='drop'] [class*='draggable'], [class*='slot'] [class*='draggable'], [class*='code'] [class*='draggable'], [class*='program'] [class*='draggable']").all()
-        for block in slot_blocks:
-            if block.is_visible():
-                print(f"    [clear_selections] Removing block from slot: {block.inner_text().strip().replace(chr(10), ' ')}")
-                robust_click(page, block)
-                page.wait_for_timeout(200)
-                cleared_any = True
+        slots = page.locator("custom-interactive .dandyDropBeacon, custom-interactive [aria-description='Slot'], custom-interactive [id*='slot_line_']").all()
+        for s in slots:
+            if s.is_visible():
+                el_id = s.get_attribute("id") or ""
+                el_desc = s.get_attribute("aria-description") or ""
+                if "bank" not in el_id.lower() and "bank" not in el_desc.lower():
+                    slot_text = (s.text_content() or "").strip()
+                    if slot_text:
+                        print(f"    [clear_selections] Clicking filled slot to eject block: {el_id} ({slot_text})")
+                        robust_click(page, s)
+                        page.wait_for_timeout(300)
+                        cleared_any = True
     except Exception as e:
         print(f"    [clear_selections] Error clearing slots: {e}")
 
@@ -619,7 +629,9 @@ def get_placed_blocks_count(page) -> int:
     
     After a block is dragged into a slot, the Elm framework re-renders it as
     plain <span> elements with text (e.g. 'turn left'), NOT as draggable elements.
-    So we detect filled slots by checking if the slot has non-empty innerText.
+    So we detect filled slots by checking if the slot has non-empty text_content.
+    NOTE: inner_text() returns '' because Brilliant hides text via CSS.
+    text_content() returns raw DOM text regardless of CSS visibility.
     """
     try:
         slots = page.locator("custom-interactive .dandyDropBeacon, custom-interactive [aria-description='Slot'], custom-interactive [id*='slot_line_']").all()
@@ -629,9 +641,9 @@ def get_placed_blocks_count(page) -> int:
                 el_id = s.get_attribute("id") or ""
                 el_desc = s.get_attribute("aria-description") or ""
                 if "bank" not in el_id.lower() and "bank" not in el_desc.lower():
-                    # A filled slot has non-empty text content (e.g. "turn left")
-                    # An empty slot has no visible text
-                    slot_text = s.inner_text().strip()
+                    # A filled slot has non-empty text content (e.g. "turnleft")
+                    # An empty slot has no text content
+                    slot_text = (s.text_content() or "").strip()
                     if slot_text:
                         count += 1
         return count
@@ -798,8 +810,8 @@ def auto_solve_card(page) -> bool:
                 page.failed_sequences = []
                 page.current_sequence = []
                 page.slots_count = None
-                print("  [AutoSolve] Settle wait (3s) for the next card...")
-                page.wait_for_timeout(3000)
+                print("  [AutoSolve] Settle wait for the next card...")
+                page.wait_for_timeout(1500)
                 return True
 
         # 1.5. Try to click "Try again" or "Start over" if incorrect
@@ -819,14 +831,14 @@ def auto_solve_card(page) -> bool:
             # 1. Click Try Again first
             print(f"  [AutoSolve] Clicking Try Again...")
             clicked = robust_click(page, visible_try_agains[0])
-            page.wait_for_timeout(1000)
+            page.wait_for_timeout(500)
                 
             # 2. Click Start Over to ensure selections/slots are fully cleared
             visible_start_overs = [b for b in start_over_btns if b.is_visible() and b.is_enabled()]
             if visible_start_overs:
                 print(f"  [AutoSolve] Clicking Start over...")
                 clicked = robust_click(page, visible_start_overs[0]) or clicked
-                page.wait_for_timeout(1000)
+                page.wait_for_timeout(500)
                 
             if clicked:
                 # Add current sequence to failed sequences
@@ -835,11 +847,11 @@ def auto_solve_card(page) -> bool:
                     if page.current_sequence not in page.failed_sequences:
                         page.failed_sequences.append(page.current_sequence)
                 page.current_sequence = []
-                page.wait_for_timeout(1500)
+                page.wait_for_timeout(500)
                 
                 # Clear selections just in case anything is still selected
                 clear_selections(page)
-                page.wait_for_timeout(1000)
+                page.wait_for_timeout(500)
                 return True
 
         # 2. Try to click "Show explanation" or "Show answer" or "Explain" or "Give up" or "Solve" or "Show me"
@@ -988,16 +1000,14 @@ def auto_solve_card(page) -> bool:
                 if not filtered_choices:
                     print(f"  [AutoSolve] All options from {page.current_sequence} lead to failed combinations.")
                     if page.current_sequence:
-                        print(f"  [AutoSolve] Marking dead-end combination as failed: {page.current_sequence}")
                         if page.current_sequence not in page.failed_sequences:
                             page.failed_sequences.append(page.current_sequence)
-                        
-                        # Reset the board to start a new sequence
                         clear_selections(page)
                         page.current_sequence = []
                         return True
                     else:
-                        print("  [AutoSolve] No valid options remain. Falling back to Show Explanation.")
+                        # No valid options remain — skip this card
+                        print(f"  [AutoSolve] No valid options remain ({len(page.failed_sequences)} combos tried). Falling back to Show Explanation.")
                         explain_btns = page.locator("button, a, [role='button']").filter(
                             has_text=re.compile(r"explanation|explain|answer|give up|solve|show me|get help", re.IGNORECASE)
                         ).all()
@@ -1009,12 +1019,12 @@ def auto_solve_card(page) -> bool:
                                 page.current_sequence = []
                                 return True
                         
-                        # If no explanation button, force a reset of failed sequences
                         print("  [AutoSolve] No explanation button found. Clearing failed_sequences and retrying...")
                         page.failed_sequences = []
                         return True
                 
                 # 5. Systematically select the next valid choice (lexicographical order)
+                page.wait_for_timeout(500)  # Let layout animations settle
                 filtered_choices.sort(key=lambda x: x[1])
                 chosen_choice, chosen_text = filtered_choices[0]
                 
@@ -1031,8 +1041,8 @@ def auto_solve_card(page) -> bool:
                             el_id = s.get_attribute("id") or ""
                             el_desc = s.get_attribute("aria-description") or ""
                             if "bank" not in el_id.lower() and "bank" not in el_desc.lower():
-                                # Empty slot has no visible text; filled slot has text like "turn left"
-                                slot_text = s.inner_text().strip()
+                                # Empty slot has no text_content; filled slot has text like "turnleft"
+                                slot_text = (s.text_content() or "").strip()
                                 if not slot_text:
                                     first_empty_slot = s
                                     break
@@ -1040,33 +1050,26 @@ def auto_solve_card(page) -> bool:
                     if first_empty_slot:
                         try:
                             print(f"    [AutoSolve] Dragging choice '{chosen_text}' to slot: {first_empty_slot.get_attribute('id')}")
-                            robust_drag_and_drop(page, chosen_choice, first_empty_slot)
-                            page.wait_for_timeout(2500)  # Extra wait for Elm to re-render
+                            chosen_choice.drag_to(first_empty_slot)
+                            page.wait_for_timeout(800)  # Brief wait for Elm to re-render
                         except Exception as drag_err:
                             print(f"    [AutoSolve] Drag failed: {drag_err}. Falling back to click.")
                             robust_click(page, chosen_choice)
-                            page.wait_for_timeout(1500)
+                            page.wait_for_timeout(500)
                     else:
                         print("    [AutoSolve] Warning: No empty slot found to drag block into.")
                         robust_click(page, chosen_choice)
-                        page.wait_for_timeout(1500)
+                        page.wait_for_timeout(500)
                 else:
                     # Standard multiple choice/checkbox card - click
                     robust_click(page, chosen_choice)
-                    page.wait_for_timeout(1500)
+                    page.wait_for_timeout(500)
                     
                 after_count = get_placed_blocks_count(page)
                 
-                # Debug: log slot states after drag
+                # Brief debug: log placed count
                 if is_slot_card:
-                    debug_slots = page.locator("custom-interactive .dandyDropBeacon, custom-interactive [aria-description='Slot'], custom-interactive [id*='slot_line_']").all()
-                    for ds in debug_slots:
-                        if ds.is_visible():
-                            ds_id = ds.get_attribute("id") or "?"
-                            ds_text = ds.inner_text().strip().replace('\n', ' ')
-                            ds_children = ds.evaluate("el => el.children.length")
-                            if "bank" not in ds_id.lower():
-                                print(f"    [debug] Slot '{ds_id}': text='{ds_text}', children={ds_children}")
+                    print(f"    [debug] Placed blocks: {before_count} -> {after_count}")
                 
                 if not is_slot_card or after_count > before_count:
                     # Success! Block was placed (or not a slot card)
@@ -1243,14 +1246,31 @@ def main():
                                 print(f"  [AutoSolve] URL changed to {current_url_base}. Activity completed.")
                                 break
                             
+                            # Safety: if too many failed combos, force-skip via explanation
+                            if hasattr(page, 'failed_sequences') and len(page.failed_sequences) >= 15:
+                                print(f"  [AutoSolve] Hit 15 failed combinations. Force-skipping card...")
+                                explain_btns = page.locator("button, a, [role='button']").filter(
+                                    has_text=re.compile(r"explanation|explain|answer|give up|solve|show me|get help", re.IGNORECASE)
+                                ).all()
+                                visible_explains = [b for b in explain_btns if b.is_visible() and b.is_enabled()]
+                                if visible_explains:
+                                    robust_click(page, visible_explains[0])
+                                    page.failed_sequences = []
+                                    page.current_sequence = []
+                                    page.wait_for_timeout(1500)
+                                    continue
+                                else:
+                                    # No explanation button, just reset and keep trying
+                                    page.failed_sequences = []
+                            
                             action_taken = auto_solve_card(page)
                             if action_taken:
                                 no_action_count = 0
-                                page.wait_for_timeout(3000)  # Wait for animation
+                                page.wait_for_timeout(1000)  # Wait for animation
                             else:
                                 no_action_count += 1
-                                if no_action_count > 12:  # 12 seconds with no interactable buttons
-                                    print("  [AutoSolve] No actionable elements found for 12 seconds. Assuming done.")
+                                if no_action_count > 15:  # 15 seconds with no interactable buttons
+                                    print("  [AutoSolve] No actionable elements found for 15 seconds. Assuming done.")
                                     break
                                 page.wait_for_timeout(1000)
                     except Exception as e:
