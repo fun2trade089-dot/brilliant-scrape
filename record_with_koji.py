@@ -90,6 +90,10 @@ FFMPEG_PATH = shutil.which("ffmpeg") or os.environ.get("FFMPEG_PATH") or r"C:\Us
 # HELPERS
 # ================================================================
 
+def clean_filename(name: str) -> str:
+    import re
+    return re.sub(r'[\\/*?:"<>|]', "", name).strip()
+
 def get_edge_user_data_dir():
     return os.path.join(os.environ.get("LOCALAPPDATA", ""), r"Microsoft\Edge\User Data")
 
@@ -341,6 +345,8 @@ def setup_koji_on_page(page) -> bool:
     """Clicks Koji button and types the configured message on the current page."""
     page_title = page.title()
     print(f"  [i]  Page title: {page_title}")
+    if page_title:
+        page.activity_title = page_title.split('|')[0].strip()
 
     # Check if redirected (locked / not logged in)
     if ("Home | Brilliant" in page_title
@@ -1275,11 +1281,25 @@ def main():
             course = entry["course"]
             url    = entry["url"]
             slug   = slug_from_url(url)
-            # Create a separate folder for this specific activity
-            activity_dir = os.path.join(OUTPUT_DIR, f"{i:03d}_{slug}")
+            # Check if an output folder for this slug/activity already exists to skip duplicate recording
+            already_done = False
+            if os.path.exists(OUTPUT_DIR):
+                for d in os.listdir(OUTPUT_DIR):
+                    if slug in d.lower() or d.lower().replace(" ", "-") == slug:
+                        d_path = os.path.join(OUTPUT_DIR, d)
+                        if os.path.isdir(d_path):
+                            mp4s = [f for f in os.listdir(d_path) if f.endswith(".mp4")]
+                            if mp4s and os.path.getsize(os.path.join(d_path, mp4s[0])) > 50_000:
+                                already_done = True
+                                break
+            if already_done:
+                print("  [SKIP] Already recorded.")
+                continue
+
+            # Temporary directory using slug name for compiling/merging
+            activity_dir = os.path.join(OUTPUT_DIR, slug)
             os.makedirs(activity_dir, exist_ok=True)
-            
-            final_out = os.path.join(activity_dir, f"{i:03d}_{slug}.mp4")
+            final_out = os.path.join(activity_dir, f"{slug}.mp4")
 
             # Temp files for video and audio
             # Use .mkv for video — MKV is crash-resilient (valid even if ffmpeg is killed)
@@ -1291,11 +1311,6 @@ def main():
             print(f"  URL    : {url}")
             print(f"  Output : {final_out}")
             print(f"{'=' * 65}")
-
-            # Skip already-done recordings
-            if os.path.exists(final_out) and os.path.getsize(final_out) > 50_000:
-                print("  [SKIP] Already recorded.")
-                continue
 
             # Start BOTH recordings in parallel
             audio_rec = AudioRecorder(temp_audio)
@@ -1398,7 +1413,31 @@ def main():
 
             # Merge video + audio into final MP4
             if video_proc is not None:
-                merge_video_audio(temp_video, temp_audio, final_out)
+                merge_success = merge_video_audio(temp_video, temp_audio, final_out)
+                if merge_success and os.path.exists(final_out):
+                    # Rename the folder and file to use the readable activity title
+                    act_title = getattr(page, 'activity_title', None)
+                    if act_title:
+                        act_name_clean = clean_filename(act_title)
+                        new_dir = os.path.join(OUTPUT_DIR, act_name_clean)
+                        new_out = os.path.join(new_dir, f"{act_name_clean}.mp4")
+                        
+                        try:
+                            # If new_dir already exists, remove it or handle it
+                            if os.path.exists(new_dir) and new_dir != activity_dir:
+                                import shutil
+                                shutil.rmtree(new_dir, ignore_errors=True)
+                            
+                            # Rename directory
+                            os.rename(activity_dir, new_dir)
+                            
+                            # Rename file inside the renamed directory
+                            old_file_in_new_dir = os.path.join(new_dir, f"{slug}.mp4")
+                            if os.path.exists(old_file_in_new_dir):
+                                os.rename(old_file_in_new_dir, new_out)
+                            print(f"  [OK] Segregated to activity folder -> {new_out}")
+                        except Exception as rename_err:
+                            print(f"  [WARN] Failed to rename folder to activity name: {rename_err}")
             else:
                 print("  [ERROR] No video was recorded for this activity.")
 
