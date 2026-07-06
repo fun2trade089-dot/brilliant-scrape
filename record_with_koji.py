@@ -1314,8 +1314,13 @@ def main():
             print(f"  [..] Waiting {PAGE_SETTLE_MS // 1000}s for page to settle...")
             page.wait_for_timeout(PAGE_SETTLE_MS)
 
-            # Extract dynamic activity title from browser title
+            # Extract dynamic activity title from browser title (wait for stable title if loading)
+            start_wait = time.time()
             page_title = page.title() or ""
+            while ("loading" in page_title.lower() or not page_title) and (time.time() - start_wait < 5):
+                page.wait_for_timeout(500)
+                page_title = page.title() or ""
+                
             act_title = page_title.split('|')[0].strip() if page_title else slug
             act_name_clean = clean_filename(act_title)
 
