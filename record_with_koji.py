@@ -1297,6 +1297,10 @@ def main():
 
             try:
                 page.goto(url, wait_until="load", timeout=60_000)
+                try:
+                    page.wait_for_load_state("networkidle", timeout=5000)
+                except Exception:
+                    pass
             except Exception as e:
                 print(f"  [ERROR] Navigation failed: {e}")
                 fail_count += 1
