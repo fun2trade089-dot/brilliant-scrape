@@ -31,6 +31,9 @@ import struct
 import subprocess
 import threading
 
+from dotenv import load_dotenv
+load_dotenv()
+
 if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -77,7 +80,7 @@ VIEWPORT_WIDTH  = 1280
 VIEWPORT_HEIGHT = 800
 
 # Wait times (milliseconds)
-PAGE_SETTLE_MS  = 10_000   # wait after page load
+PAGE_SETTLE_MS  = 3_000   # wait after page load
 KOJI_OPEN_WAIT_MS = 3_000  # wait for Koji panel animation
 
 # Full path to ffmpeg (search on system PATH first, then fall back to local path)
@@ -334,18 +337,8 @@ def merge_video_audio(video_path: str, audio_path: str, output_path: str) -> boo
 # PLAYWRIGHT: open page, click Koji, type message
 # ================================================================
 
-def process_activity(page, url: str) -> bool:
-    """Navigate, click Koji, type + send message. Returns True on success."""
-    print(f"  [>>] Navigating to: {url}")
-    try:
-        page.goto(url, wait_until="load", timeout=60_000)
-    except Exception as e:
-        print(f"  [ERROR] Navigation failed: {e}")
-        return False
-
-    print(f"  [..] Waiting {PAGE_SETTLE_MS // 1000}s for page to settle...")
-    page.wait_for_timeout(PAGE_SETTLE_MS)
-
+def setup_koji_on_page(page) -> bool:
+    """Clicks Koji button and types the configured message on the current page."""
     page_title = page.title()
     print(f"  [i]  Page title: {page_title}")
 
@@ -355,8 +348,6 @@ def process_activity(page, url: str) -> bool:
             or "login" in page.url.lower()):
         print("  [FAIL] Redirected to home/login. Activity is locked.")
         return False
-
-    print("  [OK]  Logged in. On activity page.")
 
     # --- Click Koji ---
     print("  [>>] Looking for Koji button [aria-label='chat with tutor']...")
@@ -401,8 +392,21 @@ def process_activity(page, url: str) -> bool:
 
     if not typed:
         print("  [WARN] Could not find Koji input box. Message not sent.")
-
     return True
+
+def process_activity(page, url: str) -> bool:
+    """Navigate, click Koji, type + send message. Returns True on success."""
+    print(f"  [>>] Navigating to: {url}")
+    try:
+        page.goto(url, wait_until="load", timeout=60_000)
+    except Exception as e:
+        print(f"  [ERROR] Navigation failed: {e}")
+        return False
+
+    print(f"  [..] Waiting {PAGE_SETTLE_MS // 1000}s for page to settle...")
+    page.wait_for_timeout(PAGE_SETTLE_MS)
+
+    return setup_koji_on_page(page)
 
 def robust_click(page, locator) -> bool:
     """Scrolls an element into view via JS and attempts normal click, falling back to JS event dispatches and forced click."""
@@ -461,7 +465,7 @@ def robust_drag_and_drop(page, source, target) -> bool:
         try:
             source_el.scroll_into_view_if_needed()
             target_el.scroll_into_view_if_needed()
-            page.wait_for_timeout(300)
+            page.wait_for_timeout(100)
         except Exception as scroll_err:
             print(f"    [robust_drag] Scroll failed: {scroll_err}")
         
@@ -481,11 +485,11 @@ def robust_drag_and_drop(page, source, target) -> bool:
         
         print(f"    [robust_drag] Moving mouse to source center ({x1}, {y1})...")
         page.mouse.move(x1, y1)
-        page.wait_for_timeout(200)
+        page.wait_for_timeout(50)
         
         print("    [robust_drag] Pressing mouse down...")
         page.mouse.down()
-        page.wait_for_timeout(200)
+        page.wait_for_timeout(50)
         
         # Move slowly in 8 steps to ensure the drag event registers
         steps = 8
@@ -494,12 +498,12 @@ def robust_drag_and_drop(page, source, target) -> bool:
             x = x1 + (x2 - x1) * i / steps
             y = y1 + (y2 - y1) * i / steps
             page.mouse.move(x, y)
-            page.wait_for_timeout(100) # 100ms pause per step
+            page.wait_for_timeout(25) # 25ms pause per step
             
-        page.wait_for_timeout(200)
+        page.wait_for_timeout(50)
         print("    [robust_drag] Releasing mouse up...")
         page.mouse.up()
-        page.wait_for_timeout(500)
+        page.wait_for_timeout(200)
         return True
     except Exception as e:
         print(f"    [robust_drag Exception] {e}")
@@ -569,8 +573,19 @@ def clear_selections(page) -> bool:
                     slot_text = (s.text_content() or "").strip()
                     if slot_text:
                         print(f"    [clear_selections] Clicking filled slot to eject block: {el_id} ({slot_text})")
-                        robust_click(page, s)
-                        page.wait_for_timeout(300)
+                        # Find actual inner elements that can intercept the click and click them directly
+                        child_block = s.locator("span, div, [class*='draggable'], [class*='block']").first
+                        if child_block.count() > 0 and child_block.is_visible():
+                            try:
+                                child_block.click(force=True, timeout=500)
+                            except Exception:
+                                robust_click(page, child_block)
+                        else:
+                            try:
+                                s.click(force=True, timeout=500)
+                            except Exception:
+                                robust_click(page, s)
+                        page.wait_for_timeout(500)
                         cleared_any = True
     except Exception as e:
         print(f"    [clear_selections] Error clearing slots: {e}")
@@ -870,7 +885,7 @@ def auto_solve_card(page) -> bool:
 
         # 3. Try to click a choice option
         if is_slot_card:
-            choices = page.locator("custom-interactive .android-draggable, custom-interactive [dandy-draggable='true']").all()
+            choices = page.locator("custom-interactive [id*='slot_bank_'] .android-draggable, custom-interactive [id*='slot_bank_'] [dandy-draggable='true']").all()
         else:
             choices = page.locator("custom-interactive label, [role='radio'], [role='checkbox'], button[role='checkbox'], button[role='radio']").all()
             if not choices:
@@ -882,7 +897,14 @@ def auto_solve_card(page) -> bool:
             check_btns = page.locator("button, a, [role='button']").filter(
                 has_text=re.compile(r"^(Check|Submit|Check Answer|Submit Answer|Submit response)$", re.IGNORECASE)
             ).all()
-            check_enabled = any(b.is_visible() and b.is_enabled() for b in check_btns)
+            check_enabled = False
+            for b in check_btns:
+                if b.is_visible() and b.is_enabled():
+                    class_attr = b.get_attribute("class") or ""
+                    aria_disabled = b.get_attribute("aria-disabled") or ""
+                    if "disabled" not in class_attr.lower() and "pointer-events-none" not in class_attr.lower() and aria_disabled.lower() != "true":
+                        check_enabled = True
+                        break
             
             # Determine if we are ready to check
             if is_slot_card:
@@ -937,7 +959,14 @@ def auto_solve_card(page) -> bool:
                         is_in_slot = False
                     
                     if not is_in_slot:
-                        c_text = c.get_attribute("data-scene-graph-name") or c.get_attribute("aria-label") or c.inner_text().strip().replace('\n', ' ')
+                        # Extract clean text/label to unify duplicate commands (prevent repeating identical permutations)
+                        raw_text = (c.text_content() or "").strip().lower().replace('\n', ' ')
+                        raw_text = ' '.join(raw_text.split())
+                        if not raw_text:
+                            raw_text = (c.get_attribute("aria-label") or "").strip().lower()
+                        if not raw_text:
+                            raw_text = (c.get_attribute("data-scene-graph-name") or "").strip().lower()
+                        c_text = raw_text if raw_text else "option"
                         valid_choice_data.append((c, c_text))
 
                 # Safeguard: if we are starting a new sequence (current_sequence is empty),
@@ -1024,7 +1053,7 @@ def auto_solve_card(page) -> bool:
                         return True
                 
                 # 5. Systematically select the next valid choice (lexicographical order)
-                page.wait_for_timeout(500)  # Let layout animations settle
+                page.wait_for_timeout(200)  # Let layout animations settle
                 filtered_choices.sort(key=lambda x: x[1])
                 chosen_choice, chosen_text = filtered_choices[0]
                 
@@ -1050,20 +1079,21 @@ def auto_solve_card(page) -> bool:
                     if first_empty_slot:
                         try:
                             print(f"    [AutoSolve] Dragging choice '{chosen_text}' to slot: {first_empty_slot.get_attribute('id')}")
-                            chosen_choice.drag_to(first_empty_slot)
-                            page.wait_for_timeout(800)  # Brief wait for Elm to re-render
+                            # Restore slower robust drag-and-drop to ensure event listeners register it
+                            robust_drag_and_drop(page, chosen_choice, first_empty_slot)
+                            page.wait_for_timeout(800)  # Wait for Elm to re-render
                         except Exception as drag_err:
                             print(f"    [AutoSolve] Drag failed: {drag_err}. Falling back to click.")
                             robust_click(page, chosen_choice)
-                            page.wait_for_timeout(500)
+                            page.wait_for_timeout(300)
                     else:
                         print("    [AutoSolve] Warning: No empty slot found to drag block into.")
                         robust_click(page, chosen_choice)
-                        page.wait_for_timeout(500)
+                        page.wait_for_timeout(300)
                 else:
                     # Standard multiple choice/checkbox card - click
                     robust_click(page, chosen_choice)
-                    page.wait_for_timeout(500)
+                    page.wait_for_timeout(300)
                     
                 after_count = get_placed_blocks_count(page)
                 
@@ -1108,7 +1138,13 @@ def auto_solve_card(page) -> bool:
             check_btns = page.locator("button, a, [role='button']").filter(
                 has_text=re.compile(r"^(Check|Submit|Check Answer|Submit Answer|Submit response)$", re.IGNORECASE)
             ).all()
-            visible_checks = [b for b in check_btns if b.is_visible() and b.is_enabled()]
+            visible_checks = []
+            for b in check_btns:
+                if b.is_visible() and b.is_enabled():
+                    class_attr = b.get_attribute("class") or ""
+                    aria_disabled = b.get_attribute("aria-disabled") or ""
+                    if "disabled" not in class_attr.lower() and "pointer-events-none" not in class_attr.lower() and aria_disabled.lower() != "true":
+                        visible_checks.append(b)
             if visible_checks:
                 # Safeguard: if current_sequence is empty, we shouldn't submit the previous incorrect answer again!
                 if not hasattr(page, "current_sequence") or not page.current_sequence:
@@ -1169,15 +1205,36 @@ def main():
 
     # 6. Launch Edge once, reuse across all activities
     with sync_playwright() as p:
-        print("\n[>>] Launching Edge with local profile...")
-        context = p.chromium.launch_persistent_context(
-            user_data_dir=get_edge_user_data_dir(),
-            channel="msedge",
-            headless=False,
-            viewport={"width": 1280, "height": 800},
-            args=["--disable-blink-features=AutomationControlled"],
-            no_viewport=False,
-        )
+        print("\n[>>] Launching Edge with custom profile...")
+        
+        # Use a dedicated profile directory in the project folder to prevent lock conflicts 
+        # and bypass security restrictions on default browser profile directories.
+        playwright_profile_dir = os.path.join(BASE_DIR, "edge_profile")
+        
+        try:
+            context = p.chromium.launch_persistent_context(
+                user_data_dir=playwright_profile_dir,
+                channel="msedge",
+                headless=False,
+                viewport={"width": 1280, "height": 800},
+                args=["--disable-blink-features=AutomationControlled"],
+                no_viewport=False,
+            )
+        except Exception as launch_err:
+            print(f"\n[ERROR] Failed to launch Edge browser context: {launch_err}")
+            print("Please check that Edge is not currently locked or in a bad state.")
+            return
+        
+        # Inject Brilliant.org session cookies from .env to log in automatically
+        session_id = os.getenv("BRILLIANT_SESSION_ID")
+        csrf_token = os.getenv("BRILLIANT_CSRF_TOKEN")
+        if session_id:
+            print("  [i] Injecting Brilliant.org session cookies from .env...")
+            context.add_cookies([
+                {"name": "sessionid", "value": session_id, "domain": ".brilliant.org", "path": "/"},
+                {"name": "csrftoken", "value": csrf_token, "domain": ".brilliant.org", "path": "/"}
+            ])
+            
         page = context.new_page()
         print("[OK]  Edge launched.\n")
 
@@ -1235,15 +1292,17 @@ def main():
                     page.failed_sequences = []
                     page.current_sequence = []
                     
+                    current_lesson_url_base = start_url.split('#')[0].split('?')[0]
+                    
                     try:
                         while not page.is_closed() and (time.time() - start_time < max_wait_seconds):
                             # Clean page URL check (ignore hash/anchor parameters)
                             current_url_base = page.url.split('#')[0].split('?')[0]
                             start_url_base = start_url.split('#')[0].split('?')[0]
                             
-                            # If we were redirected away from the initial activity URL, we're likely done!
+                            # Check if the URL changed from the initial activity URL (completed!)
                             if current_url_base != start_url_base:
-                                print(f"  [AutoSolve] URL changed to {current_url_base}. Activity completed.")
+                                print(f"  [AutoSolve] URL changed from {start_url_base} to {current_url_base}. Activity completed.")
                                 break
                             
                             # Safety: if too many failed combos, force-skip via explanation
@@ -1322,4 +1381,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\n[INFO] Script interrupted by user.")
+    except Exception as e:
+        print(f"\n[ERROR] Uncaught exception in main script execution: {e}")
