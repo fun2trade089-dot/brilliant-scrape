@@ -989,8 +989,16 @@ def auto_solve_card(page) -> bool:
                     
                     if not is_in_slot:
                         # Extract clean text/label to unify duplicate commands (prevent repeating identical permutations)
-                        raw_text = (c.text_content() or "").strip().lower().replace('\n', ' ')
-                        raw_text = ' '.join(raw_text.split())
+                        try:
+                            raw_text = c.evaluate("""el => {
+                                const clone = el.cloneNode(true);
+                                clone.querySelectorAll('style, script').forEach(s => s.remove());
+                                return clone.textContent || '';
+                            }""").strip().lower().replace('\n', ' ')
+                            raw_text = ' '.join(raw_text.split())
+                        except Exception:
+                            raw_text = (c.text_content() or "").strip().lower().replace('\n', ' ')
+                            raw_text = ' '.join(raw_text.split())
                         if not raw_text:
                             raw_text = (c.get_attribute("aria-label") or "").strip().lower()
                         if not raw_text:
