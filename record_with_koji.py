@@ -50,7 +50,7 @@ KOJI_MESSAGE = "Can you explain this problem step by step?"
 MAX_ACTIVITIES = 1
 
 # Start processing from this activity index (1-based, e.g. 2 for second course)
-START_ACTIVITY_INDEX = 3
+START_ACTIVITY_INDEX = 1
 
 # How many seconds to record each activity after Koji opens
 RECORD_SECONDS = 30
