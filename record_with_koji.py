@@ -1275,7 +1275,11 @@ def main():
             course = entry["course"]
             url    = entry["url"]
             slug   = slug_from_url(url)
-            final_out = os.path.join(OUTPUT_DIR, f"{i:03d}_{slug}.mp4")
+            # Create a separate folder for this specific activity
+            activity_dir = os.path.join(OUTPUT_DIR, f"{i:03d}_{slug}")
+            os.makedirs(activity_dir, exist_ok=True)
+            
+            final_out = os.path.join(activity_dir, f"{i:03d}_{slug}.mp4")
 
             # Temp files for video and audio
             # Use .mkv for video — MKV is crash-resilient (valid even if ffmpeg is killed)
