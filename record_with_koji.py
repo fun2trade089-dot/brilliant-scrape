@@ -246,14 +246,14 @@ def start_video_recording(output_path: str) -> subprocess.Popen:
         cmd,
         stdin=subprocess.PIPE,
         stdout=subprocess.DEVNULL,
-        stderr=subprocess.PIPE,
+        stderr=subprocess.DEVNULL,
+        creationflags=subprocess.CREATE_NEW_PROCESS_GROUP if os.name == 'nt' else 0
     )
     time.sleep(2)
 
     # Check if ffmpeg started successfully
     if proc.poll() is not None:
-        stderr = proc.stderr.read().decode(errors="replace")
-        print(f"  [ERROR] ffmpeg failed to start:\n{stderr[:500]}")
+        print(f"  [ERROR] ffmpeg failed to start (exit code: {proc.poll()})")
         return None
 
     print("  [OK]  Video recording started (gdigrab)")
@@ -348,6 +348,29 @@ def setup_koji_on_page(page) -> bool:
             or "login" in page.url.lower()):
         print("  [FAIL] Redirected to home/login. Activity is locked.")
         return False
+
+    # Dismiss any modals/overlays
+    try:
+        page.keyboard.press("Escape")
+        page.wait_for_timeout(500)
+        close_selectors = [
+            "[aria-label*='close' i]",
+            "[class*='close' i]",
+            "button:has-text('Dismiss')",
+            "button:has-text('Close')",
+            "a:has-text('Close')",
+            "[aria-label*='dismiss' i]"
+        ]
+        for sel in close_selectors:
+            el = page.locator(sel).first
+            if el.count() > 0 and el.is_visible() and el.is_enabled():
+                el_aria = el.get_attribute("aria-label") or ""
+                if "chat" not in el_aria.lower() and "tutor" not in el_aria.lower():
+                    print(f"  [i] Closing overlay element: {sel}")
+                    robust_click(page, el)
+                    page.wait_for_timeout(500)
+    except Exception:
+        pass
 
     # --- Click Koji ---
     print("  [>>] Looking for Koji button [aria-label='chat with tutor']...")
