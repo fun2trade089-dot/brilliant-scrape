@@ -758,7 +758,7 @@ def get_puzzle_requirements(page) -> int:
 
     # 4. Blank markers inside the question text itself (e.g. "___")
     try:
-        question_text = page.locator("custom-interactive, [class*='question'], [class*='instruction']").inner_text()
+        question_text = page.locator("custom-interactive, [class*='question'], [class*='instruction']").first.inner_text(timeout=1000)
         # Count blank sequences like three or more underscores: "___"
         blank_matches = re.findall(r"_{3,}|\[blank\]|__\s*__", question_text, re.IGNORECASE)
         if blank_matches:
@@ -843,10 +843,16 @@ def auto_solve_card(page) -> bool:
         order_matters = slots_count > 1
 
         # 1. Try to click "Continue" or "Next" (standard way to advance)
-        continue_btns = page.locator("button, a, [role='button']").filter(
-            has_text=re.compile(r"^(Continue|Next|Proceed|Advance|Next Card|Continue to next.*)$", re.IGNORECASE)
-        ).all()
-        visible_continues = [b for b in continue_btns if b.is_visible() and b.is_enabled()]
+        continue_btns = page.locator("button, a, [role='button']").all()
+        visible_continues = []
+        for b in continue_btns:
+            try:
+                if b.is_visible() and b.is_enabled():
+                    text = ' '.join((b.text_content() or "").strip().lower().split())
+                    if text in ["continue", "next", "proceed", "advance", "next card"] or text.startswith("continue to next"):
+                        visible_continues.append(b)
+            except Exception:
+                pass
         if visible_continues:
             print(f"  [AutoSolve] Clicking Continue ({len(visible_continues)} visible found)...")
             if robust_click(page, visible_continues[0]):
@@ -1172,16 +1178,19 @@ def auto_solve_card(page) -> bool:
 
         # 5. Try to click "Check" or "Submit" (only if enabled and ready!)
         if not is_slot_card or len(page.current_sequence) >= slots_count:
-            check_btns = page.locator("button, a, [role='button']").filter(
-                has_text=re.compile(r"^(Check|Submit|Check Answer|Submit Answer|Submit response)$", re.IGNORECASE)
-            ).all()
+            check_btns = page.locator("button, a, [role='button']").all()
             visible_checks = []
             for b in check_btns:
-                if b.is_visible() and b.is_enabled():
-                    class_attr = b.get_attribute("class") or ""
-                    aria_disabled = b.get_attribute("aria-disabled") or ""
-                    if "disabled" not in class_attr.lower() and "pointer-events-none" not in class_attr.lower() and aria_disabled.lower() != "true":
-                        visible_checks.append(b)
+                try:
+                    if b.is_visible() and b.is_enabled():
+                        text = ' '.join((b.text_content() or "").strip().lower().split())
+                        if text in ["check", "submit", "check answer", "submit answer", "submit response"]:
+                            class_attr = b.get_attribute("class") or ""
+                            aria_disabled = b.get_attribute("aria-disabled") or ""
+                            if "disabled" not in class_attr.lower() and "pointer-events-none" not in class_attr.lower() and aria_disabled.lower() != "true":
+                                visible_checks.append(b)
+                except Exception:
+                    pass
             if visible_checks:
                 # Safeguard: if current_sequence is empty, we shouldn't submit the previous incorrect answer again!
                 if not hasattr(page, "current_sequence") or not page.current_sequence:
