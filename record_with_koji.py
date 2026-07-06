@@ -1305,6 +1305,20 @@ def main():
                                 print(f"  [AutoSolve] URL changed from {start_url_base} to {current_url_base}. Activity completed.")
                                 break
                             
+                            # Check if the page is on a Skill Check or Skill Test card
+                            is_skill_check = False
+                            for indicator in ["Skill Check", "Skill Test", "Review Quiz", "Checkpoint"]:
+                                try:
+                                    indicator_el = page.get_by_text(indicator, exact=False).first
+                                    if indicator_el.count() > 0 and indicator_el.is_visible():
+                                        is_skill_check = True
+                                        print(f"  [AutoSolve] Detected '{indicator}'. Stopping activity as requested.")
+                                        break
+                                except Exception:
+                                    pass
+                            if is_skill_check:
+                                break
+                                
                             # Safety: if too many failed combos, force-skip via explanation
                             if hasattr(page, 'failed_sequences') and len(page.failed_sequences) >= 15:
                                 print(f"  [AutoSolve] Hit 15 failed combinations. Force-skipping card...")
