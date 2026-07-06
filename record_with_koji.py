@@ -1281,45 +1281,48 @@ def main():
             course = entry["course"]
             url    = entry["url"]
             slug   = slug_from_url(url)
-            # Check if an output folder for this slug/activity already exists to skip duplicate recording
-            already_done = False
-            if os.path.exists(OUTPUT_DIR):
-                for d in os.listdir(OUTPUT_DIR):
-                    if slug in d.lower() or d.lower().replace(" ", "-") == slug:
-                        d_path = os.path.join(OUTPUT_DIR, d)
-                        if os.path.isdir(d_path):
-                            mp4s = [f for f in os.listdir(d_path) if f.endswith(".mp4")]
-                            if mp4s and os.path.getsize(os.path.join(d_path, mp4s[0])) > 50_000:
-                                already_done = True
-                                break
-            if already_done:
-                print("  [SKIP] Already recorded.")
-                continue
-
-            # Temporary directory using slug name for compiling/merging
-            activity_dir = os.path.join(OUTPUT_DIR, slug)
-            os.makedirs(activity_dir, exist_ok=True)
-            final_out = os.path.join(activity_dir, f"{slug}.mp4")
-
-            # Temp files for video and audio
-            # Use .mkv for video — MKV is crash-resilient (valid even if ffmpeg is killed)
-            temp_video = os.path.join(TEMP_DIR, f"{i:03d}_{slug}_video.mkv")
-            temp_audio = os.path.join(TEMP_DIR, f"{i:03d}_{slug}_audio.wav")
-
+            # 1. Navigate first to get the browser/activity title
             print(f"\n{'=' * 65}")
             print(f"  [{i}/{len(to_process)}] {course}")
             print(f"  URL    : {url}")
-            print(f"  Output : {final_out}")
             print(f"{'=' * 65}")
 
-            # Start BOTH recordings in parallel
+            try:
+                page.goto(url, wait_until="load", timeout=60_000)
+            except Exception as e:
+                print(f"  [ERROR] Navigation failed: {e}")
+                fail_count += 1
+                continue
+
+            print(f"  [..] Waiting {PAGE_SETTLE_MS // 1000}s for page to settle...")
+            page.wait_for_timeout(PAGE_SETTLE_MS)
+
+            # Extract dynamic activity title from browser title
+            page_title = page.title() or ""
+            act_title = page_title.split('|')[0].strip() if page_title else slug
+            act_name_clean = clean_filename(act_title)
+
+            # Set up output directory using the activity name from the start!
+            activity_dir = os.path.join(OUTPUT_DIR, act_name_clean)
+            os.makedirs(activity_dir, exist_ok=True)
+            final_out = os.path.join(activity_dir, f"{act_name_clean}.mp4")
+
+            # Check if this activity is already recorded
+            if os.path.exists(final_out) and os.path.getsize(final_out) > 50_000:
+                print("  [SKIP] Already recorded.")
+                continue
+
+            # Temp files for video and audio
+            temp_video = os.path.join(TEMP_DIR, f"{i:03d}_{slug}_video.mkv")
+            temp_audio = os.path.join(TEMP_DIR, f"{i:03d}_{slug}_audio.wav")
+
+            # Start BOTH recordings in parallel after dynamic folder setup!
             audio_rec = AudioRecorder(temp_audio)
             audio_rec.start()
-
             video_proc = start_video_recording(temp_video)
 
-            # Navigate + interact
-            success = process_activity(page, url)
+            # Now open Koji and click/setup
+            success = setup_koji_on_page(page)
 
             if success:
                 if AUTO_SOLVE:
@@ -1413,31 +1416,7 @@ def main():
 
             # Merge video + audio into final MP4
             if video_proc is not None:
-                merge_success = merge_video_audio(temp_video, temp_audio, final_out)
-                if merge_success and os.path.exists(final_out):
-                    # Rename the folder and file to use the readable activity title
-                    act_title = getattr(page, 'activity_title', None)
-                    if act_title:
-                        act_name_clean = clean_filename(act_title)
-                        new_dir = os.path.join(OUTPUT_DIR, act_name_clean)
-                        new_out = os.path.join(new_dir, f"{act_name_clean}.mp4")
-                        
-                        try:
-                            # If new_dir already exists, remove it or handle it
-                            if os.path.exists(new_dir) and new_dir != activity_dir:
-                                import shutil
-                                shutil.rmtree(new_dir, ignore_errors=True)
-                            
-                            # Rename directory
-                            os.rename(activity_dir, new_dir)
-                            
-                            # Rename file inside the renamed directory
-                            old_file_in_new_dir = os.path.join(new_dir, f"{slug}.mp4")
-                            if os.path.exists(old_file_in_new_dir):
-                                os.rename(old_file_in_new_dir, new_out)
-                            print(f"  [OK] Segregated to activity folder -> {new_out}")
-                        except Exception as rename_err:
-                            print(f"  [WARN] Failed to rename folder to activity name: {rename_err}")
+                merge_video_audio(temp_video, temp_audio, final_out)
             else:
                 print("  [ERROR] No video was recorded for this activity.")
 
