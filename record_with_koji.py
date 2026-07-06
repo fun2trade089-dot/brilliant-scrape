@@ -843,16 +843,10 @@ def auto_solve_card(page) -> bool:
         order_matters = slots_count > 1
 
         # 1. Try to click "Continue" or "Next" (standard way to advance)
-        continue_btns = page.locator("button, a, [role='button']").all()
-        visible_continues = []
-        for b in continue_btns:
-            try:
-                if b.is_visible() and b.is_enabled():
-                    text = ' '.join((b.text_content() or "").strip().lower().split())
-                    if text in ["continue", "next", "proceed", "advance", "next card"] or text.startswith("continue to next"):
-                        visible_continues.append(b)
-            except Exception:
-                pass
+        continue_btns = page.locator("button, a, [role='button']").filter(
+            has_text=re.compile(r"\b(Continue|Next|Proceed|Advance|Next Card|Continue to next.*)\b", re.IGNORECASE)
+        ).all()
+        visible_continues = [b for b in continue_btns if b.is_visible() and b.is_enabled()]
         if visible_continues:
             print(f"  [AutoSolve] Clicking Continue ({len(visible_continues)} visible found)...")
             if robust_click(page, visible_continues[0]):
@@ -1178,19 +1172,16 @@ def auto_solve_card(page) -> bool:
 
         # 5. Try to click "Check" or "Submit" (only if enabled and ready!)
         if not is_slot_card or len(page.current_sequence) >= slots_count:
-            check_btns = page.locator("button, a, [role='button']").all()
+            check_btns = page.locator("button, a, [role='button']").filter(
+                has_text=re.compile(r"\b(Check|Submit|Check Answer|Submit Answer|Submit response)\b", re.IGNORECASE)
+            ).all()
             visible_checks = []
             for b in check_btns:
-                try:
-                    if b.is_visible() and b.is_enabled():
-                        text = ' '.join((b.text_content() or "").strip().lower().split())
-                        if text in ["check", "submit", "check answer", "submit answer", "submit response"]:
-                            class_attr = b.get_attribute("class") or ""
-                            aria_disabled = b.get_attribute("aria-disabled") or ""
-                            if "disabled" not in class_attr.lower() and "pointer-events-none" not in class_attr.lower() and aria_disabled.lower() != "true":
-                                visible_checks.append(b)
-                except Exception:
-                    pass
+                if b.is_visible() and b.is_enabled():
+                    class_attr = b.get_attribute("class") or ""
+                    aria_disabled = b.get_attribute("aria-disabled") or ""
+                    if "disabled" not in class_attr.lower() and "pointer-events-none" not in class_attr.lower() and aria_disabled.lower() != "true":
+                        visible_checks.append(b)
             if visible_checks:
                 # Safeguard: if current_sequence is empty, we shouldn't submit the previous incorrect answer again!
                 if not hasattr(page, "current_sequence") or not page.current_sequence:
