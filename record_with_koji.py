@@ -47,7 +47,7 @@ from playwright.sync_api import sync_playwright
 KOJI_MESSAGE = "Can you explain this problem step by step?"
 
 # How many activities to process per run (set to None for all)
-MAX_ACTIVITIES = 1
+MAX_ACTIVITIES = None
 
 # Start processing from this activity index (1-based, e.g. 2 for second course)
 START_ACTIVITY_INDEX = 1
@@ -814,12 +814,328 @@ def get_puzzle_requirements(page) -> int:
     print("    [Heuristic] Defaulting to 1 answer.")
     return 1
 
+def solve_region_shading_systematic(page) -> bool:
+    """Detects and systematically solves shape coloring / region shading puzzles."""
+    try:
+        interactive = page.locator("custom-interactive").first
+        if not interactive.is_visible():
+            return False
+            
+        # Ignore if standard choices, radio/checkbox labels, or slot matching are present
+        if page.locator("custom-interactive label, [role='radio'], [role='checkbox'], [class*='choice'], [class*='option']").count() > 0:
+            return False
+        if page.locator("custom-interactive [id*='slot_bank_'], custom-interactive [id*='slot_line_']").count() > 0:
+            return False
+            
+        regions = interactive.locator("svg path, svg rect, svg polygon").all()
+        clickable_regions = []
+        for r in regions:
+            if r.is_visible():
+                box = r.bounding_box()
+                if box and box["width"] > 5 and box["height"] > 5:
+                    clickable_regions.append(r)
+                    
+        if len(clickable_regions) < 2:
+            return False
+            
+        print(f"  [AutoSolve-Shading] Detected region shading puzzle with {len(clickable_regions)} regions.")
+        
+        if not hasattr(page, "shading_tried_subsets"):
+            page.shading_tried_subsets = []
+        if not hasattr(page, "shading_current_subset"):
+            page.shading_current_subset = []
+            
+        # If we currently have a subset active (from last turn), we wait for Check click
+        if page.shading_current_subset:
+            return False
+            
+        import itertools
+        n = len(clickable_regions)
+        all_subsets = []
+        for r_len in range(1, n + 1):
+            for subset in itertools.combinations(range(n), r_len):
+                all_subsets.append(list(subset))
+                
+        untried_subsets = [s for s in all_subsets if s not in page.shading_tried_subsets]
+        
+        if not untried_subsets:
+            print("  [AutoSolve-Shading] All region combinations tried. Resetting tries...")
+            page.shading_tried_subsets = []
+            untried_subsets = all_subsets
+            
+        next_subset = untried_subsets[0]
+        print(f"  [AutoSolve-Shading] Shading region combination: {next_subset}")
+        
+        # Click the regions in the combination
+        for idx in next_subset:
+            r_el = clickable_regions[idx]
+            r_el.scroll_into_view_if_needed()
+            page.wait_for_timeout(200)
+            r_el.click()
+            page.wait_for_timeout(300)
+        page.shading_current_subset = next_subset
+        return True
+    except Exception as e:
+        print(f"  [AutoSolve-Shading Exception] {e}")
+        return False
+
+def solve_point_dragging_heuristic(page) -> bool:
+    """Detects coordinate points and drags them to coordinate targets (Cartesian or Polar)."""
+    try:
+        interactive = page.locator("custom-interactive").first
+        if not interactive.is_visible():
+            return False
+            
+        if page.locator("custom-interactive label, [role='radio'], [role='checkbox'], [class*='choice']").count() > 0:
+            return False
+            
+        # Already dragged in this turn? Check if we should drag again
+        if hasattr(page, "point_dragged_this_turn") and page.point_dragged_this_turn:
+            return False
+
+        card_text = page.locator("body").inner_text() or ""
+        
+        # 1. Look for Polar Coordinates (e.g. angle + radius)
+        # Extract angle from instructions
+        angle = None
+        angles = [30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315, 330, 360]
+        for a in angles:
+            if f"{a}" in card_text:
+                angle = a
+                break
+                
+        # Extract radius from instructions
+        radius = None
+        num_map = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6}
+        for word, val in num_map.items():
+            if word in card_text.lower():
+                radius = val
+                break
+        else:
+            for d in [1, 2, 3, 4, 5, 6]:
+                if re.search(r'\b' + str(d) + r'\b', card_text):
+                    radius = d
+                    break
+                    
+        # If we have both angle and radius, try polar calculation in JS
+        if angle is not None and radius is not None:
+            print(f"  [AutoSolve-Drag] Detected polar target: radius={radius}, angle={angle}°.")
+            coords = interactive.evaluate(f"""
+                el => {{
+                    let svg = el.querySelector('svg');
+                    if (!svg) return null;
+                    
+                    let handle = el.shadowRoot ? el.shadowRoot.querySelector('circle[style*="cursor: pointer"]') : null;
+                    if (!handle) handle = el.querySelector('circle[style*="cursor: pointer"]');
+                    if (!handle) return null;
+                    
+                    let rect = svg.getBoundingClientRect();
+                    let circles = Array.from(svg.querySelectorAll('circle'));
+                    let centers = {{}};
+                    for (let c of circles) {{
+                        let cx = parseFloat(c.getAttribute('cx') || 0);
+                        let cy = parseFloat(c.getAttribute('cy') || 0);
+                        let r = parseFloat(c.getAttribute('r') || 0);
+                        if (r > 0) {{
+                            let key = cx + ',' + cy;
+                            if (!centers[key]) centers[key] = [];
+                            centers[key].push(r);
+                        }}
+                    }}
+                    
+                    let bestKey = Object.keys(centers).sort((a,b) => centers[b].length - centers[a].length)[0];
+                    if (!bestKey) return null;
+                    
+                    let [cx, cy] = bestKey.split(',').map(parseFloat);
+                    let radii = centers[bestKey].sort((a, b) => a - b);
+                    
+                    let R_idx = Math.min({radius} - 1, radii.length - 1);
+                    if (R_idx < 0) R_idx = 0;
+                    let target_r = radii[R_idx];
+                    
+                    let rad = {angle} * Math.PI / 180;
+                    let target_x_svg = cx + target_r * Math.cos(rad);
+                    let target_y_svg = cy - target_r * Math.sin(rad);
+                    
+                    let viewBox = svg.getAttribute('viewBox');
+                    let vbX = 0, vbY = 0, vbW = rect.width, vbH = rect.height;
+                    if (viewBox) {{
+                        let parts = viewBox.split(/[ ,]+/).map(parseFloat);
+                        if (parts.length === 4) {{
+                            vbX = parts[0];
+                            vbY = parts[1];
+                            vbW = parts[2];
+                            vbH = parts[3];
+                        }}
+                    }}
+                    
+                    let client_x = rect.left + ((target_x_svg - vbX) / vbW) * rect.width;
+                    let client_y = rect.top + ((target_y_svg - vbY) / vbH) * rect.height;
+                    
+                    let handleRect = handle.getBoundingClientRect();
+                    let handle_x = handleRect.left + handleRect.width / 2;
+                    let handle_y = handleRect.top + handleRect.height / 2;
+                    
+                    return {{
+                        src_x: handle_x,
+                        src_y: handle_y,
+                        dst_x: client_x,
+                        dst_y: client_y
+                    }};
+                }}
+            """)
+            if coords:
+                x1, y1 = coords["src_x"], coords["src_y"]
+                x2, y2 = coords["dst_x"], coords["dst_y"]
+                print(f"  [AutoSolve-Drag] Polar drag from ({x1}, {y1}) to ({x2}, {y2}).")
+                page.mouse.move(x1, y1)
+                page.mouse.down()
+                page.wait_for_timeout(200)
+                steps = 10
+                for i in range(1, steps + 1):
+                    curr_x = x1 + (x2 - x1) * (i / steps)
+                    curr_y = y1 + (y2 - y1) * (i / steps)
+                    page.mouse.move(curr_x, curr_y)
+                    page.wait_for_timeout(50)
+                page.mouse.up()
+                page.wait_for_timeout(500)
+                page.point_dragged_this_turn = True
+                return True
+
+        # 2. Fallback to standard Text Label Dragging (for Cartesian labels)
+        handle = interactive.locator("circle[style*='cursor: pointer'], g[style*='cursor: pointer'], circle[class*='knob'], circle[class*='handle']").first
+        if not handle.is_visible():
+            handle = interactive.locator("svg circle, svg g[role='slider']").first
+            
+        if not handle.is_visible():
+            return False
+            
+        digits = re.findall(r'\b\d+\b', card_text)
+        target_el = None
+        for d in digits:
+            txt_loc = interactive.locator(f"svg text:has-text('{d}'), svg tspan:has-text('{d}')").first
+            if txt_loc.is_visible():
+                target_el = txt_loc
+                break
+                
+        if not target_el:
+            target_el = interactive.locator("svg text").last
+            
+        if handle.is_visible() and target_el and target_el.is_visible():
+            box_src = handle.bounding_box()
+            box_dst = target_el.bounding_box()
+            if box_src and box_dst:
+                x1 = box_src["x"] + box_src["width"] / 2
+                y1 = box_src["y"] + box_src["height"] / 2
+                x2 = box_dst["x"] + box_dst["width"] / 2
+                y2 = box_dst["y"] + box_dst["height"] / 2
+                
+                print(f"  [AutoSolve-Drag] Cartesian fallback drag from ({x1}, {y1}) to ({x2}, {y2}).")
+                page.mouse.move(x1, y1)
+                page.mouse.down()
+                page.wait_for_timeout(200)
+                
+                steps = 10
+                for i in range(1, steps + 1):
+                    curr_x = x1 + (x2 - x1) * (i / steps)
+                    curr_y = y1 + (y2 - y1) * (i / steps)
+                    page.mouse.move(curr_x, curr_y)
+                    page.wait_for_timeout(50)
+                    
+                page.mouse.up()
+                page.wait_for_timeout(500)
+                page.point_dragged_this_turn = True
+                return True
+                
+    except Exception as e:
+        print(f"  [AutoSolve-Drag Exception] {e}")
+    return False
+
+def solve_math_input_heuristic(page) -> bool:
+    """Checks for math fields or text inputs and systematically fills them."""
+    try:
+        math_field = page.locator("brilliant-math-field, [class*='math-field']").first
+        if math_field.is_visible():
+            if not hasattr(page, "math_tried_guesses"):
+                page.math_tried_guesses = []
+            if not hasattr(page, "math_current_guess"):
+                page.math_current_guess = None
+                
+            if page.math_current_guess:
+                return False
+                
+            guesses = ["1", "0", "x", "y", "2", "n", "x+1"]
+            untried = [g for g in guesses if g not in page.math_tried_guesses]
+            if not untried:
+                page.math_tried_guesses = []
+                untried = guesses
+                
+            current_guess = untried[0]
+            print(f"  [AutoSolve-Math] Filling math field with guess: '{current_guess}'")
+            
+            math_field.evaluate(f"el => {{ if (el.setValue) el.setValue('{current_guess}'); else el.value = '{current_guess}'; }}")
+            page.wait_for_timeout(500)
+            
+            page.math_current_guess = current_guess
+            return True
+            
+        inputs = page.locator("custom-interactive input, input[type='text'], input[type='number']").all()
+        visible_inputs = [i for i in inputs if i.is_visible() and i.is_enabled()]
+        if visible_inputs:
+            action_taken = False
+            for inp in visible_inputs:
+                val = inp.input_value()
+                if not val:
+                    print("  [AutoSolve-Math] Filling empty standard input with default '1'")
+                    inp.click()
+                    inp.fill("1")
+                    page.wait_for_timeout(500)
+                    action_taken = True
+            return action_taken
+            
+    except Exception as e:
+        print(f"  [AutoSolve-Math Exception] {e}")
+    return False
+
+def solve_block_coding_heuristic(page) -> bool:
+    """Checks for visual block-based programming commands and runs sequences."""
+    try:
+        interactive = page.locator("custom-interactive").first
+        if not interactive.is_visible():
+            return False
+            
+        blocks = interactive.locator("[class*='draggable'], button, label").all()
+        coding_blocks = []
+        for b in blocks:
+            if b.is_visible():
+                text = b.inner_text().strip().lower()
+                if any(k in text for k in ["drive", "forward", "turn", "left", "right", "step", "walk", "jump"]):
+                    coding_blocks.append(b)
+                    
+        if not coding_blocks:
+            return False
+            
+        print(f"  [AutoSolve-Coding] Detected visual block coding with {len(coding_blocks)} commands.")
+        
+        if not hasattr(page, "coding_steps_run"):
+            page.coding_steps_run = 0
+            
+        if page.coding_steps_run < 4:
+            print(f"  [AutoSolve-Coding] Clicking command: '{coding_blocks[0].inner_text().strip()}'")
+            coding_blocks[0].click()
+            page.wait_for_timeout(400)
+            page.coding_steps_run += 1
+            return True
+            
+    except Exception as e:
+        print(f"  [AutoSolve-Coding Exception] {e}")
+    return False
+
 def auto_solve_card(page) -> bool:
     """Attempts to auto-solve or advance the current card. Returns True if action taken."""
     try:
-        # Keep Koji panel open throughout the activity
         ensure_koji_open(page)
-        # Initialize sequence tracking variables if they don't exist yet on page
+        
         if not hasattr(page, "failed_sequences"):
             page.failed_sequences = []
         if not hasattr(page, "current_sequence"):
@@ -831,16 +1147,30 @@ def auto_solve_card(page) -> bool:
         slots_count_static = count_slots_static(page)
         is_slot_card = slots_count_static > 0
 
-        # If we don't know the slots count yet, evaluate it
         if page.slots_count is None:
             if is_slot_card:
                 page.slots_count = slots_count_static
             else:
-                # Use static heuristics for standard questions
                 page.slots_count = get_puzzle_requirements(page)
                 
         slots_count = page.slots_count
         order_matters = slots_count > 1
+
+        # Heuristic 1: Click visual coding blocks if present
+        if solve_block_coding_heuristic(page):
+            return True
+            
+        # Heuristic 2: Drag points on coordinate grid
+        if solve_point_dragging_heuristic(page):
+            return True
+            
+        # Heuristic 3: Shading regions in SVG shape
+        if solve_region_shading_systematic(page):
+            return True
+            
+        # Heuristic 4: Fill math formula inputs / text boxes
+        if solve_math_input_heuristic(page):
+            return True
 
         # 1. Try to click "Continue" or "Next" (standard way to advance)
         continue_btns = page.locator("button, a, [role='button']").filter(
@@ -850,16 +1180,18 @@ def auto_solve_card(page) -> bool:
         if visible_continues:
             print(f"  [AutoSolve] Clicking Continue ({len(visible_continues)} visible found)...")
             if robust_click(page, visible_continues[0]):
-                # Successfully progressed, reset failed and current sequence trackings
                 page.failed_sequences = []
                 page.current_sequence = []
                 page.slots_count = None
+                page.point_dragged_this_turn = False
+                page.coding_steps_run = 0
+                page.shading_current_subset = []
+                page.math_current_guess = None
                 print("  [AutoSolve] Settle wait for the next card...")
                 page.wait_for_timeout(1500)
                 return True
 
         # 1.5. Try to click "Try again" or "Start over" if incorrect
-        # Clicking this resets the card and enables the remaining choice options
         try_again_btns = page.locator("button, a, [role='button'], [class*='button']").filter(
             has_text=re.compile(r"try again|try another|try once more|retry|give it another shot|give it a shot", re.IGNORECASE)
         ).all()
@@ -872,7 +1204,24 @@ def auto_solve_card(page) -> bool:
         if visible_try_agains:
             clicked = False
             
-            # 1. Click Try Again first
+            # Record failed shading combination
+            if hasattr(page, "shading_current_subset") and page.shading_current_subset:
+                print(f"  [AutoSolve-Shading] Combination {page.shading_current_subset} failed. Adding to tried.")
+                if page.shading_current_subset not in page.shading_tried_subsets:
+                    page.shading_tried_subsets.append(page.shading_current_subset)
+                page.shading_current_subset = []
+                
+            # Record failed math guess
+            if hasattr(page, "math_current_guess") and page.math_current_guess:
+                print(f"  [AutoSolve-Math] Guess {page.math_current_guess} failed. Adding to tried.")
+                if page.math_current_guess not in page.math_tried_guesses:
+                    page.math_tried_guesses.append(page.math_current_guess)
+                page.math_current_guess = None
+                
+            # Reset dragging and coding
+            page.point_dragged_this_turn = False
+            page.coding_steps_run = 0
+            
             print(f"  [AutoSolve] Clicking Try Again...")
             clicked = robust_click(page, visible_try_agains[0])
             page.wait_for_timeout(500)
@@ -1237,209 +1586,269 @@ def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     os.makedirs(TEMP_DIR, exist_ok=True)
 
-    # 5. Kill Edge upfront
-    kill_edge()
+    # 5. Initialize counters
+    success_count = 0
+    fail_count    = 0
 
-    # 6. Launch Edge once, reuse across all activities
-    with sync_playwright() as p:
-        print("\n[>>] Launching Edge with custom profile...")
-        
-        # Use a dedicated profile directory in the project folder to prevent lock conflicts 
-        # and bypass security restrictions on default browser profile directories.
-        playwright_profile_dir = os.path.join(BASE_DIR, "edge_profile")
-        
-        try:
-            context = p.chromium.launch_persistent_context(
-                user_data_dir=playwright_profile_dir,
-                channel="msedge",
-                headless=False,
-                viewport={"width": 1280, "height": 800},
-                args=["--disable-blink-features=AutomationControlled"],
-                no_viewport=False,
-            )
-        except Exception as launch_err:
-            print(f"\n[ERROR] Failed to launch Edge browser context: {launch_err}")
-            print("Please check that Edge is not currently locked or in a bad state.")
-            return
-        
-        # Inject Brilliant.org session cookies from .env to log in automatically
-        session_id = os.getenv("BRILLIANT_SESSION_ID")
-        csrf_token = os.getenv("BRILLIANT_CSRF_TOKEN")
-        if session_id:
-            print("  [i] Injecting Brilliant.org session cookies from .env...")
-            context.add_cookies([
-                {"name": "sessionid", "value": session_id, "domain": ".brilliant.org", "path": "/"},
-                {"name": "csrftoken", "value": csrf_token, "domain": ".brilliant.org", "path": "/"}
-            ])
-            
-        page = context.new_page()
-        print("[OK]  Edge launched.\n")
+    # 6. Loop through activities, launching a fresh Edge instance for each
+    for i, entry in enumerate(to_process, 1):
+        if START_ACTIVITY_INDEX and i < START_ACTIVITY_INDEX:
+            print(f"  [SKIP] Skipping activity {i}/{len(to_process)} (start index is {START_ACTIVITY_INDEX})")
+            continue
+        if MAX_ACTIVITIES and i >= START_ACTIVITY_INDEX + MAX_ACTIVITIES:
+            print(f"  [STOP] Reached limit of MAX_ACTIVITIES ({MAX_ACTIVITIES})")
+            break
 
-        success_count = 0
-        fail_count    = 0
+        course = entry["course"]
+        url    = entry["url"]
+        slug   = slug_from_url(url)
+        # 1. Navigate first to get the browser/activity title
+        print(f"\n{'=' * 65}")
+        print(f"  [{i}/{len(to_process)}] {course}")
+        print(f"  URL    : {url}")
+        print(f"{'=' * 65}")
 
-        for i, entry in enumerate(to_process, 1):
-            if START_ACTIVITY_INDEX and i < START_ACTIVITY_INDEX:
-                print(f"  [SKIP] Skipping activity {i}/{len(to_process)} (start index is {START_ACTIVITY_INDEX})")
-                continue
-            if MAX_ACTIVITIES and i >= START_ACTIVITY_INDEX + MAX_ACTIVITIES:
-                print(f"  [STOP] Reached limit of MAX_ACTIVITIES ({MAX_ACTIVITIES})")
-                break
+        # Kill Edge upfront to release profile locks
+        kill_edge()
 
-            course = entry["course"]
-            url    = entry["url"]
-            slug   = slug_from_url(url)
-            # 1. Navigate first to get the browser/activity title
-            print(f"\n{'=' * 65}")
-            print(f"  [{i}/{len(to_process)}] {course}")
-            print(f"  URL    : {url}")
-            print(f"{'=' * 65}")
-
+        with sync_playwright() as p:
+            context = None
+            audio_rec = None
+            video_proc = None
             try:
-                page.goto(url, wait_until="load", timeout=60_000)
-                try:
-                    page.wait_for_load_state("networkidle", timeout=5000)
-                except Exception:
-                    pass
-            except Exception as e:
-                print(f"  [ERROR] Navigation failed: {e}")
-                fail_count += 1
-                continue
-
-            print(f"  [..] Waiting {PAGE_SETTLE_MS // 1000}s for page to settle...")
-            page.wait_for_timeout(PAGE_SETTLE_MS)
-
-            # Extract dynamic activity title from browser title (wait for stable title if loading)
-            start_wait = time.time()
-            page_title = page.title() or ""
-            while ("loading" in page_title.lower() or not page_title) and (time.time() - start_wait < 5):
-                page.wait_for_timeout(500)
-                page_title = page.title() or ""
+                print("\n[>>] Launching Edge with custom profile...")
                 
-            act_title = page_title.split('|')[0].strip() if page_title else slug
-            act_name_clean = clean_filename(act_title)
-
-            # Set up output directory using the activity name from the start!
-            activity_dir = os.path.join(OUTPUT_DIR, act_name_clean)
-            os.makedirs(activity_dir, exist_ok=True)
-            final_out = os.path.join(activity_dir, f"{act_name_clean}.mp4")
-
-            # Check if this activity is already recorded
-            if os.path.exists(final_out) and os.path.getsize(final_out) > 50_000:
-                print("  [SKIP] Already recorded.")
-                continue
-
-            # Temp files for video and audio
-            temp_video = os.path.join(TEMP_DIR, f"{i:03d}_{slug}_video.mkv")
-            temp_audio = os.path.join(TEMP_DIR, f"{i:03d}_{slug}_audio.wav")
-
-            # Start BOTH recordings in parallel after dynamic folder setup!
-            audio_rec = AudioRecorder(temp_audio)
-            audio_rec.start()
-            video_proc = start_video_recording(temp_video)
-
-            # Now open Koji and click/setup
-            success = setup_koji_on_page(page)
-
-            if success:
-                if AUTO_SOLVE:
-                    print("  [..] Auto-Solving and Recording full activity...")
-                    print("  [..] The script will automatically solve and advance until the activity is completed.")
-                    start_url = page.url
-                    no_action_count = 0
-                    max_wait_seconds = 600  # 10 minutes maximum solve time
-                    start_time = time.time()
+                # Use a dedicated profile directory in the project folder to prevent lock conflicts 
+                # and bypass security restrictions on default browser profile directories.
+                playwright_profile_dir = os.path.join(BASE_DIR, "edge_profile")
+                
+                try:
+                    context = p.chromium.launch_persistent_context(
+                        user_data_dir=playwright_profile_dir,
+                        channel="msedge",
+                        headless=False,
+                        viewport={"width": 1280, "height": 800},
+                        args=["--disable-blink-features=AutomationControlled", "--test-type"],
+                        no_viewport=False,
+                    )
+                except Exception as launch_err:
+                    print(f"\n[ERROR] Failed to launch Edge browser context: {launch_err}")
+                    print("Please check that Edge is not currently locked or in a bad state.")
+                    fail_count += 1
+                    continue
+                
+                # Inject Brilliant.org session cookies from .env to log in automatically
+                session_id = os.getenv("BRILLIANT_SESSION_ID")
+                csrf_token = os.getenv("BRILLIANT_CSRF_TOKEN")
+                if session_id:
+                    print("  [i] Injecting Brilliant.org session cookies from .env...")
+                    context.add_cookies([
+                        {"name": "sessionid", "value": session_id, "domain": ".brilliant.org", "path": "/"},
+                        {"name": "csrftoken", "value": csrf_token, "domain": ".brilliant.org", "path": "/"}
+                    ])
                     
-                    # Reset sequence variables for each new activity!
-                    page.failed_sequences = []
-                    page.current_sequence = []
-                    
-                    current_lesson_url_base = start_url.split('#')[0].split('?')[0]
-                    
+                page = context.new_page()
+                print("[OK]  Edge launched.\n")
+
+                try:
+                    page.goto(url, wait_until="load", timeout=60_000)
                     try:
-                        while not page.is_closed() and (time.time() - start_time < max_wait_seconds):
-                            # Clean page URL check (ignore hash/anchor parameters)
-                            current_url_base = page.url.split('#')[0].split('?')[0]
-                            start_url_base = start_url.split('#')[0].split('?')[0]
-                            
-                            # Check if the URL changed from the initial activity URL (completed!)
-                            if current_url_base != start_url_base:
-                                print(f"  [AutoSolve] URL changed from {start_url_base} to {current_url_base}. Activity completed.")
-                                break
-                            
-                            # Check if the page is on a Skill Check or Skill Test card
-                            is_skill_check = False
-                            for indicator in ["Skill Check", "Skill Test", "Review Quiz", "Checkpoint"]:
-                                try:
-                                    indicator_el = page.get_by_text(indicator, exact=False).first
-                                    if indicator_el.count() > 0 and indicator_el.is_visible():
-                                        is_skill_check = True
-                                        print(f"  [AutoSolve] Detected '{indicator}'. Stopping activity as requested.")
-                                        break
-                                except Exception:
-                                    pass
-                            if is_skill_check:
-                                break
-                                
-                            # Safety: if too many failed combos, force-skip via explanation
-                            if hasattr(page, 'failed_sequences') and len(page.failed_sequences) >= 15:
-                                print(f"  [AutoSolve] Hit 15 failed combinations. Force-skipping card...")
-                                explain_btns = page.locator("button, a, [role='button']").filter(
-                                    has_text=re.compile(r"explanation|explain|answer|give up|solve|show me|get help", re.IGNORECASE)
-                                ).all()
-                                visible_explains = [b for b in explain_btns if b.is_visible() and b.is_enabled()]
-                                if visible_explains:
-                                    robust_click(page, visible_explains[0])
-                                    page.failed_sequences = []
-                                    page.current_sequence = []
-                                    page.wait_for_timeout(1500)
-                                    continue
-                                else:
-                                    # No explanation button, just reset and keep trying
-                                    page.failed_sequences = []
-                            
-                            action_taken = auto_solve_card(page)
-                            if action_taken:
-                                no_action_count = 0
-                                page.wait_for_timeout(1000)  # Wait for animation
-                            else:
-                                no_action_count += 1
-                                if no_action_count > 15:  # 15 seconds with no interactable buttons
-                                    print("  [AutoSolve] No actionable elements found for 15 seconds. Assuming done.")
-                                    break
-                                page.wait_for_timeout(1000)
-                    except Exception as e:
-                        print(f"  [AutoSolve Exception] Error in solve loop: {e}")
-                elif RECORD_UNTIL_CLOSED:
-                    print("  [..] Recording full activity. Solve/click through the activity in the browser...")
-                    print("  [..] Once you finish the activity, close the browser window to stop and save the recording.")
-                    try:
-                        # Wait for close event with 15-minute timeout (900,000 milliseconds)
-                        page.wait_for_event("close", timeout=900_000)
-                        print("  [OK] Browser tab/window closed. Finalizing recording...")
+                        page.wait_for_load_state("networkidle", timeout=5000)
                     except Exception:
-                        print("  [WARN] Recording finished (timeout or window closed).")
+                        pass
+                except Exception as e:
+                    print(f"  [ERROR] Navigation failed: {e}")
+                    fail_count += 1
+                    context.close()
+                    continue
+
+                print(f"  [..] Waiting {PAGE_SETTLE_MS // 1000}s for page to settle...")
+                page.wait_for_timeout(PAGE_SETTLE_MS)
+
+                # Extract dynamic activity title from browser title (wait for stable title if loading)
+                start_wait = time.time()
+                page_title = page.title() or ""
+                while ("loading" in page_title.lower() or not page_title) and (time.time() - start_wait < 5):
+                    page.wait_for_timeout(500)
+                    page_title = page.title() or ""
+                    
+                act_title = page_title.split('|')[0].strip() if page_title else slug
+                act_name_clean = clean_filename(act_title)
+
+                # Set up output directory using the activity name from the start!
+                activity_dir = os.path.join(OUTPUT_DIR, act_name_clean)
+                os.makedirs(activity_dir, exist_ok=True)
+                final_out = os.path.join(activity_dir, f"{act_name_clean}.mp4")
+
+                # Check if this activity is already recorded
+                if os.path.exists(final_out) and os.path.getsize(final_out) > 50_000:
+                    print("  [SKIP] Already recorded.")
+                    context.close()
+                    continue
+
+                # Temp files for video and audio
+                temp_video = os.path.join(TEMP_DIR, f"{i:03d}_{slug}_video.mkv")
+                temp_audio = os.path.join(TEMP_DIR, f"{i:03d}_{slug}_audio.wav")
+
+                # Start BOTH recordings in parallel after dynamic folder setup!
+                audio_rec = AudioRecorder(temp_audio)
+                audio_rec.start()
+                video_proc = start_video_recording(temp_video)
+
+                # Now open Koji and click/setup
+                success = setup_koji_on_page(page)
+
+                if success:
+                    if AUTO_SOLVE:
+                        print("  [..] Auto-Solving and Recording full activity...")
+                        print("  [..] The script will automatically solve and advance until the activity is completed.")
+                        start_url = page.url
+                        no_action_count = 0
+                        max_wait_seconds = 600  # 10 minutes maximum solve time
+                        start_time = time.time()
+                        
+                        # Reset sequence variables for each new activity!
+                        page.failed_sequences = []
+                        page.current_sequence = []
+                        
+                        current_lesson_url_base = start_url.split('#')[0].split('?')[0]
+                        
+                        try:
+                            while not page.is_closed() and (time.time() - start_time < max_wait_seconds):
+                                # Clean page URL check (ignore hash/anchor parameters)
+                                current_url_base = page.url.split('#')[0].split('?')[0]
+                                start_url_base = start_url.split('#')[0].split('?')[0]
+                                
+                                # Check if the URL changed from the initial activity URL (completed!)
+                                if current_url_base != start_url_base:
+                                    print(f"  [AutoSolve] URL changed from {start_url_base} to {current_url_base}. Activity completed.")
+                                    break
+                                
+                                # Check if the page is on a Skill Check or Skill Test card
+                                is_skill_check = False
+                                
+                                # 1. URL check for typical assessment/test patterns
+                                current_url_lower = page.url.lower()
+                                for kw in ["/test/", "/quiz/", "/checkpoint/", "/skill-check/", "/challenge/", "/assessment/"]:
+                                    if kw in current_url_lower:
+                                        is_skill_check = True
+                                        print(f"  [AutoSolve] Detected '{kw}' in URL. Stopping activity as requested.")
+                                        break
+                                
+                                # 2. Page title check
+                                if not is_skill_check:
+                                    title_lower = (page.title() or "").lower()
+                                    for kw in ["skill check", "skill test", "review quiz", "checkpoint", "challenge", "assessment"]:
+                                        if kw in title_lower:
+                                            is_skill_check = True
+                                            print(f"  [AutoSolve] Detected '{kw}' in page title. Stopping activity as requested.")
+                                            break
+                                            
+                                # 3. On-page text indicators
+                                if not is_skill_check:
+                                    for indicator in ["Skill Check", "Skill Test", "Review Quiz", "Checkpoint", "Challenge", "Assessment"]:
+                                        try:
+                                            indicator_el = page.get_by_text(indicator, exact=False).first
+                                            if indicator_el.count() > 0 and indicator_el.is_visible():
+                                                is_skill_check = True
+                                                print(f"  [AutoSolve] Detected '{indicator}' on page. Stopping activity as requested.")
+                                                break
+                                        except Exception:
+                                            pass
+                                            
+                                if is_skill_check:
+                                    break
+                                    
+                                # Safety: if too many failed combos, force-skip via explanation
+                                if hasattr(page, 'failed_sequences') and len(page.failed_sequences) >= 15:
+                                    print(f"  [AutoSolve] Hit 15 failed combinations. Force-skipping card...")
+                                    explain_btns = page.locator("button, a, [role='button']").filter(
+                                        has_text=re.compile(r"explanation|explain|answer|give up|solve|show me|get help", re.IGNORECASE)
+                                    ).all()
+                                    visible_explains = [b for b in explain_btns if b.is_visible() and b.is_enabled()]
+                                    if visible_explains:
+                                        robust_click(page, visible_explains[0])
+                                        page.failed_sequences = []
+                                        page.current_sequence = []
+                                        page.wait_for_timeout(1500)
+                                        continue
+                                    else:
+                                        # No explanation button, just reset and keep trying
+                                        page.failed_sequences = []
+                                
+                                action_taken = auto_solve_card(page)
+                                if action_taken:
+                                    no_action_count = 0
+                                    page.wait_for_timeout(1000)  # Wait for animation
+                                else:
+                                    no_action_count += 1
+                                    if no_action_count > 15:  # 15 seconds with no interactable buttons
+                                        print("  [AutoSolve] No actionable elements found for 15 seconds. Assuming done.")
+                                        break
+                                    page.wait_for_timeout(1000)
+                        except Exception as e:
+                            print(f"  [AutoSolve Exception] Error in solve loop: {e}")
+                    elif RECORD_UNTIL_CLOSED:
+                        print("  [..] Recording full activity. Solve/click through the activity in the browser...")
+                        print("  [..] Once you finish the activity, close the browser window to stop and save the recording.")
+                        try:
+                            # Wait for close event with 15-minute timeout (900,000 milliseconds)
+                            page.wait_for_event("close", timeout=900_000)
+                            print("  [OK] Browser tab/window closed. Finalizing recording...")
+                        except Exception:
+                            print("  [WARN] Recording finished (timeout or window closed).")
+                    else:
+                        print(f"  [..] Recording interaction for {RECORD_SECONDS}s...")
+                        time.sleep(RECORD_SECONDS)
+                    success_count += 1
                 else:
-                    print(f"  [..] Recording interaction for {RECORD_SECONDS}s...")
-                    time.sleep(RECORD_SECONDS)
-                success_count += 1
-            else:
+                    fail_count += 1
+                    time.sleep(3)
+
+                # Stop BOTH recordings
+                if audio_rec is not None:
+                    try:
+                        audio_rec.stop()
+                    except:
+                        pass
+                if video_proc is not None:
+                    try:
+                        stop_video_recording(video_proc)
+                    except:
+                        pass
+
+                # Merge video + audio into final MP4
+                if video_proc is not None:
+                    merge_video_audio(temp_video, temp_audio, final_out)
+                else:
+                    print("  [ERROR] No video was recorded for this activity.")
+
+                # Close context and kill Edge to cleanly end session for this activity
+                if context is not None:
+                    context.close()
+                kill_edge()
+                time.sleep(2)   # small gap between activities
+
+            except Exception as outer_err:
+                print(f"  [ERROR] Uncaught exception during activity run: {outer_err}")
                 fail_count += 1
-                time.sleep(3)
-
-            # Stop BOTH recordings
-            audio_rec.stop()
-            stop_video_recording(video_proc)
-
-            # Merge video + audio into final MP4
-            if video_proc is not None:
-                merge_video_audio(temp_video, temp_audio, final_out)
-            else:
-                print("  [ERROR] No video was recorded for this activity.")
-
-            time.sleep(2)   # small gap between activities
-
-        context.close()
+                if audio_rec is not None:
+                    try:
+                        audio_rec.stop()
+                    except:
+                        pass
+                if video_proc is not None:
+                    try:
+                        stop_video_recording(video_proc)
+                    except:
+                        pass
+                if context is not None:
+                    try:
+                        context.close()
+                    except:
+                        pass
+                kill_edge()
+                time.sleep(2)   # small gap between activities
 
     # Clean up temp directory
     try:
